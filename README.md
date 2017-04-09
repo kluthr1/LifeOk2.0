@@ -1,3 +1,9 @@
+Our hack is to create a website where a patient is able to write a daily diary entries and they would be sent to his/her therapist.
+
+We made this website using javascript and html. Originally we planned on using flask but that led to some limitations so we took our concepts from our python-flask program and inputed them into a new repository that was all based with javascript/html. We also used bootstrap to help with UI.
+
+
+
 # [Start Bootstrap](http://startbootstrap.com/) - [Freelancer](http://startbootstrap.com/template-overviews/freelancer/)
 
 [Freelancer](http://startbootstrap.com/template-overviews/freelancer/) is a one page freelancer portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, and a working PHP contact form.
