@@ -423,15 +423,20 @@ textarea {
 	
 	<!-- Main Form -->
 	<div class="login-form-1" style="width: 300px;">
-		<form id="register-form" class="text-left" novalidate="novalidate">
+		<form id="register-form" name = "register-form" class="text-left" action = "URL PHP" novalidate="novalidate">
 			<div class="login-form-main-message"></div>
 			<div class="main-login-form">
 				<div class="login-group">
+                    
 					<div class="textarea-container">
                         <textarea></textarea>
-                                <div class="textarea-size"></div>
+                                <div class="textarea-size" id = "message"></div>
                                 </div>
 				</div>
+                   <input type="hidden" id="name" value="" />
+                   <input type="hidden" id="email" value="" />
+
+                    
 				<button type="submit" class="login-button" onclick="redirect()";><i class="fa fa-chevron-right"></i></button>
 			</div>
 			<div class="etc-login-form">
@@ -459,7 +464,13 @@ textarea {
 
     <!-- Portfolio Modals -->
    
-     
+     <script>
+         function redirect(){
+            document.getElementById('name').value = localStorage.getItem('name');
+             document.getElementById('email').value = localStorage.getItem('email');
+            document.getElementById('register-form').submit();
+         }
+    </script>
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
