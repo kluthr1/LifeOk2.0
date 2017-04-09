@@ -1,0 +1,1927 @@
+Retrieving logs for app [36;1mlifeokjs[0m in org [36;1mfarooq2@umbc.edu[0m / space [36;1mdev[0m as [36;1mfarooq2@umbc.edu[0m...
+
+2017-04-09T06:29:13.82-0400 [STG/0] OUT Downloading swift_buildpack_v2_0_4-20170125-2344...
+2017-04-09T06:29:13.82-0400 [STG/0] OUT Downloading python_buildpack...
+2017-04-09T06:29:13.82-0400 [STG/0] OUT Downloading xpages_buildpack...
+2017-04-09T06:29:13.85-0400 [STG/0] OUT Downloaded python_buildpack
+2017-04-09T06:29:13.85-0400 [STG/0] OUT Downloading nodejs_buildpack...
+2017-04-09T06:29:13.85-0400 [STG/0] OUT Downloaded xpages_buildpack
+2017-04-09T06:29:13.86-0400 [STG/0] OUT Downloading dotnet-core...
+2017-04-09T06:29:13.87-0400 [STG/0] OUT Downloaded java_buildpack
+2017-04-09T06:29:13.87-0400 [STG/0] OUT Downloading liberty-for-java_v3_5-20161114-1152...
+2017-04-09T06:29:13.87-0400 [STG/0] OUT Downloading php_buildpack...
+2017-04-09T06:29:13.88-0400 [STG/0] OUT Downloaded dotnet-core
+2017-04-09T06:29:13.88-0400 [STG/0] OUT Downloading staticfile_buildpack...
+2017-04-09T06:29:13.89-0400 [STG/0] OUT Downloaded liberty-for-java
+2017-04-09T06:29:13.89-0400 [STG/0] OUT Downloaded liberty-for-java_v3_5-20161114-1152
+2017-04-09T06:29:13.89-0400 [STG/0] OUT Downloaded sdk-for-nodejs
+2017-04-09T06:29:13.90-0400 [STG/0] OUT Downloading liberty-for-java_v3_7-20170118-2046...
+2017-04-09T06:29:13.91-0400 [STG/0] OUT Downloaded liberty-for-java_v3_4_1-20161030-2241
+2017-04-09T06:29:13.92-0400 [STG/0] OUT Downloaded dotnet-core_v1_0_6-20161205-0912
+2017-04-09T06:29:13.93-0400 [STG/0] OUT Downloaded liberty-for-java_v3_7-20170118-2046
+2017-04-09T06:29:26.20-0400 [STG/0] OUT Successfully created container
+2017-04-09T06:29:26.33-0400 [STG/0] OUT Downloaded app package (21K)
+2017-04-09T06:29:28.18-0400 [STG/0] OUT -----> IBM SDK for Node.js Buildpack v3.11-20170303-1144
+2017-04-09T06:29:28.19-0400 [STG/0] OUT -----> Creating runtime environment
+2017-04-09T06:29:28.22-0400 [STG/0] OUT        NPM_CONFIG_LOGLEVEL=error
+2017-04-09T06:29:28.23-0400 [STG/0] OUT        engines.node (package.json):  4.x
+2017-04-09T06:29:28.23-0400 [STG/0] OUT        Resolving node version 4.x via 'node-version-resolver'
+2017-04-09T06:29:30.51-0400 [STG/0] OUT -----> Building dependencies
+2017-04-09T06:29:34.83-0400 [STG/0] OUT        ├── cookie-signature@1.0.6
+2017-04-09T06:29:34.83-0400 [STG/0] OUT        ├── merge-descriptors@1.0.1
+2017-04-09T06:29:34.83-0400 [STG/0] OUT        ├── methods@1.1.2
+2017-04-09T06:29:34.83-0400 [STG/0] OUT        ├── vary@1.0.1
+2017-04-09T06:29:34.83-0400 [STG/0] OUT        ├── parseurl@1.3.1
+2017-04-09T06:29:34.83-0400 [STG/0] OUT        ├── cookie@0.1.5
+2017-04-09T06:29:34.83-0400 [STG/0] OUT        ├── range-parser@1.0.3
+2017-04-09T06:29:34.84-0400 [STG/0] OUT        ├── path-to-regexp@0.1.7
+2017-04-09T06:29:34.84-0400 [STG/0] OUT        ├── qs@4.0.0
+2017-04-09T06:29:34.84-0400 [STG/0] OUT        ├── on-finished@2.3.0 (ee-first@1.1.1)
+2017-04-09T06:29:34.84-0400 [STG/0] OUT        ├── proxy-addr@1.0.10 (forwarded@0.1.0, ipaddr.js@1.0.5)
+2017-04-09T06:29:34.84-0400 [STG/0] OUT        ├── type-is@1.6.15 (media-typer@0.3.0, mime-types@2.1.15)
+2017-04-09T06:29:34.84-0400 [STG/0] OUT        ├── accepts@1.2.13 (negotiator@0.5.3, mime-types@2.1.15)
+2017-04-09T06:29:34.84-0400 [STG/0] OUT        cfenv@1.0.4 node_modules/cfenv
+2017-04-09T06:29:38.27-0400 [STG/0] OUT        - node_modules
+2017-04-09T06:29:39.48-0400 [STG/0] OUT        └── express@4.13.4
+2017-04-09T06:29:48.70-0400 [STG/0] OUT Uploaded droplet (17.3M)
+2017-04-09T06:30:51.40-0400 [APP/0] OUT server starting on https://lifeokjs.mybluemix.net
+2017-04-09T06:42:39.11-0400 [API/0] OUT Updated app with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a ({"state"=>"STARTED"})
+2017-04-09T06:42:39.76-0400 [STG/0] OUT Downloaded dotnet-core
+2017-04-09T06:42:39.76-0400 [STG/0] OUT Downloading noop-buildpack...
+2017-04-09T06:42:39.76-0400 [STG/0] OUT Downloaded swift_buildpack_v2_0_4-20170125-2344
+2017-04-09T06:42:39.77-0400 [STG/0] OUT Downloaded xpages_buildpack
+2017-04-09T06:42:39.81-0400 [STG/0] OUT Downloaded java_buildpack
+2017-04-09T06:42:39.81-0400 [STG/0] OUT Downloaded noop-buildpack
+2017-04-09T06:42:39.83-0400 [STG/0] OUT Downloading liberty-for-java_v3_5-20161114-1152...
+2017-04-09T06:42:39.84-0400 [STG/0] OUT Downloading liberty-for-java_v3_7-20170118-2046...
+2017-04-09T06:42:39.87-0400 [STG/0] OUT Creating container
+2017-04-09T06:42:40.84-0400 [STG/0] OUT Successfully created container
+2017-04-09T06:42:40.84-0400 [STG/0] OUT Downloading app package...
+2017-04-09T06:42:41.07-0400 [STG/0] OUT Downloaded app package (1.6M)
+2017-04-09T06:42:42.38-0400 [STG/0] OUT -----> IBM SDK for Node.js Buildpack v3.11-20170303-1144
+2017-04-09T06:42:42.39-0400 [STG/0] OUT        NPM_CONFIG_PRODUCTION=true
+2017-04-09T06:42:42.39-0400 [STG/0] OUT -----> Installing binaries
+2017-04-09T06:42:42.41-0400 [STG/0] OUT        
+2017-04-09T06:42:44.84-0400 [STG/0] OUT        - bower_components (not cached - skipping)
+2017-04-09T06:42:44.84-0400 [STG/0] OUT        Installing node modules (package.json)
+2017-04-09T06:42:46.41-0400 [STG/0] OUT -----> Installing App Management
+2017-04-09T06:42:46.52-0400 [STG/0] OUT        WARN: App Management cannot be installed because the start script cannot be found.
+2017-04-09T06:42:46.52-0400 [STG/0] OUT        To install App Management utilities, specify your 'node' start script in 'package.json' or 'Procfile'.
+2017-04-09T06:42:46.55-0400 [STG/0] OUT        Saving 2 cacheDirectories (default):
+2017-04-09T06:42:53.10-0400 [STG/0] OUT Staging complete
+2017-04-09T06:42:53.10-0400 [STG/0] OUT Uploading droplet, build artifacts cache...
+2017-04-09T06:42:57.89-0400 [CELL/0] OUT Creating container
+2017-04-09T06:42:58.91-0400 [STG/0] OUT Successfully destroyed container
+2017-04-09T06:43:03.07-0400 [CELL/0] OUT Starting health monitoring of container
+[31m2017-04-09T06:43:04.06-0400 [APP/0] ERR npm ERR! [0m
+[31m2017-04-09T06:43:04.06-0400 [APP/0] ERR npm ERR! If you need help, you may report this error at:[0m
+[31m2017-04-09T06:43:04.07-0400 [APP/0] ERR npm ERR! Please include the following file with any support request:[0m
+2017-04-09T06:43:04.14-0400 [CELL/0] OUT Destroying container
+2017-04-09T06:43:04.76-0400 [CELL/0] OUT Creating container
+2017-04-09T06:43:07.84-0400 [CELL/0] OUT Successfully destroyed container
+2017-04-09T06:43:28.74-0400 [CELL/0] OUT Successfully created container
+[31m2017-04-09T06:43:32.39-0400 [APP/0] ERR npm ERR! Linux 4.4.0-45-generic[0m
+[31m2017-04-09T06:43:32.39-0400 [APP/0] ERR npm ERR! node v4.8.0[0m
+[31m2017-04-09T06:43:32.39-0400 [APP/0] ERR npm ERR! npm  v2.15.11[0m
+[31m2017-04-09T06:43:32.40-0400 [APP/0] ERR npm ERR! [0m
+2017-04-09T06:43:32.44-0400 [APP/0] OUT Exit status 1
+2017-04-09T06:43:32.49-0400 [CELL/0] OUT Exit status 0
+2017-04-09T06:43:32.51-0400 [CELL/0] OUT Destroying container
+[31m2017-04-09T06:43:38.78-0400 [APP/0] ERR npm ERR! Linux 4.4.0-45-generic[0m
+[31m2017-04-09T06:43:38.79-0400 [APP/0] ERR npm ERR! missing script: start[0m
+[31m2017-04-09T06:43:38.79-0400 [APP/0] ERR npm ERR! [0m
+2017-04-09T06:43:43.74-0400 [CELL/0] OUT Successfully destroyed container
+[31m2017-04-09T06:44:57.12-0400 [APP/0] ERR npm ERR! Linux 4.4.0-45-generic[0m
+[31m2017-04-09T06:44:57.13-0400 [APP/0] ERR npm ERR! missing script: start[0m
+[31m2017-04-09T06:44:57.13-0400 [APP/0] ERR npm ERR! [0m
+[31m2017-04-09T06:44:57.13-0400 [APP/0] ERR npm ERR! If you need help, you may report this error at:[0m
+2017-04-09T06:44:57.29-0400 [CELL/0] OUT Exit status 0
+2017-04-09T06:45:15.48-0400 [API/0] OUT Updated app with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a ({"name"=>"lifeokjs", "instances"=>1, "memory"=>256, "disk_quota"=>1024, "environment_json"=>"PRIVATE DATA HIDDEN"})
+2017-04-09T06:45:26.11-0400 [API/3] OUT Updated app with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a ({"state"=>"STOPPED"})
+2017-04-09T06:45:28.81-0400 [STG/0] OUT Downloading xpages_buildpack...
+2017-04-09T06:45:28.81-0400 [STG/0] OUT Downloading php_buildpack...
+2017-04-09T06:45:28.82-0400 [STG/0] OUT Downloaded liberty-for-java_v3_4_1-20161030-2241
+2017-04-09T06:45:28.84-0400 [STG/0] OUT Downloaded xpages_buildpack
+2017-04-09T06:45:28.85-0400 [STG/0] OUT Downloaded dotnet-core_v1_0_6-20161205-0912
+2017-04-09T06:45:28.86-0400 [STG/0] OUT Downloaded liberty-for-java_v3_7-20170118-2046
+2017-04-09T06:45:28.86-0400 [STG/0] OUT Downloading swift_buildpack...
+2017-04-09T06:45:28.86-0400 [STG/0] OUT Downloading noop-buildpack...
+2017-04-09T06:45:28.87-0400 [STG/0] OUT Downloading go_buildpack...
+2017-04-09T06:45:28.91-0400 [STG/0] OUT Downloaded sdk-for-nodejs_v3_10-20170119-1146
+2017-04-09T06:45:28.91-0400 [STG/0] OUT Creating container
+2017-04-09T06:45:47.47-0400 [STG/0] OUT Downloaded build artifacts cache (484.4K)
+2017-04-09T06:45:49.23-0400 [STG/0] OUT        NPM_CONFIG_PRODUCTION=true
+2017-04-09T06:45:49.23-0400 [STG/0] OUT        NODE_MODULES_CACHE=true
+2017-04-09T06:45:49.24-0400 [STG/0] OUT -----> Installing binaries
+2017-04-09T06:45:49.26-0400 [STG/0] OUT        Resolving node version (latest stable) via 'node-version-resolver'
+2017-04-09T06:45:49.45-0400 [STG/0] OUT        Installing IBM SDK for Node.js (4.8.0) from cache
+2017-04-09T06:45:52.85-0400 [STG/0] OUT        Saving 2 cacheDirectories (default):
+2017-04-09T06:45:53.97-0400 [STG/0] OUT        └── express@4.13.4 extraneous
+2017-04-09T06:45:57.98-0400 [STG/0] OUT Exit status 0
+2017-04-09T06:45:57.98-0400 [STG/0] OUT Uploading build artifacts cache...
+2017-04-09T06:45:57.98-0400 [STG/0] OUT Uploading droplet...
+[31m2017-04-09T06:46:41.50-0400 [APP/0] ERR npm ERR! npm  v2.15.11[0m
+2017-04-09T06:46:41.93-0400 [API/10] OUT App instance exited with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a payload: {"instance"=>"", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"2 error(s) occurred:\n\n* 2 error(s) occurred:\n\n* Exited with status 1\n* cancelled\n* cancelled", "crash_count"=>1, "crash_timestamp"=>1491734801902521276, "version"=>"07eafe37-dc47-4034-adef-5a8453a73c5a"}
+[31m2017-04-09T06:46:56.50-0400 [APP/0] ERR npm ERR! Linux 4.4.0-45-generic[0m
+[31m2017-04-09T06:46:56.50-0400 [APP/0] ERR npm ERR! npm  v2.15.11[0m
+[31m2017-04-09T06:46:56.51-0400 [APP/0] ERR npm ERR!     <https://github.com/npm/npm/issues>[0m
+[31m2017-04-09T06:46:56.53-0400 [APP/0] ERR npm ERR!     /home/vcap/app/npm-debug.log[0m
+2017-04-09T06:47:03.82-0400 [CELL/0] OUT Successfully destroyed container
+2017-04-09T06:47:10.84-0400 [CELL/0] OUT Starting health monitoring of container
+[31m2017-04-09T06:47:12.30-0400 [APP/0] ERR npm ERR! argv "/home/vcap/app/vendor/node/bin/node" "/home/vcap/app/vendor/node/bin/npm" "start"[0m
+[31m2017-04-09T06:47:12.30-0400 [APP/0] ERR npm ERR! npm  v2.15.11[0m
+[31m2017-04-09T06:47:12.30-0400 [APP/0] ERR npm ERR!     <https://github.com/npm/npm/issues>[0m
+2017-04-09T06:48:29.34-0400 [CELL/0] OUT Starting health monitoring of container
+[31m2017-04-09T06:48:30.81-0400 [APP/0] ERR npm ERR! Linux 4.4.0-45-generic[0m
+[31m2017-04-09T06:48:30.81-0400 [APP/0] ERR npm ERR! node v4.8.0[0m
+[31m2017-04-09T06:48:30.85-0400 [APP/0] ERR npm ERR!     /home/vcap/app/npm-debug.log[0m
+2017-04-09T06:50:04.52-0400 [CELL/0] OUT Creating container
+[31m2017-04-09T06:50:25.61-0400 [APP/0] ERR npm ERR! node v4.8.0[0m
+2017-04-09T06:50:25.79-0400 [CELL/0] OUT Destroying container
+2017-04-09T06:53:22.64-0400 [CELL/0] OUT Starting health monitoring of container
+[31m2017-04-09T06:53:24.12-0400 [APP/0] ERR npm ERR! argv "/home/vcap/app/vendor/node/bin/node" "/home/vcap/app/vendor/node/bin/npm" "start"[0m
+[31m2017-04-09T06:53:24.13-0400 [APP/0] ERR npm ERR!     /home/vcap/app/npm-debug.log[0m
+2017-04-09T06:53:24.24-0400 [CELL/0] OUT Exit status 0
+2017-04-09T06:53:33.35-0400 [CELL/0] OUT Successfully destroyed container
+2017-04-09T06:57:58.81-0400 [CELL/0] OUT Creating container
+[31m2017-04-09T06:58:15.10-0400 [APP/0] ERR npm ERR! argv "/home/vcap/app/vendor/node/bin/node" "/home/vcap/app/vendor/node/bin/npm" "start"[0m
+[31m2017-04-09T06:58:15.11-0400 [APP/0] ERR npm ERR! missing script: start[0m
+[31m2017-04-09T06:58:15.11-0400 [APP/0] ERR npm ERR! [0m
+[31m2017-04-09T06:58:15.11-0400 [APP/0] ERR npm ERR! If you need help, you may report this error at:[0m
+[31m2017-04-09T06:58:15.11-0400 [APP/0] ERR npm ERR!     <https://github.com/npm/npm/issues>[0m
+[31m2017-04-09T06:58:15.12-0400 [APP/0] ERR npm ERR! Please include the following file with any support request:[0m
+[31m2017-04-09T06:58:15.12-0400 [APP/0] ERR npm ERR!     /home/vcap/app/npm-debug.log[0m
+2017-04-09T06:58:15.15-0400 [APP/0] OUT Exit status 1
+[31m2017-04-09T07:06:37.74-0400 [APP/0] ERR npm ERR! Please include the following file with any support request:[0m
+2017-04-09T07:06:37.75-0400 [APP/0] OUT Exit status 1
+2017-04-09T07:06:37.79-0400 [CELL/0] OUT Exit status 0
+2017-04-09T07:06:37.84-0400 [API/0] OUT App instance exited with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a payload: {"instance"=>"", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"2 error(s) occurred:\n\n* 2 error(s) occurred:\n\n* Exited with status 1\n* cancelled\n* cancelled", "crash_count"=>8, "crash_timestamp"=>1491735997817106603, "version"=>"07eafe37-dc47-4034-adef-5a8453a73c5a"}
+2017-04-09T07:22:51.28-0400 [CELL/0] OUT Creating container
+2017-04-09T07:23:14.26-0400 [CELL/0] OUT Starting health monitoring of container
+[31m2017-04-09T07:23:15.66-0400 [APP/0] ERR npm ERR! Linux 4.4.0-45-generic[0m
+[31m2017-04-09T07:23:15.66-0400 [APP/0] ERR npm ERR! argv "/home/vcap/app/vendor/node/bin/node" "/home/vcap/app/vendor/node/bin/npm" "start"[0m
+[31m2017-04-09T07:23:15.66-0400 [APP/0] ERR npm ERR! npm  v2.15.11[0m
+[31m2017-04-09T07:23:15.66-0400 [APP/0] ERR npm ERR! If you need help, you may report this error at:[0m
+2017-04-09T07:26:24.52-0400 [STG/0] OUT Downloading python_buildpack...
+2017-04-09T07:26:24.55-0400 [STG/0] OUT Downloaded liberty-for-java_v3_5-20161114-1152
+2017-04-09T07:26:24.55-0400 [STG/0] OUT Downloading liberty-for-java...
+2017-04-09T07:26:24.55-0400 [STG/0] OUT Downloading sdk-for-nodejs...
+2017-04-09T07:26:24.55-0400 [STG/0] OUT Downloading swift_buildpack...
+2017-04-09T07:26:24.57-0400 [STG/0] OUT Downloaded sdk-for-nodejs
+2017-04-09T07:26:24.57-0400 [STG/0] OUT Downloaded dotnet-core
+2017-04-09T07:26:24.59-0400 [STG/0] OUT Downloading binary_buildpack...
+2017-04-09T07:26:24.60-0400 [STG/0] OUT Downloaded ruby_buildpack
+2017-04-09T07:26:24.60-0400 [STG/0] OUT Downloading dotnet-core_v1_0_6-20161205-0912...
+2017-04-09T07:26:24.61-0400 [STG/0] OUT Downloading liberty-for-java_v3_7-20170118-2046...
+2017-04-09T07:26:24.61-0400 [STG/0] OUT Downloaded binary_buildpack
+2017-04-09T07:26:24.62-0400 [STG/0] OUT Downloaded php_buildpack
+2017-04-09T07:26:24.63-0400 [STG/0] OUT Downloaded dotnet-core_v1_0_6-20161205-0912
+2017-04-09T07:26:24.63-0400 [STG/0] OUT Downloaded liberty-for-java_v3_4_1-20161030-2241
+2017-04-09T07:26:39.24-0400 [STG/0] OUT Downloaded build artifacts cache (484.5K)
+2017-04-09T07:26:41.08-0400 [STG/0] OUT -----> IBM SDK for Node.js Buildpack v3.11-20170303-1144
+2017-04-09T07:26:41.09-0400 [STG/0] OUT        Based on Cloud Foundry Node.js Buildpack v1.5.24
+2017-04-09T07:26:41.11-0400 [STG/0] OUT        
+2017-04-09T07:26:41.11-0400 [STG/0] OUT        NPM_CONFIG_PRODUCTION=true
+2017-04-09T07:26:41.15-0400 [STG/0] OUT        engines.npm (package.json):   unspecified (use default)
+2017-04-09T07:26:41.15-0400 [STG/0] OUT        
+2017-04-09T07:26:43.78-0400 [STG/0] OUT        Loading 2 from cacheDirectories (default):
+2017-04-09T07:26:43.80-0400 [STG/0] OUT        - bower_components (not cached - skipping)
+2017-04-09T07:26:43.80-0400 [STG/0] OUT        Installing node modules (package.json)
+2017-04-09T07:26:45.33-0400 [STG/0] OUT        - node_modules
+2017-04-09T07:26:51.04-0400 [STG/0] OUT Uploading droplet, build artifacts cache...
+2017-04-09T07:26:51.33-0400 [STG/0] OUT Uploaded build artifacts cache (483.8K)
+2017-04-09T07:26:56.77-0400 [STG/0] OUT Destroying container
+2017-04-09T07:26:57.78-0400 [CELL/0] OUT Creating container
+2017-04-09T07:27:04.80-0400 [CELL/0] OUT Starting health monitoring of container
+[31m2017-04-09T07:27:06.07-0400 [APP/0] ERR npm ERR! argv "/home/vcap/app/vendor/node/bin/node" "/home/vcap/app/vendor/node/bin/npm" "start"[0m
+[31m2017-04-09T07:27:06.13-0400 [APP/0] ERR npm ERR! Please include the following file with any support request:[0m
+[31m2017-04-09T07:27:06.13-0400 [APP/0] ERR npm ERR!     /home/vcap/app/npm-debug.log[0m
+2017-04-09T07:27:06.20-0400 [APP/0] OUT Exit status 1
+[31m2017-04-09T07:27:21.97-0400 [APP/0] ERR npm ERR! Linux 4.4.0-45-generic[0m
+[31m2017-04-09T07:27:21.97-0400 [APP/0] ERR npm ERR! argv "/home/vcap/app/vendor/node/bin/node" "/home/vcap/app/vendor/node/bin/npm" "start"[0m
+[31m2017-04-09T07:27:21.98-0400 [APP/0] ERR npm ERR! npm  v2.15.11[0m
+2017-04-09T07:27:22.28-0400 [CELL/0] OUT Exit status 0
+2017-04-09T07:27:23.12-0400 [CELL/0] OUT Creating container
+2017-04-09T07:27:31.05-0400 [CELL/0] OUT Successfully destroyed container
+2017-04-09T07:27:34.30-0400 [CELL/0] OUT Successfully created container
+[31m2017-04-09T07:27:40.23-0400 [APP/0] ERR npm ERR! Linux 4.4.0-45-generic[0m
+[31m2017-04-09T07:27:40.23-0400 [APP/0] ERR npm ERR! argv "/home/vcap/app/vendor/node/bin/node" "/home/vcap/app/vendor/node/bin/npm" "start"[0m
+[31m2017-04-09T07:27:40.23-0400 [APP/0] ERR npm ERR! node v4.8.0[0m
+[31m2017-04-09T07:27:40.23-0400 [APP/0] ERR npm ERR! If you need help, you may report this error at:[0m
+[31m2017-04-09T07:27:40.24-0400 [APP/0] ERR npm ERR! Please include the following file with any support request:[0m
+2017-04-09T07:27:45.80-0400 [CELL/0] OUT Successfully destroyed container
+2017-04-09T07:28:39.33-0400 [CELL/0] OUT Starting health monitoring of container
+[31m2017-04-09T07:28:41.27-0400 [APP/0] ERR npm ERR! node v4.8.0[0m
+[31m2017-04-09T07:28:41.28-0400 [APP/0] ERR npm ERR! If you need help, you may report this error at:[0m
+2017-04-09T07:30:53.68-0400 [CELL/0] OUT Successfully created container
+[31m2017-04-09T07:30:56.58-0400 [APP/0] ERR npm ERR! Linux 4.4.0-45-generic[0m
+[31m2017-04-09T07:30:56.58-0400 [APP/0] ERR npm ERR! argv "/home/vcap/app/vendor/node/bin/node" "/home/vcap/app/vendor/node/bin/npm" "start"[0m
+[31m2017-04-09T07:30:56.58-0400 [APP/0] ERR npm ERR! [0m
+[31m2017-04-09T07:30:56.58-0400 [APP/0] ERR npm ERR!     <https://github.com/npm/npm/issues>[0m
+[31m2017-04-09T07:30:56.60-0400 [APP/0] ERR npm ERR!     /home/vcap/app/npm-debug.log[0m
+2017-04-09T07:30:56.72-0400 [API/9] OUT App instance exited with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a payload: {"instance"=>"", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"2 error(s) occurred:\n\n* 2 error(s) occurred:\n\n* Exited with status 1\n* cancelled\n* cancelled", "crash_count"=>5, "crash_timestamp"=>1491737456706856308, "version"=>"65567217-080d-42b6-9784-25ad5958c365"}
+2017-04-09T07:31:10.58-0400 [CELL/0] OUT Successfully destroyed container
+2017-04-09T07:33:11.09-0400 [CELL/0] OUT Creating container
+2017-04-09T07:33:29.76-0400 [CELL/0] OUT Successfully created container
+2017-04-09T07:33:31.99-0400 [CELL/0] OUT Starting health monitoring of container
+[31m2017-04-09T07:33:33.22-0400 [APP/0] ERR npm ERR! missing script: start[0m
+[31m2017-04-09T07:33:33.23-0400 [APP/0] ERR npm ERR!     /home/vcap/app/npm-debug.log[0m
+2017-04-09T07:33:33.42-0400 [CELL/0] OUT Exit status 0
+2017-04-09T07:38:11.38-0400 [CELL/0] OUT Successfully created container
+[31m2017-04-09T07:38:15.07-0400 [APP/0] ERR npm ERR! Linux 4.4.0-45-generic[0m
+[31m2017-04-09T07:38:15.10-0400 [APP/0] ERR npm ERR! node v4.8.0[0m
+[31m2017-04-09T07:38:15.10-0400 [APP/0] ERR npm ERR! If you need help, you may report this error at:[0m
+[31m2017-04-09T07:38:15.10-0400 [APP/0] ERR npm ERR!     <https://github.com/npm/npm/issues>[0m
+2017-04-09T07:38:15.16-0400 [APP/0] OUT Exit status 1
+2017-04-09T07:38:15.23-0400 [CELL/0] OUT Exit status 0
+2017-04-09T07:38:15.26-0400 [API/0] OUT App instance exited with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a payload: {"instance"=>"", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"2 error(s) occurred:\n\n* 2 error(s) occurred:\n\n* Exited with status 1\n* cancelled\n* cancelled", "crash_count"=>7, "crash_timestamp"=>1491737895240227768, "version"=>"65567217-080d-42b6-9784-25ad5958c365"}
+2017-04-09T07:38:19.67-0400 [CELL/0] OUT Successfully destroyed container
+2017-04-09T07:46:48.83-0400 [CELL/0] OUT Successfully created container
+[31m2017-04-09T07:46:51.74-0400 [APP/0] ERR npm ERR! node v4.8.0[0m
+[31m2017-04-09T07:46:51.74-0400 [APP/0] ERR npm ERR! npm  v2.15.11[0m
+[31m2017-04-09T07:46:51.74-0400 [APP/0] ERR npm ERR!     <https://github.com/npm/npm/issues>[0m
+2017-04-09T07:46:51.78-0400 [APP/0] OUT Exit status 1
+2017-04-09T07:46:51.87-0400 [CELL/0] OUT Destroying container
+2017-04-09T07:46:51.99-0400 [API/0] OUT App instance exited with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a payload: {"instance"=>"", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"2 error(s) occurred:\n\n* 2 error(s) occurred:\n\n* Exited with status 1\n* cancelled\n* cancelled", "crash_count"=>8, "crash_timestamp"=>1491738411869870513, "version"=>"65567217-080d-42b6-9784-25ad5958c365"}
+2017-04-09T07:47:03.75-0400 [CELL/0] OUT Successfully destroyed container
+2017-04-09T08:03:17.40-0400 [CELL/0] OUT Creating container
+2017-04-09T08:03:32.29-0400 [CELL/0] OUT Successfully created container
+2017-04-09T08:03:34.01-0400 [CELL/0] OUT Starting health monitoring of container
+[31m2017-04-09T08:03:34.81-0400 [APP/0] ERR npm ERR! Linux 4.4.0-45-generic[0m
+[31m2017-04-09T08:03:34.81-0400 [APP/0] ERR npm ERR! argv "/home/vcap/app/vendor/node/bin/node" "/home/vcap/app/vendor/node/bin/npm" "start"[0m
+[31m2017-04-09T08:03:34.81-0400 [APP/0] ERR npm ERR! npm  v2.15.11[0m
+[31m2017-04-09T08:03:34.81-0400 [APP/0] ERR npm ERR! missing script: start[0m
+[31m2017-04-09T08:03:34.81-0400 [APP/0] ERR npm ERR! [0m
+[31m2017-04-09T08:03:34.81-0400 [APP/0] ERR npm ERR! If you need help, you may report this error at:[0m
+[31m2017-04-09T08:03:34.81-0400 [APP/0] ERR npm ERR!     <https://github.com/npm/npm/issues>[0m
+[31m2017-04-09T08:03:34.83-0400 [APP/0] ERR npm ERR! Please include the following file with any support request:[0m
+[31m2017-04-09T08:03:34.83-0400 [APP/0] ERR npm ERR!     /home/vcap/app/npm-debug.log[0m
+2017-04-09T08:03:34.84-0400 [APP/0] OUT Exit status 1
+2017-04-09T08:03:34.88-0400 [CELL/0] OUT Exit status 0
+2017-04-09T08:03:34.90-0400 [CELL/0] OUT Destroying container
+2017-04-09T08:03:34.92-0400 [API/0] OUT App instance exited with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a payload: {"instance"=>"", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"2 error(s) occurred:\n\n* 2 error(s) occurred:\n\n* Exited with status 1\n* cancelled\n* cancelled", "crash_count"=>9, "crash_timestamp"=>1491739414894810765, "version"=>"65567217-080d-42b6-9784-25ad5958c365"}
+2017-04-09T08:20:35.70-0400 [CELL/0] OUT Successfully created container
+[31m2017-04-09T08:20:42.16-0400 [APP/0] ERR npm ERR! Linux 4.4.0-45-generic[0m
+[31m2017-04-09T08:20:42.16-0400 [APP/0] ERR npm ERR! argv "/home/vcap/app/vendor/node/bin/node" "/home/vcap/app/vendor/node/bin/npm" "start"[0m
+[31m2017-04-09T08:20:42.16-0400 [APP/0] ERR npm ERR! node v4.8.0[0m
+[31m2017-04-09T08:20:42.16-0400 [APP/0] ERR npm ERR! npm  v2.15.11[0m
+[31m2017-04-09T08:20:42.17-0400 [APP/0] ERR npm ERR! missing script: start[0m
+[31m2017-04-09T08:20:42.17-0400 [APP/0] ERR npm ERR! [0m
+[31m2017-04-09T08:20:42.17-0400 [APP/0] ERR npm ERR! If you need help, you may report this error at:[0m
+[31m2017-04-09T08:20:42.17-0400 [APP/0] ERR npm ERR!     <https://github.com/npm/npm/issues>[0m
+[31m2017-04-09T08:20:42.18-0400 [APP/0] ERR npm ERR! Please include the following file with any support request:[0m
+[31m2017-04-09T08:20:42.18-0400 [APP/0] ERR npm ERR!     /home/vcap/app/npm-debug.log[0m
+2017-04-09T08:20:42.20-0400 [APP/0] OUT Exit status 1
+2017-04-09T08:20:42.34-0400 [CELL/0] OUT Exit status 0
+2017-04-09T08:20:42.39-0400 [CELL/0] OUT Destroying container
+2017-04-09T08:20:42.40-0400 [API/1] OUT App instance exited with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a payload: {"instance"=>"", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"2 error(s) occurred:\n\n* 2 error(s) occurred:\n\n* Exited with status 1\n* cancelled\n* cancelled", "crash_count"=>10, "crash_timestamp"=>1491740442387135538, "version"=>"65567217-080d-42b6-9784-25ad5958c365"}
+2017-04-09T08:21:00.07-0400 [CELL/0] OUT Successfully destroyed container
+2017-04-09T08:37:13.54-0400 [CELL/0] OUT Creating container
+2017-04-09T08:37:31.61-0400 [CELL/0] OUT Successfully created container
+2017-04-09T08:37:33.13-0400 [CELL/0] OUT Starting health monitoring of container
+[31m2017-04-09T08:37:34.17-0400 [APP/0] ERR npm ERR! Linux 4.4.0-45-generic[0m
+[31m2017-04-09T08:37:34.17-0400 [APP/0] ERR npm ERR! argv "/home/vcap/app/vendor/node/bin/node" "/home/vcap/app/vendor/node/bin/npm" "start"[0m
+[31m2017-04-09T08:37:34.19-0400 [APP/0] ERR npm ERR! node v4.8.0[0m
+[31m2017-04-09T08:37:34.19-0400 [APP/0] ERR npm ERR! npm  v2.15.11[0m
+[31m2017-04-09T08:37:34.19-0400 [APP/0] ERR npm ERR! [0m
+[31m2017-04-09T08:37:34.19-0400 [APP/0] ERR npm ERR! If you need help, you may report this error at:[0m
+[31m2017-04-09T08:37:34.19-0400 [APP/0] ERR npm ERR!     <https://github.com/npm/npm/issues>[0m
+[31m2017-04-09T08:37:34.20-0400 [APP/0] ERR npm ERR! Please include the following file with any support request:[0m
+2017-04-09T08:37:34.25-0400 [APP/0] OUT Exit status 1
+2017-04-09T08:37:34.33-0400 [CELL/0] OUT Exit status 0
+2017-04-09T08:37:34.34-0400 [CELL/0] OUT Destroying container
+2017-04-09T08:37:34.35-0400 [API/9] OUT App instance exited with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a payload: {"instance"=>"", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"2 error(s) occurred:\n\n* 2 error(s) occurred:\n\n* Exited with status 1\n* cancelled\n* cancelled", "crash_count"=>11, "crash_timestamp"=>1491741454340456578, "version"=>"65567217-080d-42b6-9784-25ad5958c365"}
+2017-04-09T08:37:46.15-0400 [CELL/0] OUT Successfully destroyed container
+2017-04-09T08:54:15.57-0400 [CELL/0] OUT Creating container
+2017-04-09T08:54:34.47-0400 [CELL/0] OUT Successfully created container
+2017-04-09T08:54:37.02-0400 [CELL/0] OUT Starting health monitoring of container
+[31m2017-04-09T08:54:38.67-0400 [APP/0] ERR npm ERR! Linux 4.4.0-45-generic[0m
+[31m2017-04-09T08:54:38.67-0400 [APP/0] ERR npm ERR! argv "/home/vcap/app/vendor/node/bin/node" "/home/vcap/app/vendor/node/bin/npm" "start"[0m
+[31m2017-04-09T08:54:38.67-0400 [APP/0] ERR npm ERR! node v4.8.0[0m
+[31m2017-04-09T08:54:38.67-0400 [APP/0] ERR npm ERR! npm  v2.15.11[0m
+[31m2017-04-09T08:54:38.71-0400 [APP/0] ERR npm ERR! missing script: start[0m
+[31m2017-04-09T08:54:38.71-0400 [APP/0] ERR npm ERR! [0m
+[31m2017-04-09T08:54:38.71-0400 [APP/0] ERR npm ERR! If you need help, you may report this error at:[0m
+[31m2017-04-09T08:54:38.71-0400 [APP/0] ERR npm ERR!     <https://github.com/npm/npm/issues>[0m
+[31m2017-04-09T08:54:38.77-0400 [APP/0] ERR npm ERR! Please include the following file with any support request:[0m
+[31m2017-04-09T08:54:38.77-0400 [APP/0] ERR npm ERR!     /home/vcap/app/npm-debug.log[0m
+2017-04-09T08:54:38.82-0400 [APP/0] OUT Exit status 1
+2017-04-09T08:54:38.89-0400 [CELL/0] OUT Exit status 0
+2017-04-09T08:54:38.91-0400 [CELL/0] OUT Destroying container
+2017-04-09T08:54:38.92-0400 [API/1] OUT App instance exited with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a payload: {"instance"=>"", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"2 error(s) occurred:\n\n* 2 error(s) occurred:\n\n* Exited with status 1\n* cancelled\n* cancelled", "crash_count"=>12, "crash_timestamp"=>1491742478905940026, "version"=>"65567217-080d-42b6-9784-25ad5958c365"}
+2017-04-09T08:54:48.85-0400 [CELL/0] OUT Successfully destroyed container
+2017-04-09T08:58:51.46-0400 [API/1] OUT Updated app with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a ({"name"=>"lifeokjs", "instances"=>1, "memory"=>256, "disk_quota"=>1024, "environment_json"=>"PRIVATE DATA HIDDEN"})
+2017-04-09T08:59:05.69-0400 [API/9] OUT Updated app with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a ({"state"=>"STOPPED"})
+2017-04-09T08:59:08.78-0400 [API/0] OUT Updated app with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a ({"state"=>"STARTED"})
+2017-04-09T08:59:09.00-0400 [STG/0] OUT Downloading go_buildpack...
+2017-04-09T08:59:09.00-0400 [STG/0] OUT Downloading xpages_buildpack...
+2017-04-09T08:59:09.00-0400 [STG/0] OUT Downloading binary_buildpack...
+2017-04-09T08:59:09.00-0400 [STG/0] OUT Downloading php_buildpack...
+2017-04-09T08:59:09.04-0400 [STG/0] OUT Downloaded php_buildpack
+2017-04-09T08:59:09.04-0400 [STG/0] OUT Downloading staticfile_buildpack...
+2017-04-09T08:59:09.05-0400 [STG/0] OUT Downloaded swift_buildpack_v2_0_4-20170125-2344
+2017-04-09T08:59:09.05-0400 [STG/0] OUT Downloading swift_buildpack...
+2017-04-09T08:59:09.05-0400 [STG/0] OUT Downloaded binary_buildpack
+2017-04-09T08:59:09.06-0400 [STG/0] OUT Downloaded go_buildpack
+2017-04-09T08:59:09.06-0400 [STG/0] OUT Downloading liberty-for-java...
+2017-04-09T08:59:09.06-0400 [STG/0] OUT Downloaded xpages_buildpack
+2017-04-09T08:59:09.06-0400 [STG/0] OUT Downloading sdk-for-nodejs...
+2017-04-09T08:59:09.06-0400 [STG/0] OUT Downloading dotnet-core...
+2017-04-09T08:59:09.08-0400 [STG/0] OUT Downloaded swift_buildpack
+2017-04-09T08:59:09.08-0400 [STG/0] OUT Downloading liberty-for-java_v3_7-20170118-2046...
+2017-04-09T08:59:09.09-0400 [STG/0] OUT Downloaded liberty-for-java
+2017-04-09T08:59:09.09-0400 [STG/0] OUT Downloading liberty-for-java_v3_4_1-20161030-2241...
+2017-04-09T08:59:09.09-0400 [STG/0] OUT Downloaded staticfile_buildpack
+2017-04-09T08:59:09.09-0400 [STG/0] OUT Downloading liberty-for-java_v3_5-20161114-1152...
+2017-04-09T08:59:09.09-0400 [STG/0] OUT Downloaded sdk-for-nodejs
+2017-04-09T08:59:09.11-0400 [STG/0] OUT Downloaded dotnet-core
+2017-04-09T08:59:09.11-0400 [STG/0] OUT Downloading python_buildpack...
+2017-04-09T08:59:09.11-0400 [STG/0] OUT Downloaded liberty-for-java_v3_7-20170118-2046
+2017-04-09T08:59:09.11-0400 [STG/0] OUT Downloading java_buildpack...
+2017-04-09T08:59:09.12-0400 [STG/0] OUT Downloaded dotnet-core_v1_0_6-20161205-0912
+2017-04-09T08:59:09.12-0400 [STG/0] OUT Downloading noop-buildpack...
+2017-04-09T08:59:09.13-0400 [STG/0] OUT Downloaded liberty-for-java_v3_4_1-20161030-2241
+2017-04-09T08:59:09.13-0400 [STG/0] OUT Downloading sdk-for-nodejs_v3_10-20170119-1146...
+2017-04-09T08:59:09.13-0400 [STG/0] OUT Downloaded liberty-for-java_v3_5-20161114-1152
+2017-04-09T08:59:09.13-0400 [STG/0] OUT Downloading ruby_buildpack...
+2017-04-09T08:59:09.14-0400 [STG/0] OUT Downloaded python_buildpack
+2017-04-09T08:59:09.14-0400 [STG/0] OUT Downloading nodejs_buildpack...
+2017-04-09T08:59:09.14-0400 [STG/0] OUT Downloaded java_buildpack
+2017-04-09T08:59:09.18-0400 [STG/0] OUT Downloaded noop-buildpack
+2017-04-09T08:59:09.18-0400 [STG/0] OUT Downloaded sdk-for-nodejs_v3_10-20170119-1146
+2017-04-09T08:59:09.20-0400 [STG/0] OUT Downloaded nodejs_buildpack
+2017-04-09T08:59:09.21-0400 [STG/0] OUT Downloaded ruby_buildpack
+2017-04-09T08:59:09.21-0400 [STG/0] OUT Creating container
+2017-04-09T08:59:29.64-0400 [STG/0] OUT Successfully created container
+2017-04-09T08:59:29.64-0400 [STG/0] OUT Downloading app package...
+2017-04-09T08:59:30.37-0400 [STG/0] OUT Downloaded build artifacts cache (483.8K)
+2017-04-09T08:59:30.37-0400 [STG/0] OUT Staging...
+2017-04-09T08:59:31.67-0400 [STG/0] OUT        Based on Cloud Foundry Node.js Buildpack v1.5.24
+2017-04-09T08:59:31.67-0400 [STG/0] OUT -----> Creating runtime environment
+2017-04-09T08:59:31.68-0400 [STG/0] OUT        
+2017-04-09T08:59:31.70-0400 [STG/0] OUT        NPM_CONFIG_LOGLEVEL=error
+2017-04-09T08:59:31.70-0400 [STG/0] OUT        NPM_CONFIG_PRODUCTION=true
+2017-04-09T08:59:31.70-0400 [STG/0] OUT        NODE_ENV=production
+2017-04-09T08:59:31.70-0400 [STG/0] OUT        NODE_MODULES_CACHE=true
+2017-04-09T08:59:31.70-0400 [STG/0] OUT        engines.node (package.json):  unspecified
+2017-04-09T08:59:31.70-0400 [STG/0] OUT        engines.npm (package.json):   unspecified (use default)
+2017-04-09T08:59:31.70-0400 [STG/0] OUT        Resolving node version (latest stable) via 'node-version-resolver'
+2017-04-09T08:59:33.69-0400 [STG/0] OUT        Using default npm version: 2.15.11
+2017-04-09T08:59:33.69-0400 [STG/0] OUT -----> Restoring cache
+2017-04-09T08:59:33.96-0400 [STG/0] OUT        - node_modules
+2017-04-09T08:59:33.98-0400 [STG/0] OUT        - bower_components (not cached - skipping)
+2017-04-09T08:59:33.98-0400 [STG/0] OUT -----> Building dependencies
+2017-04-09T08:59:33.98-0400 [STG/0] OUT        Installing node modules (package.json)
+2017-04-09T08:59:34.99-0400 [STG/0] OUT -----> Installing App Management
+2017-04-09T08:59:35.06-0400 [STG/0] OUT        WARN: App Management cannot be installed because the start script cannot be found.
+2017-04-09T08:59:35.06-0400 [STG/0] OUT        To install App Management utilities, specify your 'node' start script in 'package.json' or 'Procfile'.
+2017-04-09T08:59:35.06-0400 [STG/0] OUT -----> Caching build
+2017-04-09T08:59:35.07-0400 [STG/0] OUT        Clearing previous node cache
+2017-04-09T08:59:35.07-0400 [STG/0] OUT        Saving 2 cacheDirectories (default):
+2017-04-09T08:59:35.15-0400 [STG/0] OUT        - bower_components (nothing to cache)
+2017-04-09T08:59:35.46-0400 [STG/0] OUT -----> Build succeeded!
+2017-04-09T08:59:36.09-0400 [STG/0] OUT        ├── cfenv@1.0.4 extraneous
+2017-04-09T08:59:36.09-0400 [STG/0] OUT        └── express@4.13.4 extraneous
+2017-04-09T08:59:36.09-0400 [STG/0] OUT        
+2017-04-09T08:59:36.10-0400 [STG/0] OUT  !     This app may not specify any way to start a node process
+2017-04-09T08:59:36.10-0400 [STG/0] OUT        http://docs.cloudfoundry.org/buildpacks/node
+2017-04-09T08:59:40.37-0400 [STG/0] OUT Exit status 0
+2017-04-09T08:59:40.37-0400 [STG/0] OUT Staging complete
+2017-04-09T08:59:40.37-0400 [STG/0] OUT Uploading droplet, build artifacts cache...
+2017-04-09T08:59:40.92-0400 [STG/0] OUT Uploaded build artifacts cache (486K)
+2017-04-09T08:59:43.21-0400 [STG/0] OUT Uploaded droplet (15.4M)
+2017-04-09T08:59:43.21-0400 [STG/0] OUT Uploading complete
+2017-04-09T08:59:43.37-0400 [STG/0] OUT Destroying container
+2017-04-09T08:59:44.01-0400 [CELL/0] OUT Creating container
+2017-04-09T08:59:51.54-0400 [CELL/0] OUT Successfully created container
+[31m2017-04-09T08:59:55.76-0400 [APP/0] ERR npm ERR! Linux 4.4.0-45-generic[0m
+[31m2017-04-09T08:59:55.76-0400 [APP/0] ERR npm ERR! argv "/home/vcap/app/vendor/node/bin/node" "/home/vcap/app/vendor/node/bin/npm" "start"[0m
+[31m2017-04-09T08:59:55.76-0400 [APP/0] ERR npm ERR! node v4.8.0[0m
+[31m2017-04-09T08:59:55.76-0400 [APP/0] ERR npm ERR! npm  v2.15.11[0m
+[31m2017-04-09T08:59:55.76-0400 [APP/0] ERR npm ERR! missing script: start[0m
+[31m2017-04-09T08:59:55.77-0400 [APP/0] ERR npm ERR! [0m
+[31m2017-04-09T08:59:55.77-0400 [APP/0] ERR npm ERR! If you need help, you may report this error at:[0m
+[31m2017-04-09T08:59:55.77-0400 [APP/0] ERR npm ERR!     <https://github.com/npm/npm/issues>[0m
+[31m2017-04-09T08:59:55.79-0400 [APP/0] ERR npm ERR! Please include the following file with any support request:[0m
+[31m2017-04-09T08:59:55.79-0400 [APP/0] ERR npm ERR!     /home/vcap/app/npm-debug.log[0m
+2017-04-09T08:59:55.82-0400 [APP/0] OUT Exit status 1
+2017-04-09T08:59:55.90-0400 [CELL/0] OUT Exit status 0
+2017-04-09T08:59:56.03-0400 [CELL/0] OUT Destroying container
+2017-04-09T08:59:56.04-0400 [API/0] OUT App instance exited with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a payload: {"instance"=>"", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"2 error(s) occurred:\n\n* 2 error(s) occurred:\n\n* Exited with status 1\n* cancelled\n* cancelled", "crash_count"=>1, "crash_timestamp"=>1491742795916322271, "version"=>"385f211e-b78f-4371-b0e2-05f033a1f43d"}
+2017-04-09T08:59:56.21-0400 [CELL/0] OUT Creating container
+2017-04-09T08:59:56.94-0400 [STG/0] OUT Successfully destroyed container
+2017-04-09T09:00:07.97-0400 [CELL/0] OUT Successfully created container
+2017-04-09T09:00:10.85-0400 [CELL/0] OUT Starting health monitoring of container
+[31m2017-04-09T09:00:12.29-0400 [APP/0] ERR npm ERR! argv "/home/vcap/app/vendor/node/bin/node" "/home/vcap/app/vendor/node/bin/npm" "start"[0m
+[31m2017-04-09T09:00:12.29-0400 [APP/0] ERR npm ERR! node v4.8.0[0m
+[31m2017-04-09T09:00:12.29-0400 [APP/0] ERR npm ERR! npm  v2.15.11[0m
+[31m2017-04-09T09:00:12.29-0400 [APP/0] ERR npm ERR! missing script: start[0m
+[31m2017-04-09T09:00:12.29-0400 [APP/0] ERR npm ERR! [0m
+[31m2017-04-09T09:00:12.29-0400 [APP/0] ERR npm ERR! If you need help, you may report this error at:[0m
+[31m2017-04-09T09:00:12.29-0400 [APP/0] ERR npm ERR!     <https://github.com/npm/npm/issues>[0m
+[31m2017-04-09T09:00:12.34-0400 [APP/0] ERR npm ERR! Please include the following file with any support request:[0m
+[31m2017-04-09T09:00:12.34-0400 [APP/0] ERR npm ERR!     /home/vcap/app/npm-debug.log[0m
+2017-04-09T09:00:12.38-0400 [APP/0] OUT Exit status 1
+2017-04-09T09:00:12.45-0400 [CELL/0] OUT Exit status 0
+2017-04-09T09:00:12.47-0400 [CELL/0] OUT Destroying container
+2017-04-09T09:00:12.49-0400 [API/2] OUT App instance exited with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a payload: {"instance"=>"", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"2 error(s) occurred:\n\n* 2 error(s) occurred:\n\n* Exited with status 1\n* cancelled\n* cancelled", "crash_count"=>2, "crash_timestamp"=>1491742812455882057, "version"=>"385f211e-b78f-4371-b0e2-05f033a1f43d"}
+2017-04-09T09:00:12.52-0400 [CELL/0] OUT Creating container
+2017-04-09T09:00:19.47-0400 [CELL/0] OUT Successfully destroyed container
+2017-04-09T09:00:27.34-0400 [CELL/0] OUT Successfully created container
+2017-04-09T09:00:30.30-0400 [CELL/0] OUT Starting health monitoring of container
+[31m2017-04-09T09:00:31.78-0400 [APP/0] ERR npm ERR! Linux 4.4.0-45-generic[0m
+[31m2017-04-09T09:00:31.78-0400 [APP/0] ERR npm ERR! argv "/home/vcap/app/vendor/node/bin/node" "/home/vcap/app/vendor/node/bin/npm" "start"[0m
+[31m2017-04-09T09:00:31.78-0400 [APP/0] ERR npm ERR! npm  v2.15.11[0m
+[31m2017-04-09T09:00:31.79-0400 [APP/0] ERR npm ERR! missing script: start[0m
+[31m2017-04-09T09:00:31.79-0400 [APP/0] ERR npm ERR! If you need help, you may report this error at:[0m
+[31m2017-04-09T09:00:31.79-0400 [APP/0] ERR npm ERR!     <https://github.com/npm/npm/issues>[0m
+[31m2017-04-09T09:00:31.82-0400 [APP/0] ERR npm ERR! Please include the following file with any support request:[0m
+[31m2017-04-09T09:00:31.82-0400 [APP/0] ERR npm ERR!     /home/vcap/app/npm-debug.log[0m
+2017-04-09T09:00:31.84-0400 [APP/0] OUT Exit status 1
+2017-04-09T09:00:32.07-0400 [CELL/0] OUT Destroying container
+2017-04-09T09:00:32.08-0400 [API/2] OUT App instance exited with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a payload: {"instance"=>"", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"2 error(s) occurred:\n\n* 2 error(s) occurred:\n\n* Exited with status 1\n* cancelled\n* cancelled", "crash_count"=>3, "crash_timestamp"=>1491742832064776109, "version"=>"385f211e-b78f-4371-b0e2-05f033a1f43d"}
+2017-04-09T09:00:41.86-0400 [CELL/0] OUT Successfully destroyed container
+2017-04-09T09:01:32.32-0400 [CELL/0] OUT Creating container
+2017-04-09T09:01:48.38-0400 [CELL/0] OUT Successfully created container
+[31m2017-04-09T09:01:52.22-0400 [APP/0] ERR npm ERR! Linux 4.4.0-45-generic[0m
+[31m2017-04-09T09:01:52.26-0400 [APP/0] ERR npm ERR! argv "/home/vcap/app/vendor/node/bin/node" "/home/vcap/app/vendor/node/bin/npm" "start"[0m
+[31m2017-04-09T09:01:52.27-0400 [APP/0] ERR npm ERR! node v4.8.0[0m
+[31m2017-04-09T09:01:52.28-0400 [APP/0] ERR npm ERR! missing script: start[0m
+[31m2017-04-09T09:01:52.29-0400 [APP/0] ERR npm ERR! If you need help, you may report this error at:[0m
+[31m2017-04-09T09:01:52.29-0400 [APP/0] ERR npm ERR!     <https://github.com/npm/npm/issues>[0m
+[31m2017-04-09T09:01:52.32-0400 [APP/0] ERR npm ERR! Please include the following file with any support request:[0m
+2017-04-09T09:01:52.35-0400 [APP/0] OUT Exit status 1
+2017-04-09T09:01:52.46-0400 [CELL/0] OUT Exit status 0
+2017-04-09T09:01:52.49-0400 [API/4] OUT App instance exited with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a payload: {"instance"=>"", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"2 error(s) occurred:\n\n* 2 error(s) occurred:\n\n* Exited with status 1\n* cancelled\n* cancelled", "crash_count"=>4, "crash_timestamp"=>1491742912474470465, "version"=>"385f211e-b78f-4371-b0e2-05f033a1f43d"}
+2017-04-09T09:02:01.07-0400 [CELL/0] OUT Successfully destroyed container
+2017-04-09T09:03:02.61-0400 [CELL/0] OUT Creating container
+2017-04-09T09:03:20.55-0400 [CELL/0] OUT Starting health monitoring of container
+[31m2017-04-09T09:03:21.49-0400 [APP/0] ERR npm ERR! Linux 4.4.0-45-generic[0m
+[31m2017-04-09T09:03:21.49-0400 [APP/0] ERR npm ERR! argv "/home/vcap/app/vendor/node/bin/node" "/home/vcap/app/vendor/node/bin/npm" "start"[0m
+[31m2017-04-09T09:03:21.49-0400 [APP/0] ERR npm ERR! node v4.8.0[0m
+[31m2017-04-09T09:03:21.49-0400 [APP/0] ERR npm ERR! npm  v2.15.11[0m
+[31m2017-04-09T09:03:21.51-0400 [APP/0] ERR npm ERR! missing script: start[0m
+[31m2017-04-09T09:03:21.51-0400 [APP/0] ERR npm ERR! [0m
+[31m2017-04-09T09:03:21.51-0400 [APP/0] ERR npm ERR! If you need help, you may report this error at:[0m
+[31m2017-04-09T09:03:21.51-0400 [APP/0] ERR npm ERR!     <https://github.com/npm/npm/issues>[0m
+[31m2017-04-09T09:03:21.51-0400 [APP/0] ERR npm ERR! Please include the following file with any support request:[0m
+[31m2017-04-09T09:03:21.51-0400 [APP/0] ERR npm ERR!     /home/vcap/app/npm-debug.log[0m
+2017-04-09T09:03:21.52-0400 [APP/0] OUT Exit status 1
+2017-04-09T09:03:21.61-0400 [CELL/0] OUT Exit status 0
+2017-04-09T09:03:21.63-0400 [API/6] OUT App instance exited with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a payload: {"instance"=>"", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"2 error(s) occurred:\n\n* 2 error(s) occurred:\n\n* Exited with status 1\n* cancelled\n* cancelled", "crash_count"=>5, "crash_timestamp"=>1491743001618534634, "version"=>"385f211e-b78f-4371-b0e2-05f033a1f43d"}
+2017-04-09T09:03:21.66-0400 [CELL/0] OUT Destroying container
+2017-04-09T09:03:33.28-0400 [CELL/0] OUT Successfully destroyed container
+2017-04-09T09:06:04.74-0400 [CELL/0] OUT Creating container
+2017-04-09T09:06:18.14-0400 [CELL/0] OUT Successfully created container
+2017-04-09T09:06:21.22-0400 [CELL/0] OUT Starting health monitoring of container
+[31m2017-04-09T09:06:23.62-0400 [APP/0] ERR npm ERR! node v4.8.0[0m
+[31m2017-04-09T09:06:23.62-0400 [APP/0] ERR npm ERR! npm  v2.15.11[0m
+[31m2017-04-09T09:06:23.62-0400 [APP/0] ERR npm ERR! missing script: start[0m
+[31m2017-04-09T09:06:23.62-0400 [APP/0] ERR npm ERR! [0m
+[31m2017-04-09T09:06:23.62-0400 [APP/0] ERR npm ERR! If you need help, you may report this error at:[0m
+[31m2017-04-09T09:06:23.62-0400 [APP/0] ERR npm ERR!     <https://github.com/npm/npm/issues>[0m
+[31m2017-04-09T09:06:23.70-0400 [APP/0] ERR npm ERR! Please include the following file with any support request:[0m
+2017-04-09T09:06:23.72-0400 [APP/0] OUT Exit status 1
+2017-04-09T09:06:23.85-0400 [CELL/0] OUT Exit status 0
+2017-04-09T09:06:23.92-0400 [CELL/0] OUT Destroying container
+2017-04-09T09:06:23.93-0400 [API/2] OUT App instance exited with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a payload: {"instance"=>"", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"2 error(s) occurred:\n\n* 2 error(s) occurred:\n\n* Exited with status 1\n* cancelled\n* 1 error(s) occurred:\n\n* cancelled", "crash_count"=>6, "crash_timestamp"=>1491743183914774649, "version"=>"385f211e-b78f-4371-b0e2-05f033a1f43d"}
+2017-04-09T09:06:33.81-0400 [CELL/0] OUT Successfully destroyed container
+2017-04-09T09:11:14.69-0400 [CELL/0] OUT Successfully created container
+2017-04-09T09:11:16.76-0400 [CELL/0] OUT Starting health monitoring of container
+[31m2017-04-09T09:11:17.90-0400 [APP/0] ERR npm ERR! Linux 4.4.0-45-generic[0m
+[31m2017-04-09T09:11:17.90-0400 [APP/0] ERR npm ERR! argv "/home/vcap/app/vendor/node/bin/node" "/home/vcap/app/vendor/node/bin/npm" "start"[0m
+[31m2017-04-09T09:11:17.90-0400 [APP/0] ERR npm ERR! node v4.8.0[0m
+[31m2017-04-09T09:11:17.90-0400 [APP/0] ERR npm ERR! npm  v2.15.11[0m
+[31m2017-04-09T09:11:17.90-0400 [APP/0] ERR npm ERR! missing script: start[0m
+[31m2017-04-09T09:11:17.90-0400 [APP/0] ERR npm ERR! [0m
+[31m2017-04-09T09:11:17.90-0400 [APP/0] ERR npm ERR! If you need help, you may report this error at:[0m
+[31m2017-04-09T09:11:17.92-0400 [APP/0] ERR npm ERR! Please include the following file with any support request:[0m
+[31m2017-04-09T09:11:17.92-0400 [APP/0] ERR npm ERR!     /home/vcap/app/npm-debug.log[0m
+2017-04-09T09:11:17.93-0400 [APP/0] OUT Exit status 1
+2017-04-09T09:11:17.99-0400 [CELL/0] OUT Exit status 0
+2017-04-09T09:11:18.02-0400 [API/0] OUT App instance exited with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a payload: {"instance"=>"", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"2 error(s) occurred:\n\n* 2 error(s) occurred:\n\n* Exited with status 1\n* cancelled\n* cancelled", "crash_count"=>7, "crash_timestamp"=>1491743477996694078, "version"=>"385f211e-b78f-4371-b0e2-05f033a1f43d"}
+2017-04-09T09:11:28.88-0400 [CELL/0] OUT Successfully destroyed container
+2017-04-09T09:14:02.10-0400 [API/2] OUT Updated app with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a ({"name"=>"lifeokjs", "instances"=>1, "memory"=>256, "disk_quota"=>1024, "environment_json"=>"PRIVATE DATA HIDDEN"})
+2017-04-09T09:14:13.14-0400 [API/0] OUT Updated app with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a ({"state"=>"STOPPED"})
+2017-04-09T09:14:15.52-0400 [API/2] OUT Updated app with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a ({"state"=>"STARTED"})
+2017-04-09T09:14:16.11-0400 [STG/0] OUT Downloading swift_buildpack_v2_0_4-20170125-2344...
+2017-04-09T09:14:16.11-0400 [STG/0] OUT Downloading python_buildpack...
+2017-04-09T09:14:16.11-0400 [STG/0] OUT Downloading swift_buildpack...
+2017-04-09T09:14:16.11-0400 [STG/0] OUT Downloading ruby_buildpack...
+2017-04-09T09:14:16.11-0400 [STG/0] OUT Downloading noop-buildpack...
+2017-04-09T09:14:16.13-0400 [STG/0] OUT Downloaded swift_buildpack
+2017-04-09T09:14:16.13-0400 [STG/0] OUT Downloading java_buildpack...
+2017-04-09T09:14:16.13-0400 [STG/0] OUT Downloaded swift_buildpack_v2_0_4-20170125-2344
+2017-04-09T09:14:16.13-0400 [STG/0] OUT Downloading sdk-for-nodejs...
+2017-04-09T09:14:16.14-0400 [STG/0] OUT Downloaded noop-buildpack
+2017-04-09T09:14:16.14-0400 [STG/0] OUT Downloading liberty-for-java...
+2017-04-09T09:14:16.14-0400 [STG/0] OUT Downloading dotnet-core...
+2017-04-09T09:14:16.15-0400 [STG/0] OUT Downloaded ruby_buildpack
+2017-04-09T09:14:16.16-0400 [STG/0] OUT Downloading go_buildpack...
+2017-04-09T09:14:16.16-0400 [STG/0] OUT Downloaded sdk-for-nodejs
+2017-04-09T09:14:16.16-0400 [STG/0] OUT Downloading liberty-for-java_v3_5-20161114-1152...
+2017-04-09T09:14:16.17-0400 [STG/0] OUT Downloaded nodejs_buildpack
+2017-04-09T09:14:16.17-0400 [STG/0] OUT Downloading xpages_buildpack...
+2017-04-09T09:14:16.17-0400 [STG/0] OUT Downloaded dotnet-core
+2017-04-09T09:14:16.18-0400 [STG/0] OUT Downloaded go_buildpack
+2017-04-09T09:14:16.18-0400 [STG/0] OUT Downloading binary_buildpack...
+2017-04-09T09:14:16.19-0400 [STG/0] OUT Downloaded liberty-for-java_v3_5-20161114-1152
+2017-04-09T09:14:16.19-0400 [STG/0] OUT Downloaded xpages_buildpack
+2017-04-09T09:14:16.19-0400 [STG/0] OUT Downloading sdk-for-nodejs_v3_10-20170119-1146...
+2017-04-09T09:14:16.19-0400 [STG/0] OUT Downloaded php_buildpack
+2017-04-09T09:14:16.19-0400 [STG/0] OUT Downloading dotnet-core_v1_0_6-20161205-0912...
+2017-04-09T09:14:16.20-0400 [STG/0] OUT Downloaded staticfile_buildpack
+2017-04-09T09:14:16.20-0400 [STG/0] OUT Downloading liberty-for-java_v3_7-20170118-2046...
+2017-04-09T09:14:16.20-0400 [STG/0] OUT Downloaded binary_buildpack
+2017-04-09T09:14:16.21-0400 [STG/0] OUT Downloaded liberty-for-java_v3_4_1-20161030-2241
+2017-04-09T09:14:16.22-0400 [STG/0] OUT Downloaded sdk-for-nodejs_v3_10-20170119-1146
+2017-04-09T09:14:16.22-0400 [STG/0] OUT Downloaded liberty-for-java_v3_7-20170118-2046
+2017-04-09T09:14:16.22-0400 [STG/0] OUT Downloaded dotnet-core_v1_0_6-20161205-0912
+2017-04-09T09:14:16.22-0400 [STG/0] OUT Creating container
+2017-04-09T09:14:31.29-0400 [STG/0] OUT Successfully created container
+2017-04-09T09:14:31.29-0400 [STG/0] OUT Downloading app package...
+2017-04-09T09:14:31.68-0400 [STG/0] OUT Downloaded app package (1.6M)
+2017-04-09T09:14:31.68-0400 [STG/0] OUT Downloading build artifacts cache...
+2017-04-09T09:14:32.03-0400 [STG/0] OUT Downloaded build artifacts cache (486K)
+2017-04-09T09:14:32.03-0400 [STG/0] OUT Staging...
+[31m2017-04-09T09:14:36.14-0400 [STG/0] ERR jq: error: Cannot index array with string[0m
+[31m2017-04-09T09:14:36.14-0400 [STG/0] ERR parse error: Expected string key before ':' at line 1, column 10[0m
+2017-04-09T09:14:37.20-0400 [STG/0] OUT -----> IBM SDK for Node.js Buildpack v3.11-20170303-1144
+2017-04-09T09:14:37.20-0400 [STG/0] OUT        Based on Cloud Foundry Node.js Buildpack v1.5.24
+[31m2017-04-09T09:14:37.20-0400 [STG/0] ERR parse error: Expected string key before ':' at line 1, column 10[0m
+[31m2017-04-09T09:14:37.20-0400 [STG/0] ERR  !     Unable to parse package.json[0m
+2017-04-09T09:14:37.21-0400 [STG/0] OUT -----> Build failed
+2017-04-09T09:14:37.31-0400 [STG/0] OUT        
+2017-04-09T09:14:37.31-0400 [STG/0] OUT        Check our support community to get help on common issues:
+2017-04-09T09:14:37.31-0400 [STG/0] OUT        http://ibm.biz/bluemixcommunitysupport
+2017-04-09T09:14:37.31-0400 [STG/0] OUT        If you need additional help and your subscription includes support, submit a ticket so we can help:
+2017-04-09T09:14:37.31-0400 [STG/0] OUT        http://ibm.biz/bluemixsupport
+2017-04-09T09:14:37.31-0400 [STG/0] OUT        
+2017-04-09T09:14:37.33-0400 [STG/0] OUT Exit status 223
+[31m2017-04-09T09:14:37.46-0400 [STG/0] ERR Staging failed: Exited with status 223[0m
+2017-04-09T09:14:37.51-0400 [STG/0] OUT Destroying container
+[31m2017-04-09T09:14:37.58-0400 [API/1] ERR Failed to stage application: staging failed[0m
+2017-04-09T09:14:57.58-0400 [STG/0] OUT Successfully destroyed container
+2017-04-09T09:16:48.51-0400 [API/1] OUT Updated app with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a ({"name"=>"lifeokjs", "instances"=>1, "memory"=>256, "disk_quota"=>1024, "environment_json"=>"PRIVATE DATA HIDDEN"})
+2017-04-09T09:17:06.08-0400 [API/0] OUT Updated app with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a ({"state"=>"STARTED"})
+2017-04-09T09:17:06.39-0400 [STG/0] OUT Downloading swift_buildpack_v2_0_4-20170125-2344...
+2017-04-09T09:17:06.39-0400 [STG/0] OUT Downloading liberty-for-java_v3_5-20161114-1152...
+2017-04-09T09:17:06.39-0400 [STG/0] OUT Downloading xpages_buildpack...
+2017-04-09T09:17:06.39-0400 [STG/0] OUT Downloading swift_buildpack...
+2017-04-09T09:17:06.41-0400 [STG/0] OUT Downloaded liberty-for-java_v3_5-20161114-1152
+2017-04-09T09:17:06.41-0400 [STG/0] OUT Downloaded xpages_buildpack
+2017-04-09T09:17:06.41-0400 [STG/0] OUT Downloaded php_buildpack
+2017-04-09T09:17:06.41-0400 [STG/0] OUT Downloading sdk-for-nodejs...
+2017-04-09T09:17:06.41-0400 [STG/0] OUT Downloaded swift_buildpack_v2_0_4-20170125-2344
+2017-04-09T09:17:06.41-0400 [STG/0] OUT Downloading dotnet-core...
+2017-04-09T09:17:06.41-0400 [STG/0] OUT Downloaded swift_buildpack
+2017-04-09T09:17:06.42-0400 [STG/0] OUT Downloading sdk-for-nodejs_v3_10-20170119-1146...
+2017-04-09T09:17:06.42-0400 [STG/0] OUT Downloading dotnet-core_v1_0_6-20161205-0912...
+2017-04-09T09:17:06.43-0400 [STG/0] OUT Downloading liberty-for-java_v3_7-20170118-2046...
+2017-04-09T09:17:06.43-0400 [STG/0] OUT Downloaded dotnet-core
+2017-04-09T09:17:06.43-0400 [STG/0] OUT Downloading ruby_buildpack...
+2017-04-09T09:17:06.44-0400 [STG/0] OUT Downloaded sdk-for-nodejs
+2017-04-09T09:17:06.44-0400 [STG/0] OUT Downloading noop-buildpack...
+2017-04-09T09:17:06.44-0400 [STG/0] OUT Downloaded sdk-for-nodejs_v3_10-20170119-1146
+2017-04-09T09:17:06.44-0400 [STG/0] OUT Downloading java_buildpack...
+2017-04-09T09:17:06.45-0400 [STG/0] OUT Downloading staticfile_buildpack...
+2017-04-09T09:17:06.46-0400 [STG/0] OUT Downloading binary_buildpack...
+2017-04-09T09:17:06.46-0400 [STG/0] OUT Downloaded liberty-for-java_v3_7-20170118-2046
+2017-04-09T09:17:06.46-0400 [STG/0] OUT Downloading liberty-for-java_v3_4_1-20161030-2241...
+2017-04-09T09:17:06.46-0400 [STG/0] OUT Downloaded noop-buildpack
+2017-04-09T09:17:06.46-0400 [STG/0] OUT Downloading nodejs_buildpack...
+2017-04-09T09:17:06.47-0400 [STG/0] OUT Downloaded java_buildpack
+2017-04-09T09:17:06.47-0400 [STG/0] OUT Downloaded staticfile_buildpack
+2017-04-09T09:17:06.47-0400 [STG/0] OUT Downloading python_buildpack...
+2017-04-09T09:17:06.48-0400 [STG/0] OUT Downloaded liberty-for-java_v3_4_1-20161030-2241
+2017-04-09T09:17:06.48-0400 [STG/0] OUT Downloaded binary_buildpack
+2017-04-09T09:17:06.48-0400 [STG/0] OUT Downloaded nodejs_buildpack
+2017-04-09T09:17:06.49-0400 [STG/0] OUT Downloaded go_buildpack
+2017-04-09T09:17:06.50-0400 [STG/0] OUT Downloaded python_buildpack
+2017-04-09T09:17:19.69-0400 [STG/0] OUT Successfully created container
+2017-04-09T09:17:19.69-0400 [STG/0] OUT Downloading app package...
+2017-04-09T09:17:20.41-0400 [STG/0] OUT Downloaded app package (1.6M)
+2017-04-09T09:17:20.41-0400 [STG/0] OUT Downloading build artifacts cache...
+2017-04-09T09:17:20.80-0400 [STG/0] OUT Downloaded build artifacts cache (486K)
+2017-04-09T09:17:20.80-0400 [STG/0] OUT Staging...
+[31m2017-04-09T09:17:22.00-0400 [STG/0] ERR jq: error: Cannot index array with string[0m
+[31m2017-04-09T09:17:22.00-0400 [STG/0] ERR parse error: Expected string key before ':' at line 1, column 10[0m
+2017-04-09T09:17:22.79-0400 [STG/0] OUT -----> IBM SDK for Node.js Buildpack v3.11-20170303-1144
+2017-04-09T09:17:22.79-0400 [STG/0] OUT        Based on Cloud Foundry Node.js Buildpack v1.5.24
+2017-04-09T09:17:22.79-0400 [STG/0] OUT -----> Build failed
+[31m2017-04-09T09:17:22.79-0400 [STG/0] ERR parse error: Expected string key before ':' at line 1, column 10[0m
+[31m2017-04-09T09:17:22.79-0400 [STG/0] ERR  !     Unable to parse package.json[0m
+[31m2017-04-09T09:17:22.86-0400 [STG/0] ERR Failed to compile droplet[0m
+2017-04-09T09:17:22.89-0400 [STG/0] OUT        Check our support community to get help on common issues:
+2017-04-09T09:17:22.89-0400 [STG/0] OUT        http://ibm.biz/bluemixcommunitysupport
+2017-04-09T09:17:22.89-0400 [STG/0] OUT        If you need additional help and your subscription includes support, submit a ticket so we can help:
+2017-04-09T09:17:22.89-0400 [STG/0] OUT        http://ibm.biz/bluemixsupport
+2017-04-09T09:17:22.89-0400 [STG/0] OUT        
+2017-04-09T09:17:22.92-0400 [STG/0] OUT Exit status 223
+[31m2017-04-09T09:17:23.02-0400 [STG/0] ERR Staging failed: Exited with status 223[0m
+2017-04-09T09:17:23.04-0400 [STG/0] OUT Destroying container
+[31m2017-04-09T09:17:23.11-0400 [API/7] ERR Failed to stage application: staging failed[0m
+2017-04-09T09:17:30.74-0400 [STG/0] OUT Successfully destroyed container
+2017-04-09T09:18:44.16-0400 [API/2] OUT Updated app with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a ({"name"=>"lifeokjs", "instances"=>1, "memory"=>256, "disk_quota"=>1024, "environment_json"=>"PRIVATE DATA HIDDEN"})
+2017-04-09T09:21:12.58-0400 [API/5] OUT Updated app with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a ({"state"=>"STARTED"})
+2017-04-09T09:21:13.16-0400 [STG/0] OUT Downloading swift_buildpack_v2_0_4-20170125-2344...
+2017-04-09T09:21:13.16-0400 [STG/0] OUT Downloading xpages_buildpack...
+2017-04-09T09:21:13.16-0400 [STG/0] OUT Downloading sdk-for-nodejs...
+2017-04-09T09:21:13.16-0400 [STG/0] OUT Downloading liberty-for-java...
+2017-04-09T09:21:13.17-0400 [STG/0] OUT Downloading liberty-for-java_v3_4_1-20161030-2241...
+2017-04-09T09:21:13.18-0400 [STG/0] OUT Downloaded swift_buildpack_v2_0_4-20170125-2344
+2017-04-09T09:21:13.18-0400 [STG/0] OUT Downloading php_buildpack...
+2017-04-09T09:21:13.19-0400 [STG/0] OUT Downloaded xpages_buildpack
+2017-04-09T09:21:13.19-0400 [STG/0] OUT Downloading staticfile_buildpack...
+2017-04-09T09:21:13.19-0400 [STG/0] OUT Downloading binary_buildpack...
+2017-04-09T09:21:13.19-0400 [STG/0] OUT Downloaded liberty-for-java
+2017-04-09T09:21:13.19-0400 [STG/0] OUT Downloading java_buildpack...
+2017-04-09T09:21:13.19-0400 [STG/0] OUT Downloaded liberty-for-java_v3_4_1-20161030-2241
+2017-04-09T09:21:13.19-0400 [STG/0] OUT Downloading dotnet-core...
+2017-04-09T09:21:13.20-0400 [STG/0] OUT Downloaded php_buildpack
+2017-04-09T09:21:13.20-0400 [STG/0] OUT Downloading swift_buildpack...
+2017-04-09T09:21:13.21-0400 [STG/0] OUT Downloading noop-buildpack...
+2017-04-09T09:21:13.21-0400 [STG/0] OUT Downloaded staticfile_buildpack
+2017-04-09T09:21:13.21-0400 [STG/0] OUT Downloading dotnet-core_v1_0_6-20161205-0912...
+2017-04-09T09:21:13.21-0400 [STG/0] OUT Downloading liberty-for-java_v3_5-20161114-1152...
+2017-04-09T09:21:13.21-0400 [STG/0] OUT Downloaded java_buildpack
+2017-04-09T09:21:13.21-0400 [STG/0] OUT Downloading nodejs_buildpack...
+2017-04-09T09:21:13.23-0400 [STG/0] OUT Downloaded swift_buildpack
+2017-04-09T09:21:13.23-0400 [STG/0] OUT Downloading ruby_buildpack...
+2017-04-09T09:21:13.23-0400 [STG/0] OUT Downloading go_buildpack...
+2017-04-09T09:21:13.23-0400 [STG/0] OUT Downloaded nodejs_buildpack
+2017-04-09T09:21:13.23-0400 [STG/0] OUT Downloading liberty-for-java_v3_7-20170118-2046...
+2017-04-09T09:21:13.23-0400 [STG/0] OUT Downloading python_buildpack...
+2017-04-09T09:21:13.24-0400 [STG/0] OUT Downloaded dotnet-core_v1_0_6-20161205-0912
+2017-04-09T09:21:13.24-0400 [STG/0] OUT Downloading sdk-for-nodejs_v3_10-20170119-1146...
+2017-04-09T09:21:13.25-0400 [STG/0] OUT Downloaded ruby_buildpack
+2017-04-09T09:21:13.25-0400 [STG/0] OUT Downloaded go_buildpack
+2017-04-09T09:21:13.25-0400 [STG/0] OUT Downloaded python_buildpack
+2017-04-09T09:21:13.25-0400 [STG/0] OUT Downloaded liberty-for-java_v3_7-20170118-2046
+2017-04-09T09:21:13.26-0400 [STG/0] OUT Downloaded sdk-for-nodejs_v3_10-20170119-1146
+2017-04-09T09:21:36.65-0400 [STG/0] OUT Successfully created container
+2017-04-09T09:21:36.66-0400 [STG/0] OUT Downloading app package...
+2017-04-09T09:21:37.16-0400 [STG/0] OUT Downloading build artifacts cache...
+2017-04-09T09:21:37.48-0400 [STG/0] OUT Downloaded build artifacts cache (486K)
+2017-04-09T09:21:37.48-0400 [STG/0] OUT Staging...
+[31m2017-04-09T09:21:39.82-0400 [STG/0] ERR jq: error: Cannot index array with string[0m
+[31m2017-04-09T09:21:39.82-0400 [STG/0] ERR parse error: Expected string key before ':' at line 1, column 10[0m
+2017-04-09T09:21:40.89-0400 [STG/0] OUT -----> IBM SDK for Node.js Buildpack v3.11-20170303-1144
+2017-04-09T09:21:40.89-0400 [STG/0] OUT        Based on Cloud Foundry Node.js Buildpack v1.5.24
+[31m2017-04-09T09:21:40.90-0400 [STG/0] ERR parse error: Expected string key before ':' at line 1, column 10[0m
+[31m2017-04-09T09:21:40.90-0400 [STG/0] ERR  !     Unable to parse package.json[0m
+2017-04-09T09:21:40.90-0400 [STG/0] OUT -----> Build failed
+[31m2017-04-09T09:21:40.94-0400 [STG/0] ERR Failed to compile droplet[0m
+2017-04-09T09:21:40.96-0400 [STG/0] OUT        
+2017-04-09T09:21:40.96-0400 [STG/0] OUT        Check our support community to get help on common issues:
+2017-04-09T09:21:40.96-0400 [STG/0] OUT        http://ibm.biz/bluemixcommunitysupport
+2017-04-09T09:21:40.96-0400 [STG/0] OUT        If you need additional help and your subscription includes support, submit a ticket so we can help:
+2017-04-09T09:21:40.96-0400 [STG/0] OUT        http://ibm.biz/bluemixsupport
+2017-04-09T09:21:40.96-0400 [STG/0] OUT        
+2017-04-09T09:21:40.99-0400 [STG/0] OUT Exit status 223
+[31m2017-04-09T09:21:41.09-0400 [STG/0] ERR Staging failed: Exited with status 223[0m
+2017-04-09T09:21:41.10-0400 [STG/0] OUT Destroying container
+[31m2017-04-09T09:21:41.27-0400 [API/0] ERR Failed to stage application: staging failed[0m
+2017-04-09T09:24:12.34-0400 [API/3] OUT Updated app with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a ({"name"=>"lifeokjs", "instances"=>1, "memory"=>256, "disk_quota"=>1024, "environment_json"=>"PRIVATE DATA HIDDEN"})
+2017-04-09T09:24:26.26-0400 [STG/0] OUT Downloading swift_buildpack_v2_0_4-20170125-2344...
+2017-04-09T09:24:26.26-0400 [STG/0] OUT Downloading php_buildpack...
+2017-04-09T09:24:26.26-0400 [STG/0] OUT Downloading java_buildpack...
+2017-04-09T09:24:26.26-0400 [STG/0] OUT Downloading liberty-for-java...
+2017-04-09T09:24:26.29-0400 [STG/0] OUT Downloaded php_buildpack
+2017-04-09T09:24:26.29-0400 [STG/0] OUT Downloading nodejs_buildpack...
+2017-04-09T09:24:26.29-0400 [STG/0] OUT Downloaded swift_buildpack_v2_0_4-20170125-2344
+2017-04-09T09:24:26.29-0400 [STG/0] OUT Downloading go_buildpack...
+2017-04-09T09:24:26.30-0400 [STG/0] OUT Downloaded java_buildpack
+2017-04-09T09:24:26.30-0400 [STG/0] OUT Downloading python_buildpack...
+2017-04-09T09:24:26.30-0400 [STG/0] OUT Downloaded liberty-for-java
+2017-04-09T09:24:26.30-0400 [STG/0] OUT Downloading xpages_buildpack...
+2017-04-09T09:24:26.30-0400 [STG/0] OUT Downloaded ruby_buildpack
+2017-04-09T09:24:26.30-0400 [STG/0] OUT Downloading sdk-for-nodejs...
+2017-04-09T09:24:26.31-0400 [STG/0] OUT Downloaded go_buildpack
+2017-04-09T09:24:26.31-0400 [STG/0] OUT Downloading dotnet-core...
+2017-04-09T09:24:26.32-0400 [STG/0] OUT Downloaded python_buildpack
+2017-04-09T09:24:26.32-0400 [STG/0] OUT Downloading swift_buildpack...
+2017-04-09T09:24:26.32-0400 [STG/0] OUT Downloaded nodejs_buildpack
+2017-04-09T09:24:26.32-0400 [STG/0] OUT Downloading noop-buildpack...
+2017-04-09T09:24:26.32-0400 [STG/0] OUT Downloaded xpages_buildpack
+2017-04-09T09:24:26.32-0400 [STG/0] OUT Downloading sdk-for-nodejs_v3_10-20170119-1146...
+2017-04-09T09:24:26.33-0400 [STG/0] OUT Downloaded sdk-for-nodejs
+2017-04-09T09:24:26.33-0400 [STG/0] OUT Downloading liberty-for-java_v3_4_1-20161030-2241...
+2017-04-09T09:24:26.35-0400 [STG/0] OUT Downloaded swift_buildpack
+2017-04-09T09:24:26.35-0400 [STG/0] OUT Downloading staticfile_buildpack...
+2017-04-09T09:24:26.35-0400 [STG/0] OUT Downloading binary_buildpack...
+2017-04-09T09:24:26.35-0400 [STG/0] OUT Downloading liberty-for-java_v3_5-20161114-1152...
+2017-04-09T09:24:26.35-0400 [STG/0] OUT Downloaded noop-buildpack
+2017-04-09T09:24:26.35-0400 [STG/0] OUT Downloading dotnet-core_v1_0_6-20161205-0912...
+2017-04-09T09:24:26.36-0400 [STG/0] OUT Downloaded liberty-for-java_v3_4_1-20161030-2241
+2017-04-09T09:24:26.36-0400 [STG/0] OUT Downloading liberty-for-java_v3_7-20170118-2046...
+2017-04-09T09:24:26.37-0400 [STG/0] OUT Downloaded liberty-for-java_v3_5-20161114-1152
+2017-04-09T09:24:26.37-0400 [STG/0] OUT Downloaded binary_buildpack
+2017-04-09T09:24:26.37-0400 [STG/0] OUT Downloaded staticfile_buildpack
+2017-04-09T09:24:26.38-0400 [STG/0] OUT Downloaded dotnet-core_v1_0_6-20161205-0912
+2017-04-09T09:24:46.64-0400 [STG/0] OUT Downloading app package...
+2017-04-09T09:24:47.22-0400 [STG/0] OUT Downloaded app package (1.6M)
+2017-04-09T09:24:47.22-0400 [STG/0] OUT Downloading build artifacts cache...
+2017-04-09T09:24:47.48-0400 [STG/0] OUT Downloaded build artifacts cache (486K)
+2017-04-09T09:24:47.48-0400 [STG/0] OUT Staging...
+2017-04-09T09:24:49.03-0400 [STG/0] OUT -----> IBM SDK for Node.js Buildpack v3.11-20170303-1144
+2017-04-09T09:24:49.03-0400 [STG/0] OUT        Based on Cloud Foundry Node.js Buildpack v1.5.24
+2017-04-09T09:24:49.08-0400 [STG/0] OUT        
+2017-04-09T09:24:49.08-0400 [STG/0] OUT        NPM_CONFIG_LOGLEVEL=error
+2017-04-09T09:24:49.08-0400 [STG/0] OUT        NPM_CONFIG_PRODUCTION=true
+2017-04-09T09:24:49.08-0400 [STG/0] OUT        NODE_ENV=production
+2017-04-09T09:24:49.08-0400 [STG/0] OUT        NODE_MODULES_CACHE=true
+2017-04-09T09:24:49.08-0400 [STG/0] OUT -----> Installing binaries
+2017-04-09T09:24:49.08-0400 [STG/0] OUT        engines.node (package.json):  unspecified
+2017-04-09T09:24:49.08-0400 [STG/0] OUT        engines.npm (package.json):   unspecified (use default)
+2017-04-09T09:24:49.08-0400 [STG/0] OUT        
+2017-04-09T09:24:49.08-0400 [STG/0] OUT        Resolving node version (latest stable) via 'node-version-resolver'
+2017-04-09T09:24:49.37-0400 [STG/0] OUT        Installing IBM SDK for Node.js (4.8.0) from cache
+2017-04-09T09:24:51.28-0400 [STG/0] OUT        Using default npm version: 2.15.11
+2017-04-09T09:24:51.30-0400 [STG/0] OUT -----> Restoring cache
+2017-04-09T09:24:51.60-0400 [STG/0] OUT        Loading 2 from cacheDirectories (default):
+2017-04-09T09:24:51.60-0400 [STG/0] OUT        - node_modules
+2017-04-09T09:24:51.62-0400 [STG/0] OUT        - bower_components (not cached - skipping)
+2017-04-09T09:24:51.62-0400 [STG/0] OUT -----> Building dependencies
+2017-04-09T09:24:51.62-0400 [STG/0] OUT        Installing node modules (package.json)
+2017-04-09T09:24:52.79-0400 [STG/0] OUT -----> Installing App Management
+2017-04-09T09:24:52.91-0400 [STG/0] OUT        WARN: App Management cannot be installed because the start script cannot be found.
+2017-04-09T09:24:52.91-0400 [STG/0] OUT        To install App Management utilities, specify your 'node' start script in 'package.json' or 'Procfile'.
+2017-04-09T09:24:52.91-0400 [STG/0] OUT -----> Caching build
+2017-04-09T09:24:52.94-0400 [STG/0] OUT        Saving 2 cacheDirectories (default):
+2017-04-09T09:24:52.94-0400 [STG/0] OUT        - node_modules
+2017-04-09T09:24:53.07-0400 [STG/0] OUT        - bower_components (nothing to cache)
+2017-04-09T09:24:54.14-0400 [STG/0] OUT        ├── cfenv@1.0.4 extraneous
+2017-04-09T09:24:54.14-0400 [STG/0] OUT        └── express@4.13.4 extraneous
+2017-04-09T09:24:54.14-0400 [STG/0] OUT        
+2017-04-09T09:24:58.71-0400 [STG/0] OUT Exit status 0
+2017-04-09T09:24:58.71-0400 [STG/0] OUT Staging complete
+2017-04-09T09:24:58.71-0400 [STG/0] OUT Uploading droplet, build artifacts cache...
+2017-04-09T09:24:58.71-0400 [STG/0] OUT Uploading build artifacts cache...
+2017-04-09T09:24:58.71-0400 [STG/0] OUT Uploading droplet...
+2017-04-09T09:24:58.94-0400 [STG/0] OUT Uploaded build artifacts cache (483.5K)
+2017-04-09T09:25:02.35-0400 [STG/0] OUT Uploaded droplet (15.5M)
+2017-04-09T09:25:02.35-0400 [STG/0] OUT Uploading complete
+2017-04-09T09:25:03.70-0400 [CELL/0] OUT Creating container
+2017-04-09T09:25:31.43-0400 [CELL/0] OUT Successfully created container
+2017-04-09T09:25:34.63-0400 [CELL/0] OUT Starting health monitoring of container
+2017-04-09T09:25:35.90-0400 [APP/0] OUT > app.js
+[31m2017-04-09T09:25:35.92-0400 [APP/0] ERR sh: 1: app.js: not found[0m
+[31m2017-04-09T09:25:35.92-0400 [APP/0] ERR npm ERR! argv "/home/vcap/app/vendor/node/bin/node" "/home/vcap/app/vendor/node/bin/npm" "start"[0m
+[31m2017-04-09T09:25:35.93-0400 [APP/0] ERR npm ERR! node v4.8.0[0m
+[31m2017-04-09T09:25:35.93-0400 [APP/0] ERR npm ERR! npm  v2.15.11[0m
+[31m2017-04-09T09:25:35.93-0400 [APP/0] ERR npm ERR! file sh[0m
+[31m2017-04-09T09:25:35.93-0400 [APP/0] ERR npm ERR! errno ENOENT[0m
+[31m2017-04-09T09:25:35.93-0400 [APP/0] ERR npm ERR! syscall spawn[0m
+[31m2017-04-09T09:25:35.93-0400 [APP/0] ERR npm ERR! freelancer@3.3.7 start: `app.js`[0m
+[31m2017-04-09T09:25:35.93-0400 [APP/0] ERR npm ERR! spawn ENOENT[0m
+[31m2017-04-09T09:25:35.93-0400 [APP/0] ERR npm ERR! [0m
+[31m2017-04-09T09:25:35.93-0400 [APP/0] ERR npm ERR! This is most likely a problem with the freelancer package,[0m
+[31m2017-04-09T09:25:35.93-0400 [APP/0] ERR npm ERR! not with npm itself.[0m
+[31m2017-04-09T09:25:35.93-0400 [APP/0] ERR npm ERR!     app.js[0m
+[31m2017-04-09T09:25:35.93-0400 [APP/0] ERR npm ERR! You can get information on how to open an issue for this project with:[0m
+[31m2017-04-09T09:25:35.93-0400 [APP/0] ERR npm ERR!     npm bugs freelancer[0m
+[31m2017-04-09T09:25:35.93-0400 [APP/0] ERR npm ERR! Or if that isn't available, you can get their info via:[0m
+[31m2017-04-09T09:25:35.94-0400 [APP/0] ERR npm ERR! [0m
+[31m2017-04-09T09:25:35.94-0400 [APP/0] ERR npm ERR!     npm owner ls freelancer[0m
+[31m2017-04-09T09:25:35.94-0400 [APP/0] ERR npm ERR! There is likely additional logging output above.[0m
+[31m2017-04-09T09:25:35.94-0400 [APP/0] ERR npm ERR! Please include the following file with any support request:[0m
+[31m2017-04-09T09:25:35.94-0400 [APP/0] ERR npm ERR!     /home/vcap/app/npm-debug.log[0m
+2017-04-09T09:25:35.97-0400 [APP/0] OUT Exit status 1
+2017-04-09T09:25:36.02-0400 [CELL/0] OUT Exit status 0
+2017-04-09T09:25:36.05-0400 [CELL/0] OUT Destroying container
+2017-04-09T09:25:36.71-0400 [CELL/0] OUT Creating container
+2017-04-09T09:25:55.26-0400 [CELL/0] OUT Successfully created container
+2017-04-09T09:25:57.49-0400 [CELL/0] OUT Starting health monitoring of container
+2017-04-09T09:25:58.50-0400 [APP/0] OUT > freelancer@3.3.7 start /home/vcap/app
+2017-04-09T09:25:58.50-0400 [APP/0] OUT > app.js
+[31m2017-04-09T09:25:58.50-0400 [APP/0] ERR sh: 1: app.js: not found[0m
+[31m2017-04-09T09:25:58.51-0400 [APP/0] ERR npm ERR! Linux 4.4.0-45-generic[0m
+[31m2017-04-09T09:25:58.51-0400 [APP/0] ERR npm ERR! argv "/home/vcap/app/vendor/node/bin/node" "/home/vcap/app/vendor/node/bin/npm" "start"[0m
+[31m2017-04-09T09:25:58.51-0400 [APP/0] ERR npm ERR! node v4.8.0[0m
+[31m2017-04-09T09:25:58.51-0400 [APP/0] ERR npm ERR! npm  v2.15.11[0m
+[31m2017-04-09T09:25:58.51-0400 [APP/0] ERR npm ERR! file sh[0m
+[31m2017-04-09T09:25:58.51-0400 [APP/0] ERR npm ERR! code ELIFECYCLE[0m
+[31m2017-04-09T09:25:58.51-0400 [APP/0] ERR npm ERR! errno ENOENT[0m
+[31m2017-04-09T09:25:58.51-0400 [APP/0] ERR npm ERR! syscall spawn[0m
+[31m2017-04-09T09:25:58.51-0400 [APP/0] ERR npm ERR! freelancer@3.3.7 start: `app.js`[0m
+[31m2017-04-09T09:25:58.51-0400 [APP/0] ERR npm ERR! spawn ENOENT[0m
+[31m2017-04-09T09:25:58.51-0400 [APP/0] ERR npm ERR! [0m
+[31m2017-04-09T09:25:58.51-0400 [APP/0] ERR npm ERR! This is most likely a problem with the freelancer package,[0m
+[31m2017-04-09T09:25:58.51-0400 [APP/0] ERR npm ERR! not with npm itself.[0m
+[31m2017-04-09T09:25:58.51-0400 [APP/0] ERR npm ERR! Tell the author that this fails on your system:[0m
+[31m2017-04-09T09:25:58.51-0400 [APP/0] ERR npm ERR!     app.js[0m
+[31m2017-04-09T09:25:58.51-0400 [APP/0] ERR npm ERR! You can get information on how to open an issue for this project with:[0m
+[31m2017-04-09T09:25:58.51-0400 [APP/0] ERR npm ERR!     npm bugs freelancer[0m
+[31m2017-04-09T09:25:58.51-0400 [APP/0] ERR npm ERR! Or if that isn't available, you can get their info via:[0m
+[31m2017-04-09T09:25:58.51-0400 [APP/0] ERR npm ERR!     npm owner ls freelancer[0m
+[31m2017-04-09T09:25:58.54-0400 [APP/0] ERR npm ERR! Please include the following file with any support request:[0m
+[31m2017-04-09T09:25:58.54-0400 [APP/0] ERR npm ERR!     /home/vcap/app/npm-debug.log[0m
+2017-04-09T09:25:58.55-0400 [APP/0] OUT Exit status 1
+2017-04-09T09:25:58.61-0400 [CELL/0] OUT Exit status 0
+2017-04-09T09:25:58.65-0400 [API/8] OUT App instance exited with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a payload: {"instance"=>"", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"2 error(s) occurred:\n\n* 2 error(s) occurred:\n\n* Exited with status 1\n* cancelled\n* cancelled", "crash_count"=>2, "crash_timestamp"=>1491744358625065505, "version"=>"7680ffee-83df-4778-8ab6-a588b4d1a5a4"}
+2017-04-09T09:25:59.53-0400 [CELL/0] OUT Creating container
+2017-04-09T09:26:09.97-0400 [CELL/0] OUT Successfully destroyed container
+2017-04-09T09:26:16.19-0400 [CELL/0] OUT Successfully created container
+2017-04-09T09:26:18.19-0400 [CELL/0] OUT Starting health monitoring of container
+2017-04-09T09:26:19.59-0400 [APP/0] OUT > freelancer@3.3.7 start /home/vcap/app
+2017-04-09T09:26:19.59-0400 [APP/0] OUT > app.js
+[31m2017-04-09T09:26:19.61-0400 [APP/0] ERR sh: 1: app.js: not found[0m
+[31m2017-04-09T09:26:19.63-0400 [APP/0] ERR npm ERR! Linux 4.4.0-45-generic[0m
+[31m2017-04-09T09:26:19.63-0400 [APP/0] ERR npm ERR! argv "/home/vcap/app/vendor/node/bin/node" "/home/vcap/app/vendor/node/bin/npm" "start"[0m
+[31m2017-04-09T09:26:19.63-0400 [APP/0] ERR npm ERR! node v4.8.0[0m
+[31m2017-04-09T09:26:19.64-0400 [APP/0] ERR npm ERR! file sh[0m
+[31m2017-04-09T09:26:19.64-0400 [APP/0] ERR npm ERR! code ELIFECYCLE[0m
+[31m2017-04-09T09:26:19.64-0400 [APP/0] ERR npm ERR! errno ENOENT[0m
+[31m2017-04-09T09:26:19.64-0400 [APP/0] ERR npm ERR! freelancer@3.3.7 start: `app.js`[0m
+[31m2017-04-09T09:26:19.64-0400 [APP/0] ERR npm ERR! spawn ENOENT[0m
+[31m2017-04-09T09:26:19.64-0400 [APP/0] ERR npm ERR! [0m
+[31m2017-04-09T09:26:19.64-0400 [APP/0] ERR npm ERR! Failed at the freelancer@3.3.7 start script 'app.js'.[0m
+[31m2017-04-09T09:26:19.64-0400 [APP/0] ERR npm ERR! This is most likely a problem with the freelancer package,[0m
+[31m2017-04-09T09:26:19.64-0400 [APP/0] ERR npm ERR! not with npm itself.[0m
+[31m2017-04-09T09:26:19.64-0400 [APP/0] ERR npm ERR! Tell the author that this fails on your system:[0m
+[31m2017-04-09T09:26:19.64-0400 [APP/0] ERR npm ERR!     app.js[0m
+[31m2017-04-09T09:26:19.64-0400 [APP/0] ERR npm ERR! You can get information on how to open an issue for this project with:[0m
+[31m2017-04-09T09:26:19.64-0400 [APP/0] ERR npm ERR!     npm bugs freelancer[0m
+[31m2017-04-09T09:26:19.64-0400 [APP/0] ERR npm ERR! Or if that isn't available, you can get their info via:[0m
+[31m2017-04-09T09:26:19.64-0400 [APP/0] ERR npm ERR! [0m
+[31m2017-04-09T09:26:19.65-0400 [APP/0] ERR npm ERR! There is likely additional logging output above.[0m
+[31m2017-04-09T09:26:19.69-0400 [APP/0] ERR npm ERR! Please include the following file with any support request:[0m
+[31m2017-04-09T09:26:19.69-0400 [APP/0] ERR npm ERR!     /home/vcap/app/npm-debug.log[0m
+2017-04-09T09:26:19.75-0400 [APP/0] OUT Exit status 1
+2017-04-09T09:26:19.94-0400 [CELL/0] OUT Destroying container
+2017-04-09T09:26:19.96-0400 [API/3] OUT App instance exited with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a payload: {"instance"=>"", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"2 error(s) occurred:\n\n* 2 error(s) occurred:\n\n* Exited with status 1\n* cancelled\n* cancelled", "crash_count"=>3, "crash_timestamp"=>1491744379940957539, "version"=>"7680ffee-83df-4778-8ab6-a588b4d1a5a4"}
+2017-04-09T09:26:32.21-0400 [API/9] OUT Updated app with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a ({"name"=>"lifeokjs", "instances"=>1, "memory"=>256, "disk_quota"=>1024, "environment_json"=>"PRIVATE DATA HIDDEN"})
+2017-04-09T09:26:44.32-0400 [API/9] OUT Updated app with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a ({"state"=>"STOPPED"})
+2017-04-09T09:26:47.47-0400 [STG/0] OUT Downloading swift_buildpack_v2_0_4-20170125-2344...
+2017-04-09T09:26:47.47-0400 [STG/0] OUT Downloading go_buildpack...
+2017-04-09T09:26:47.47-0400 [STG/0] OUT Downloading binary_buildpack...
+2017-04-09T09:26:47.48-0400 [STG/0] OUT Downloading xpages_buildpack...
+2017-04-09T09:26:47.50-0400 [STG/0] OUT Downloaded swift_buildpack_v2_0_4-20170125-2344
+2017-04-09T09:26:47.50-0400 [STG/0] OUT Downloading staticfile_buildpack...
+2017-04-09T09:26:47.50-0400 [STG/0] OUT Downloaded python_buildpack
+2017-04-09T09:26:47.50-0400 [STG/0] OUT Downloading dotnet-core_v1_0_6-20161205-0912...
+2017-04-09T09:26:47.50-0400 [STG/0] OUT Downloaded binary_buildpack
+2017-04-09T09:26:47.51-0400 [STG/0] OUT Downloaded xpages_buildpack
+2017-04-09T09:26:47.51-0400 [STG/0] OUT Downloading liberty-for-java_v3_5-20161114-1152...
+2017-04-09T09:26:47.52-0400 [STG/0] OUT Downloaded staticfile_buildpack
+2017-04-09T09:26:47.52-0400 [STG/0] OUT Downloading sdk-for-nodejs...
+2017-04-09T09:26:47.53-0400 [STG/0] OUT Downloaded liberty-for-java_v3_4_1-20161030-2241
+2017-04-09T09:26:47.53-0400 [STG/0] OUT Downloading swift_buildpack...
+2017-04-09T09:26:47.53-0400 [STG/0] OUT Downloaded php_buildpack
+2017-04-09T09:26:47.53-0400 [STG/0] OUT Downloaded dotnet-core_v1_0_6-20161205-0912
+2017-04-09T09:26:47.53-0400 [STG/0] OUT Downloading liberty-for-java_v3_7-20170118-2046...
+2017-04-09T09:26:47.54-0400 [STG/0] OUT Downloaded liberty-for-java_v3_5-20161114-1152
+2017-04-09T09:26:47.55-0400 [STG/0] OUT Downloaded swift_buildpack
+2017-04-09T09:26:47.55-0400 [STG/0] OUT Downloading noop-buildpack...
+2017-04-09T09:26:47.55-0400 [STG/0] OUT Downloaded sdk-for-nodejs
+2017-04-09T09:26:47.55-0400 [STG/0] OUT Downloading sdk-for-nodejs_v3_10-20170119-1146...
+2017-04-09T09:26:47.56-0400 [STG/0] OUT Downloaded java_buildpack
+2017-04-09T09:26:47.56-0400 [STG/0] OUT Downloading ruby_buildpack...
+2017-04-09T09:26:47.56-0400 [STG/0] OUT Downloaded dotnet-core
+2017-04-09T09:26:47.56-0400 [STG/0] OUT Downloading nodejs_buildpack...
+2017-04-09T09:26:47.56-0400 [STG/0] OUT Downloaded liberty-for-java_v3_7-20170118-2046
+2017-04-09T09:26:47.56-0400 [STG/0] OUT Downloading liberty-for-java...
+2017-04-09T09:26:47.57-0400 [STG/0] OUT Downloaded noop-buildpack
+2017-04-09T09:26:47.58-0400 [STG/0] OUT Downloaded ruby_buildpack
+2017-04-09T09:26:47.58-0400 [STG/0] OUT Downloaded liberty-for-java
+2017-04-09T09:26:47.59-0400 [STG/0] OUT Downloaded sdk-for-nodejs_v3_10-20170119-1146
+2017-04-09T09:26:47.59-0400 [STG/0] OUT Downloaded nodejs_buildpack
+2017-04-09T09:26:47.59-0400 [STG/0] OUT Creating container
+2017-04-09T09:27:41.73-0400 [STG/0] OUT Successfully created container
+2017-04-09T09:27:42.35-0400 [STG/0] OUT Downloaded app package (1.6M)
+2017-04-09T09:27:42.35-0400 [STG/0] OUT Downloading build artifacts cache...
+2017-04-09T09:27:43.12-0400 [STG/0] OUT Downloaded build artifacts cache (483.5K)
+2017-04-09T09:27:43.12-0400 [STG/0] OUT Staging...
+2017-04-09T09:27:47.76-0400 [STG/0] OUT -----> IBM SDK for Node.js Buildpack v3.11-20170303-1144
+2017-04-09T09:27:47.76-0400 [STG/0] OUT        Based on Cloud Foundry Node.js Buildpack v1.5.24
+2017-04-09T09:27:47.76-0400 [STG/0] OUT -----> Creating runtime environment
+2017-04-09T09:27:47.78-0400 [STG/0] OUT        
+2017-04-09T09:27:47.78-0400 [STG/0] OUT        NPM_CONFIG_LOGLEVEL=error
+2017-04-09T09:27:47.87-0400 [STG/0] OUT        NPM_CONFIG_PRODUCTION=true
+2017-04-09T09:27:47.88-0400 [STG/0] OUT        NODE_ENV=production
+2017-04-09T09:27:47.88-0400 [STG/0] OUT        NODE_MODULES_CACHE=true
+2017-04-09T09:27:47.88-0400 [STG/0] OUT -----> Installing binaries
+2017-04-09T09:27:47.88-0400 [STG/0] OUT        engines.npm (package.json):   unspecified (use default)
+2017-04-09T09:27:47.88-0400 [STG/0] OUT        
+2017-04-09T09:27:48.21-0400 [STG/0] OUT        Installing IBM SDK for Node.js (4.8.0) from cache
+2017-04-09T09:27:52.86-0400 [STG/0] OUT        Using default npm version: 2.15.11
+2017-04-09T09:27:52.87-0400 [STG/0] OUT -----> Restoring cache
+2017-04-09T09:27:53.38-0400 [STG/0] OUT        Loading 2 from cacheDirectories (default):
+2017-04-09T09:27:53.38-0400 [STG/0] OUT        - node_modules
+2017-04-09T09:27:53.38-0400 [STG/0] OUT        - bower_components (not cached - skipping)
+2017-04-09T09:27:53.38-0400 [STG/0] OUT -----> Building dependencies
+2017-04-09T09:27:53.38-0400 [STG/0] OUT        Installing node modules (package.json)
+2017-04-09T09:27:56.68-0400 [STG/0] OUT -----> Installing App Management
+2017-04-09T09:28:07.46-0400 [STG/0] OUT -----> Caching build
+2017-04-09T09:28:07.55-0400 [STG/0] OUT        Clearing previous node cache
+2017-04-09T09:28:08.27-0400 [STG/0] OUT        - bower_components (nothing to cache)
+2017-04-09T09:28:08.76-0400 [STG/0] OUT -----> Build succeeded!
+2017-04-09T09:28:10.15-0400 [STG/0] OUT        ├── cfenv@1.0.4 extraneous
+2017-04-09T09:28:10.15-0400 [STG/0] OUT        └── express@4.13.4 extraneous
+2017-04-09T09:28:10.15-0400 [STG/0] OUT        
+2017-04-09T09:28:31.54-0400 [STG/0] OUT Exit status 0
+2017-04-09T09:28:31.54-0400 [STG/0] OUT Staging complete
+2017-04-09T09:28:31.54-0400 [STG/0] OUT Uploading droplet, build artifacts cache...
+2017-04-09T09:28:31.54-0400 [STG/0] OUT Uploading build artifacts cache...
+2017-04-09T09:28:31.54-0400 [STG/0] OUT Uploading droplet...
+2017-04-09T09:28:32.05-0400 [STG/0] OUT Uploaded build artifacts cache (484.2K)
+2017-04-09T09:28:34.19-0400 [STG/0] OUT Uploaded droplet (18.9M)
+2017-04-09T09:28:34.20-0400 [STG/0] OUT Uploading complete
+2017-04-09T09:28:34.70-0400 [STG/0] OUT Destroying container
+2017-04-09T09:28:35.75-0400 [CELL/0] OUT Creating container
+2017-04-09T09:28:54.64-0400 [CELL/0] OUT Successfully created container
+2017-04-09T09:28:56.51-0400 [CELL/0] OUT Starting health monitoring of container
+2017-04-09T09:28:57.55-0400 [APP/0] OUT > freelancer@3.3.7 start /home/vcap/app
+2017-04-09T09:28:57.55-0400 [APP/0] OUT > node app.js
+2017-04-09T09:28:57.88-0400 [APP/0] OUT server starting on https://lifeokjs.mybluemix.net
+2017-04-09T09:30:53.81-0400 [RTR/2] OUT lifeokjs.mybluemix.net - [09/04/2017:13:30:53.781 +0000] "GET / HTTP/1.1" 404 0 13 "https://console.ng.bluemix.net/dashboard/apps/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.155:46922 x_forwarded_for:"65.113.61.98" x_forwarded_proto:"https" vcap_request_id:aa2f2d58-b1e3-46a4-6593-2fef42c54c7e response_time:0.03382578 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"998727441"
+2017-04-09T09:30:53.81-0400 [RTR/2] OUT 
+2017-04-09T09:32:53.57-0400 [RTR/0] OUT lifeokjs.mybluemix.net - [09/04/2017:13:32:53.573 +0000] "GET / HTTP/1.1" 404 0 13 "https://console.ng.bluemix.net/dashboard/apps/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 169.54.202.25:26194 x_forwarded_for:"65.113.61.98" x_forwarded_proto:"https" vcap_request_id:b512983f-58f7-4af9-4568-9729fc07525c response_time:0.003763539 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"3935975063"
+2017-04-09T09:32:53.57-0400 [RTR/0] OUT 
+2017-04-09T09:34:18.85-0400 [RTR/0] OUT lifeokjs.mybluemix.net - [09/04/2017:13:34:18.849 +0000] "GET / HTTP/1.1" 404 0 13 "https://console.ng.bluemix.net/dashboard/apps/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 192.155.237.114:39262 x_forwarded_for:"65.113.61.98" x_forwarded_proto:"https" vcap_request_id:0de0ee45-ec16-4708-6cc6-e6cc1dfa17c6 response_time:0.00656853 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"3591339551"
+2017-04-09T09:34:18.85-0400 [RTR/0] OUT 
+2017-04-09T09:34:23.22-0400 [RTR/0] OUT lifeokjs.mybluemix.net - [09/04/2017:13:34:23.210 +0000] "GET / HTTP/1.1" 404 0 13 "https://console.ng.bluemix.net/dashboard/apps/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 192.155.237.114:40001 x_forwarded_for:"65.113.61.98" x_forwarded_proto:"https" vcap_request_id:846c0104-cc3a-4a22-7d4a-ff5739dd6cf1 response_time:0.009620794 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"3798558209"
+2017-04-09T09:34:23.22-0400 [RTR/0] OUT 
+2017-04-09T09:36:12.49-0400 [API/7] OUT Updated app with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a ({"state"=>"STOPPED"})
+2017-04-09T09:36:12.49-0400 [CELL/0] OUT Exit status 0
+2017-04-09T09:36:13.05-0400 [API/3] OUT Updated app with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a ({"state"=>"STARTED"})
+2017-04-09T09:36:13.83-0400 [CELL/0] OUT Creating container
+2017-04-09T09:36:16.20-0400 [RTR/0] OUT lifeokjs.mybluemix.net - [09/04/2017:13:36:16.200 +0000] "GET / HTTP/1.1" 404 0 13 "https://console.ng.bluemix.net/apps/f2d2192d-678d-4a5b-8b26-e52bd8304d6a?paneId=logs&ace_config=%7B%22orgGuid%22%3A%221f3db8da-9743-4b87-b53f-096809aeea66%22%2C%22spaceGuid%22%3A%226be27457-481a-4932-ac31-3e6dc425a648%22%2C%22redirect%22%3A%22https%3A%2F%2Fconsole.ng.bluemix.net%2Fdashboard%2Fapps%2F%22%2C%22bluemixUIVersion%22%3A%22Atlas%22%7D" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.153:35850 x_forwarded_for:"65.113.61.98" x_forwarded_proto:"https" vcap_request_id:a1c87fb8-d35b-47f4-5d88-071693ce69e6 response_time:0.003867703 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"1991992495"
+2017-04-09T09:36:16.20-0400 [RTR/0] OUT 
+2017-04-09T09:36:22.78-0400 [RTR/1] OUT lifeokjs.mybluemix.net - [09/04/2017:13:36:22.782 +0000] "GET / HTTP/1.1" 404 0 13 "https://console.ng.bluemix.net/apps/f2d2192d-678d-4a5b-8b26-e52bd8304d6a?paneId=logs&ace_config=%7B%22orgGuid%22%3A%221f3db8da-9743-4b87-b53f-096809aeea66%22%2C%22spaceGuid%22%3A%226be27457-481a-4932-ac31-3e6dc425a648%22%2C%22redirect%22%3A%22https%3A%2F%2Fconsole.ng.bluemix.net%2Fdashboard%2Fapps%2F%22%2C%22bluemixUIVersion%22%3A%22Atlas%22%7D" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.154:52477 x_forwarded_for:"65.113.61.98" x_forwarded_proto:"https" vcap_request_id:6158040d-08d7-4cb9-4b25-b10a73f01dc1 response_time:0.002618475 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"885365489"
+2017-04-09T09:36:22.78-0400 [RTR/1] OUT 
+2017-04-09T09:36:23.01-0400 [RTR/1] OUT lifeokjs.mybluemix.net - [09/04/2017:13:36:23.015 +0000] "GET / HTTP/1.1" 404 0 13 "-" "-" 108.168.250.156:13521 x_forwarded_for:"168.1.81.212" x_forwarded_proto:"http" vcap_request_id:8beb2a76-30b6-4fda-54e9-627509c373b3 response_time:0.004315884 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"2288783103"
+2017-04-09T09:36:23.01-0400 [RTR/1] OUT 
+2017-04-09T09:36:23.49-0400 [CELL/0] OUT Destroying container
+2017-04-09T09:36:24.01-0400 [RTR/2] OUT lifeokjs.mybluemix.net - [09/04/2017:13:36:24.014 +0000] "GET / HTTP/1.1" 502 0 67 "https://console.ng.bluemix.net/apps/f2d2192d-678d-4a5b-8b26-e52bd8304d6a?paneId=logs&ace_config=%7B%22orgGuid%22%3A%221f3db8da-9743-4b87-b53f-096809aeea66%22%2C%22spaceGuid%22%3A%226be27457-481a-4932-ac31-3e6dc425a648%22%2C%22redirect%22%3A%22https%3A%2F%2Fconsole.ng.bluemix.net%2Fdashboard%2Fapps%2F%22%2C%22bluemixUIVersion%22%3A%22Atlas%22%7D" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.153:14428 x_forwarded_for:"65.113.61.98" x_forwarded_proto:"https" vcap_request_id:4ca905a3-2115-4ef2-716f-81a3f445ab4a response_time:0.003186509 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"885404721"
+2017-04-09T09:36:24.01-0400 [RTR/2] OUT 
+2017-04-09T09:36:24.30-0400 [RTR/3] OUT lifeokjs.mybluemix.net - [09/04/2017:13:36:24.303 +0000] "GET / HTTP/1.1" 502 0 67 "https://console.ng.bluemix.net/apps/f2d2192d-678d-4a5b-8b26-e52bd8304d6a?paneId=logs&ace_config=%7B%22orgGuid%22%3A%221f3db8da-9743-4b87-b53f-096809aeea66%22%2C%22spaceGuid%22%3A%226be27457-481a-4932-ac31-3e6dc425a648%22%2C%22redirect%22%3A%22https%3A%2F%2Fconsole.ng.bluemix.net%2Fdashboard%2Fapps%2F%22%2C%22bluemixUIVersion%22%3A%22Atlas%22%7D" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.154:25147 x_forwarded_for:"65.113.61.98" x_forwarded_proto:"https" vcap_request_id:f8c0b6db-beac-4c56-608a-9fdbcebad044 response_time:0.003169613 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"1992060255"
+2017-04-09T09:36:24.30-0400 [RTR/3] OUT 
+2017-04-09T09:36:25.19-0400 [RTR/3] OUT lifeokjs.mybluemix.net - [09/04/2017:13:36:25.190 +0000] "GET / HTTP/1.1" 502 0 67 "https://console.ng.bluemix.net/apps/f2d2192d-678d-4a5b-8b26-e52bd8304d6a?paneId=logs&ace_config=%7B%22orgGuid%22%3A%221f3db8da-9743-4b87-b53f-096809aeea66%22%2C%22spaceGuid%22%3A%226be27457-481a-4932-ac31-3e6dc425a648%22%2C%22redirect%22%3A%22https%3A%2F%2Fconsole.ng.bluemix.net%2Fdashboard%2Fapps%2F%22%2C%22bluemixUIVersion%22%3A%22Atlas%22%7D" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.154:24451 x_forwarded_for:"65.113.61.98" x_forwarded_proto:"https" vcap_request_id:bab27dcf-48c5-4f21-6900-fe006823af76 response_time:0.003139906 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"1408272227"
+2017-04-09T09:36:25.19-0400 [RTR/3] OUT 
+2017-04-09T09:36:25.45-0400 [RTR/0] OUT lifeokjs.mybluemix.net - [09/04/2017:13:36:25.446 +0000] "GET / HTTP/1.1" 502 0 67 "https://console.ng.bluemix.net/apps/f2d2192d-678d-4a5b-8b26-e52bd8304d6a?paneId=logs&ace_config=%7B%22orgGuid%22%3A%221f3db8da-9743-4b87-b53f-096809aeea66%22%2C%22spaceGuid%22%3A%226be27457-481a-4932-ac31-3e6dc425a648%22%2C%22redirect%22%3A%22https%3A%2F%2Fconsole.ng.bluemix.net%2Fdashboard%2Fapps%2F%22%2C%22bluemixUIVersion%22%3A%22Atlas%22%7D" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.153:27660 x_forwarded_for:"65.113.61.98" x_forwarded_proto:"https" vcap_request_id:f7e82495-614a-44c1-67eb-4f3cc85c2fd6 response_time:0.005552624 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"3901322071"
+2017-04-09T09:36:25.45-0400 [RTR/0] OUT 
+2017-04-09T09:36:25.65-0400 [RTR/3] OUT lifeokjs.mybluemix.net - [09/04/2017:13:36:25.656 +0000] "GET / HTTP/1.1" 502 0 67 "https://console.ng.bluemix.net/apps/f2d2192d-678d-4a5b-8b26-e52bd8304d6a?paneId=logs&ace_config=%7B%22orgGuid%22%3A%221f3db8da-9743-4b87-b53f-096809aeea66%22%2C%22spaceGuid%22%3A%226be27457-481a-4932-ac31-3e6dc425a648%22%2C%22redirect%22%3A%22https%3A%2F%2Fconsole.ng.bluemix.net%2Fdashboard%2Fapps%2F%22%2C%22bluemixUIVersion%22%3A%22Atlas%22%7D" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.154:24416 x_forwarded_for:"65.113.61.98" x_forwarded_proto:"https" vcap_request_id:d9e02b84-fbbc-43c0-7cd1-27c1555173cf response_time:0.0032017 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"885406321"
+2017-04-09T09:36:25.65-0400 [RTR/3] OUT 
+2017-04-09T09:36:25.88-0400 [RTR/0] OUT lifeokjs.mybluemix.net - [09/04/2017:13:36:25.876 +0000] "GET / HTTP/1.1" 502 0 67 "-" "-" 108.168.250.151:25266 x_forwarded_for:"169.50.77.22" x_forwarded_proto:"http" vcap_request_id:00f49677-394d-424d-7865-e7cefd23b05c response_time:0.00944258 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"2928823359"
+2017-04-09T09:36:25.88-0400 [RTR/0] OUT 
+2017-04-09T09:36:26.42-0400 [RTR/1] OUT lifeokjs.mybluemix.net - [09/04/2017:13:36:26.217 +0000] "GET / HTTP/1.1" 502 0 67 "-" "-" 192.155.237.115:35249 x_forwarded_for:"169.45.2.51" x_forwarded_proto:"http" vcap_request_id:1dfdd625-fac6-41f1-4dee-7c536d3d113b response_time:0.205383383 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"3755422839"
+2017-04-09T09:36:26.42-0400 [RTR/1] OUT 
+2017-04-09T09:36:28.02-0400 [RTR/0] OUT lifeokjs.mybluemix.net - [09/04/2017:13:36:28.017 +0000] "GET / HTTP/1.1" 502 0 67 "https://console.ng.bluemix.net/apps/f2d2192d-678d-4a5b-8b26-e52bd8304d6a?paneId=logs&ace_config=%7B%22orgGuid%22%3A%221f3db8da-9743-4b87-b53f-096809aeea66%22%2C%22spaceGuid%22%3A%226be27457-481a-4932-ac31-3e6dc425a648%22%2C%22redirect%22%3A%22https%3A%2F%2Fconsole.ng.bluemix.net%2Fdashboard%2Fapps%2F%22%2C%22bluemixUIVersion%22%3A%22Atlas%22%7D" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.153:36058 x_forwarded_for:"65.113.61.98" x_forwarded_proto:"https" vcap_request_id:6caaf275-d89e-46b1-5f53-257952ad2c68 response_time:0.006117298 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"1992100895"
+2017-04-09T09:36:28.02-0400 [RTR/0] OUT 
+2017-04-09T09:36:28.45-0400 [RTR/1] OUT lifeokjs.mybluemix.net - [09/04/2017:13:36:28.448 +0000] "GET / HTTP/1.1" 502 0 67 "https://console.ng.bluemix.net/apps/f2d2192d-678d-4a5b-8b26-e52bd8304d6a?paneId=logs&ace_config=%7B%22orgGuid%22%3A%221f3db8da-9743-4b87-b53f-096809aeea66%22%2C%22spaceGuid%22%3A%226be27457-481a-4932-ac31-3e6dc425a648%22%2C%22redirect%22%3A%22https%3A%2F%2Fconsole.ng.bluemix.net%2Fdashboard%2Fapps%2F%22%2C%22bluemixUIVersion%22%3A%22Atlas%22%7D" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.154:52472 x_forwarded_for:"65.113.61.98" x_forwarded_proto:"https" vcap_request_id:ebd123aa-7738-42bc-5fae-eb4501c86170 response_time:0.003739587 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"1408273699"
+2017-04-09T09:36:28.45-0400 [RTR/1] OUT 
+2017-04-09T09:36:35.08-0400 [CELL/0] OUT Successfully destroyed container
+2017-04-09T09:36:38.15-0400 [CELL/0] OUT Successfully created container
+2017-04-09T09:36:40.73-0400 [CELL/0] OUT Starting health monitoring of container
+2017-04-09T09:36:42.43-0400 [APP/0] OUT > freelancer@3.3.7 start /home/vcap/app
+2017-04-09T09:36:42.43-0400 [APP/0] OUT > node app.js
+2017-04-09T09:36:42.95-0400 [APP/0] OUT server starting on https://lifeokjs.mybluemix.net
+2017-04-09T09:36:42.98-0400 [CELL/0] OUT Container became healthy
+2017-04-09T09:36:43.64-0400 [RTR/1] OUT lifeokjs.mybluemix.net - [09/04/2017:13:36:43.613 +0000] "GET / HTTP/1.1" 404 0 13 "https://console.ng.bluemix.net/apps/f2d2192d-678d-4a5b-8b26-e52bd8304d6a?paneId=logs&ace_config=%7B%22orgGuid%22%3A%221f3db8da-9743-4b87-b53f-096809aeea66%22%2C%22spaceGuid%22%3A%226be27457-481a-4932-ac31-3e6dc425a648%22%2C%22redirect%22%3A%22https%3A%2F%2Fconsole.ng.bluemix.net%2Fdashboard%2Fapps%2F%22%2C%22bluemixUIVersion%22%3A%22Atlas%22%7D" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.154:53242 x_forwarded_for:"65.113.61.98" x_forwarded_proto:"https" vcap_request_id:e54f70c3-a288-404b-7d11-1e9e0c74b1d9 response_time:0.034281438 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"1992164495"
+2017-04-09T09:36:43.64-0400 [RTR/1] OUT 
+2017-04-09T09:36:56.53-0400 [RTR/1] OUT lifeokjs.mybluemix.net - [09/04/2017:13:36:56.523 +0000] "GET / HTTP/1.1" 404 0 13 "https://console.ng.bluemix.net/apps/f2d2192d-678d-4a5b-8b26-e52bd8304d6a?paneId=logs&ace_config=%7B%22orgGuid%22%3A%221f3db8da-9743-4b87-b53f-096809aeea66%22%2C%22spaceGuid%22%3A%226be27457-481a-4932-ac31-3e6dc425a648%22%2C%22redirect%22%3A%22https%3A%2F%2Fconsole.ng.bluemix.net%2Fdashboard%2Fapps%2F%22%2C%22bluemixUIVersion%22%3A%22Atlas%22%7D" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.154:56349 x_forwarded_for:"65.113.61.98" x_forwarded_proto:"https" vcap_request_id:1405f1ef-b37e-48b1-4a3d-4c8d64347ab1 response_time:0.00739385 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"885433873"
+2017-04-09T09:36:56.53-0400 [RTR/1] OUT 
+2017-04-09T09:39:24.51-0400 [API/3] OUT Updated app with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a ({"name"=>"lifeokjs", "instances"=>1, "memory"=>256, "disk_quota"=>1024, "environment_json"=>"PRIVATE DATA HIDDEN"})
+2017-04-09T09:39:36.79-0400 [API/8] OUT Updated app with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a ({"state"=>"STOPPED"})
+2017-04-09T09:39:36.80-0400 [CELL/0] OUT Exit status 0
+2017-04-09T09:39:39.97-0400 [API/0] OUT Updated app with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a ({"state"=>"STARTED"})
+2017-04-09T09:39:40.71-0400 [STG/0] OUT Downloading dotnet-core...
+2017-04-09T09:39:40.71-0400 [STG/0] OUT Downloading swift_buildpack_v2_0_4-20170125-2344...
+2017-04-09T09:39:40.71-0400 [STG/0] OUT Downloading swift_buildpack...
+2017-04-09T09:39:40.71-0400 [STG/0] OUT Downloading noop-buildpack...
+2017-04-09T09:39:40.71-0400 [STG/0] OUT Downloading java_buildpack...
+2017-04-09T09:39:40.73-0400 [STG/0] OUT Downloaded swift_buildpack_v2_0_4-20170125-2344
+2017-04-09T09:39:40.73-0400 [STG/0] OUT Downloading ruby_buildpack...
+2017-04-09T09:39:40.74-0400 [STG/0] OUT Downloaded swift_buildpack
+2017-04-09T09:39:40.74-0400 [STG/0] OUT Downloading nodejs_buildpack...
+2017-04-09T09:39:40.74-0400 [STG/0] OUT Downloaded java_buildpack
+2017-04-09T09:39:40.74-0400 [STG/0] OUT Downloading go_buildpack...
+2017-04-09T09:39:40.74-0400 [STG/0] OUT Downloaded dotnet-core
+2017-04-09T09:39:40.74-0400 [STG/0] OUT Downloading python_buildpack...
+2017-04-09T09:39:40.74-0400 [STG/0] OUT Downloaded noop-buildpack
+2017-04-09T09:39:40.74-0400 [STG/0] OUT Downloading xpages_buildpack...
+2017-04-09T09:39:40.76-0400 [STG/0] OUT Downloading php_buildpack...
+2017-04-09T09:39:40.76-0400 [STG/0] OUT Downloaded go_buildpack
+2017-04-09T09:39:40.76-0400 [STG/0] OUT Downloading staticfile_buildpack...
+2017-04-09T09:39:40.76-0400 [STG/0] OUT Downloaded ruby_buildpack
+2017-04-09T09:39:40.76-0400 [STG/0] OUT Downloading binary_buildpack...
+2017-04-09T09:39:40.76-0400 [STG/0] OUT Downloaded python_buildpack
+2017-04-09T09:39:40.76-0400 [STG/0] OUT Downloading liberty-for-java_v3_4_1-20161030-2241...
+2017-04-09T09:39:40.77-0400 [STG/0] OUT Downloaded xpages_buildpack
+2017-04-09T09:39:40.77-0400 [STG/0] OUT Downloading liberty-for-java_v3_5-20161114-1152...
+2017-04-09T09:39:40.78-0400 [STG/0] OUT Downloaded php_buildpack
+2017-04-09T09:39:40.78-0400 [STG/0] OUT Downloading dotnet-core_v1_0_6-20161205-0912...
+2017-04-09T09:39:40.79-0400 [STG/0] OUT Downloaded staticfile_buildpack
+2017-04-09T09:39:40.79-0400 [STG/0] OUT Downloading liberty-for-java_v3_7-20170118-2046...
+2017-04-09T09:39:40.79-0400 [STG/0] OUT Downloaded binary_buildpack
+2017-04-09T09:39:40.79-0400 [STG/0] OUT Downloading sdk-for-nodejs_v3_10-20170119-1146...
+2017-04-09T09:39:40.80-0400 [STG/0] OUT Downloaded liberty-for-java_v3_4_1-20161030-2241
+2017-04-09T09:39:40.80-0400 [STG/0] OUT Downloading liberty-for-java...
+2017-04-09T09:39:40.80-0400 [STG/0] OUT Downloaded liberty-for-java_v3_5-20161114-1152
+2017-04-09T09:39:40.81-0400 [STG/0] OUT Downloaded dotnet-core_v1_0_6-20161205-0912
+2017-04-09T09:39:40.81-0400 [STG/0] OUT Downloading sdk-for-nodejs...
+2017-04-09T09:39:40.81-0400 [STG/0] OUT Downloaded liberty-for-java_v3_7-20170118-2046
+2017-04-09T09:39:40.81-0400 [STG/0] OUT Downloaded sdk-for-nodejs_v3_10-20170119-1146
+2017-04-09T09:39:40.83-0400 [STG/0] OUT Downloaded sdk-for-nodejs
+2017-04-09T09:39:40.83-0400 [STG/0] OUT Creating container
+2017-04-09T09:40:07.17-0400 [STG/0] OUT Successfully created container
+2017-04-09T09:40:07.17-0400 [STG/0] OUT Downloading app package...
+2017-04-09T09:40:07.62-0400 [STG/0] OUT Downloading build artifacts cache...
+2017-04-09T09:40:07.86-0400 [STG/0] OUT Downloaded build artifacts cache (484.2K)
+2017-04-09T09:40:08.96-0400 [STG/0] OUT -----> IBM SDK for Node.js Buildpack v3.11-20170303-1144
+2017-04-09T09:40:08.96-0400 [STG/0] OUT        Based on Cloud Foundry Node.js Buildpack v1.5.24
+2017-04-09T09:40:08.96-0400 [STG/0] OUT -----> Creating runtime environment
+2017-04-09T09:40:08.96-0400 [STG/0] OUT        
+2017-04-09T09:40:08.96-0400 [STG/0] OUT        NPM_CONFIG_LOGLEVEL=error
+2017-04-09T09:40:08.96-0400 [STG/0] OUT        NPM_CONFIG_PRODUCTION=true
+2017-04-09T09:40:08.96-0400 [STG/0] OUT        NODE_ENV=production
+2017-04-09T09:40:08.96-0400 [STG/0] OUT        NODE_MODULES_CACHE=true
+2017-04-09T09:40:08.96-0400 [STG/0] OUT -----> Installing binaries
+2017-04-09T09:40:08.96-0400 [STG/0] OUT        engines.node (package.json):  unspecified
+2017-04-09T09:40:08.96-0400 [STG/0] OUT        engines.npm (package.json):   unspecified (use default)
+2017-04-09T09:40:08.96-0400 [STG/0] OUT        
+2017-04-09T09:40:08.96-0400 [STG/0] OUT        Resolving node version (latest stable) via 'node-version-resolver'
+2017-04-09T09:40:09.20-0400 [STG/0] OUT        Installing IBM SDK for Node.js (4.8.0) from cache
+2017-04-09T09:40:11.02-0400 [STG/0] OUT        Using default npm version: 2.15.11
+2017-04-09T09:40:11.04-0400 [STG/0] OUT -----> Restoring cache
+2017-04-09T09:40:11.31-0400 [STG/0] OUT        Loading 2 from cacheDirectories (default):
+2017-04-09T09:40:11.31-0400 [STG/0] OUT        - node_modules
+2017-04-09T09:40:11.33-0400 [STG/0] OUT        - bower_components (not cached - skipping)
+2017-04-09T09:40:11.47-0400 [STG/0] OUT -----> Building dependencies
+2017-04-09T09:40:11.47-0400 [STG/0] OUT        Installing node modules (package.json)
+2017-04-09T09:40:12.49-0400 [STG/0] OUT -----> Checking and configuring service extensions after installing dependencies
+2017-04-09T09:40:12.61-0400 [STG/0] OUT -----> Installing App Management
+2017-04-09T09:40:14.81-0400 [STG/0] OUT -----> Caching build
+2017-04-09T09:40:14.82-0400 [STG/0] OUT        Clearing previous node cache
+2017-04-09T09:40:14.84-0400 [STG/0] OUT        Saving 2 cacheDirectories (default):
+2017-04-09T09:40:14.84-0400 [STG/0] OUT        - node_modules
+2017-04-09T09:40:15.00-0400 [STG/0] OUT        - bower_components (nothing to cache)
+2017-04-09T09:40:15.24-0400 [STG/0] OUT -----> Build succeeded!
+2017-04-09T09:40:15.88-0400 [STG/0] OUT        └── express@4.13.4 extraneous
+2017-04-09T09:40:15.88-0400 [STG/0] OUT        
+2017-04-09T09:40:22.32-0400 [STG/0] OUT Exit status 0
+2017-04-09T09:40:22.32-0400 [STG/0] OUT Staging complete
+2017-04-09T09:40:22.32-0400 [STG/0] OUT Uploading droplet, build artifacts cache...
+2017-04-09T09:40:22.32-0400 [STG/0] OUT Uploading droplet...
+2017-04-09T09:40:22.60-0400 [STG/0] OUT Uploaded build artifacts cache (484.3K)
+2017-04-09T09:40:24.45-0400 [STG/0] OUT Uploaded droplet (18.9M)
+2017-04-09T09:40:24.46-0400 [STG/0] OUT Uploading complete
+2017-04-09T09:40:24.56-0400 [STG/0] OUT Destroying container
+2017-04-09T09:40:25.31-0400 [CELL/0] OUT Creating container
+2017-04-09T09:40:38.21-0400 [CELL/0] OUT Successfully created container
+2017-04-09T09:40:38.80-0400 [STG/0] OUT Successfully destroyed container
+2017-04-09T09:40:39.98-0400 [CELL/0] OUT Starting health monitoring of container
+2017-04-09T09:40:41.22-0400 [APP/0] OUT > freelancer@3.3.7 start /home/vcap/app
+2017-04-09T09:40:41.22-0400 [APP/0] OUT > node app.js
+2017-04-09T09:40:41.61-0400 [APP/0] OUT server starting on https://lifeokjs.mybluemix.net
+2017-04-09T09:40:42.33-0400 [CELL/0] OUT Container became healthy
+2017-04-09T09:40:53.20-0400 [RTR/1] OUT lifeokjs.mybluemix.net - [09/04/2017:13:40:53.182 +0000] "GET / HTTP/1.1" 404 0 13 "https://console.ng.bluemix.net/apps/f2d2192d-678d-4a5b-8b26-e52bd8304d6a?paneId=logs&ace_config=%7B%22orgGuid%22%3A%221f3db8da-9743-4b87-b53f-096809aeea66%22%2C%22spaceGuid%22%3A%226be27457-481a-4932-ac31-3e6dc425a648%22%2C%22redirect%22%3A%22https%3A%2F%2Fconsole.ng.bluemix.net%2Fdashboard%2Fapps%2F%22%2C%22bluemixUIVersion%22%3A%22Atlas%22%7D" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 192.155.237.119:30980 x_forwarded_for:"65.113.61.98" x_forwarded_proto:"https" vcap_request_id:0f67346c-0dcb-48f4-5f19-d7229fadbb55 response_time:0.020870324 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"2246061377"
+2017-04-09T09:40:53.20-0400 [RTR/1] OUT 
+2017-04-09T09:40:54.65-0400 [RTR/0] OUT lifeokjs.mybluemix.net - [09/04/2017:13:40:54.647 +0000] "GET / HTTP/1.1" 404 0 13 "https://console.ng.bluemix.net/apps/f2d2192d-678d-4a5b-8b26-e52bd8304d6a?paneId=logs&ace_config=%7B%22orgGuid%22%3A%221f3db8da-9743-4b87-b53f-096809aeea66%22%2C%22spaceGuid%22%3A%226be27457-481a-4932-ac31-3e6dc425a648%22%2C%22redirect%22%3A%22https%3A%2F%2Fconsole.ng.bluemix.net%2Fdashboard%2Fapps%2F%22%2C%22bluemixUIVersion%22%3A%22Atlas%22%7D" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 192.155.237.118:17858 x_forwarded_for:"65.113.61.98" x_forwarded_proto:"https" vcap_request_id:1ce18d00-1d34-4c14-7e34-45b7a6176a29 response_time:0.007920499 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"847776655"
+2017-04-09T09:40:54.65-0400 [RTR/0] OUT 
+2017-04-09T09:41:18.60-0400 [RTR/0] OUT lifeokjs.mybluemix.net - [09/04/2017:13:41:18.600 +0000] "GET / HTTP/1.1" 404 0 13 "https://console.ng.bluemix.net/dashboard/apps/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 192.155.237.118:17219 x_forwarded_for:"65.113.61.98" x_forwarded_proto:"https" vcap_request_id:5bcfa2ef-adf7-436f-6c74-520d2c8af243 response_time:0.004634744 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"1153020007"
+2017-04-09T09:41:18.60-0400 [RTR/0] OUT 
+2017-04-09T09:42:16.17-0400 [RTR/1] OUT lifeokjs.mybluemix.net - [09/04/2017:13:42:16.126 +0000] "GET / HTTP/1.1" 404 0 13 "-" "-" 192.155.237.119:30359 x_forwarded_for:"169.45.2.51" x_forwarded_proto:"http" vcap_request_id:ff9324de-e305-4a03-71d6-5e2ad04a483e response_time:0.025687844 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"848425695"
+2017-04-09T09:42:16.17-0400 [RTR/1] OUT 
+2017-04-09T09:42:17.02-0400 [RTR/0] OUT lifeokjs.mybluemix.net - [09/04/2017:13:42:17.014 +0000] "GET / HTTP/1.1" 404 0 13 "-" "-" 108.168.250.155:14738 x_forwarded_for:"168.1.81.212" x_forwarded_proto:"http" vcap_request_id:a8c4b35a-b725-4d06-6953-387f5fb61847 response_time:0.00850595 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"2534119955"
+2017-04-09T09:42:17.02-0400 [RTR/0] OUT 
+2017-04-09T09:42:17.12-0400 [RTR/0] OUT lifeokjs.mybluemix.net - [09/04/2017:13:42:17.121 +0000] "GET / HTTP/1.1" 404 0 13 "-" "-" 192.155.237.118:17853 x_forwarded_for:"169.50.77.22" x_forwarded_proto:"http" vcap_request_id:9400d581-aab0-4952-7e74-9af9648028bc response_time:0.003280451 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"1153835927"
+2017-04-09T09:42:17.12-0400 [RTR/0] OUT 
+2017-04-09T09:42:56.51-0400 [API/4] OUT Updated app with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a ({"name"=>"lifeokjs", "instances"=>1, "memory"=>256, "disk_quota"=>1024, "environment_json"=>"PRIVATE DATA HIDDEN"})
+2017-04-09T09:43:07.56-0400 [CELL/0] OUT Exit status 0
+2017-04-09T09:43:07.56-0400 [API/10] OUT Updated app with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a ({"state"=>"STOPPED"})
+2017-04-09T09:43:13.15-0400 [API/0] OUT Updated app with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a ({"state"=>"STARTED"})
+2017-04-09T09:43:13.53-0400 [STG/0] OUT Downloading swift_buildpack_v2_0_4-20170125-2344...
+2017-04-09T09:43:13.53-0400 [STG/0] OUT Downloading python_buildpack...
+2017-04-09T09:43:13.53-0400 [STG/0] OUT Downloading swift_buildpack...
+2017-04-09T09:43:13.53-0400 [STG/0] OUT Downloading liberty-for-java_v3_5-20161114-1152...
+2017-04-09T09:43:13.54-0400 [STG/0] OUT Downloading xpages_buildpack...
+2017-04-09T09:43:13.55-0400 [STG/0] OUT Downloaded swift_buildpack
+2017-04-09T09:43:13.55-0400 [STG/0] OUT Downloading php_buildpack...
+2017-04-09T09:43:13.56-0400 [STG/0] OUT Downloaded swift_buildpack_v2_0_4-20170125-2344
+2017-04-09T09:43:13.56-0400 [STG/0] OUT Downloading staticfile_buildpack...
+2017-04-09T09:43:13.56-0400 [STG/0] OUT Downloaded liberty-for-java_v3_5-20161114-1152
+2017-04-09T09:43:13.56-0400 [STG/0] OUT Downloading binary_buildpack...
+2017-04-09T09:43:13.56-0400 [STG/0] OUT Downloading liberty-for-java_v3_4_1-20161030-2241...
+2017-04-09T09:43:13.57-0400 [STG/0] OUT Downloading sdk-for-nodejs_v3_10-20170119-1146...
+2017-04-09T09:43:13.58-0400 [STG/0] OUT Downloaded staticfile_buildpack
+2017-04-09T09:43:13.58-0400 [STG/0] OUT Downloading dotnet-core_v1_0_6-20161205-0912...
+2017-04-09T09:43:13.58-0400 [STG/0] OUT Downloaded binary_buildpack
+2017-04-09T09:43:13.58-0400 [STG/0] OUT Downloading liberty-for-java_v3_7-20170118-2046...
+2017-04-09T09:43:13.59-0400 [STG/0] OUT Downloaded php_buildpack
+2017-04-09T09:43:13.59-0400 [STG/0] OUT Downloading ruby_buildpack...
+2017-04-09T09:43:13.59-0400 [STG/0] OUT Downloading noop-buildpack...
+2017-04-09T09:43:13.60-0400 [STG/0] OUT Downloaded sdk-for-nodejs_v3_10-20170119-1146
+2017-04-09T09:43:13.60-0400 [STG/0] OUT Downloading java_buildpack...
+2017-04-09T09:43:13.60-0400 [STG/0] OUT Downloaded dotnet-core_v1_0_6-20161205-0912
+2017-04-09T09:43:13.60-0400 [STG/0] OUT Downloading sdk-for-nodejs...
+2017-04-09T09:43:13.60-0400 [STG/0] OUT Downloaded liberty-for-java_v3_7-20170118-2046
+2017-04-09T09:43:13.60-0400 [STG/0] OUT Downloading liberty-for-java...
+2017-04-09T09:43:13.61-0400 [STG/0] OUT Downloaded ruby_buildpack
+2017-04-09T09:43:13.61-0400 [STG/0] OUT Downloading nodejs_buildpack...
+2017-04-09T09:43:13.61-0400 [STG/0] OUT Downloaded noop-buildpack
+2017-04-09T09:43:13.61-0400 [STG/0] OUT Downloading dotnet-core...
+2017-04-09T09:43:13.62-0400 [STG/0] OUT Downloaded java_buildpack
+2017-04-09T09:43:13.62-0400 [STG/0] OUT Downloading go_buildpack...
+2017-04-09T09:43:13.62-0400 [STG/0] OUT Downloaded sdk-for-nodejs
+2017-04-09T09:43:13.63-0400 [STG/0] OUT Downloaded liberty-for-java
+2017-04-09T09:43:13.64-0400 [STG/0] OUT Downloaded nodejs_buildpack
+2017-04-09T09:43:13.64-0400 [STG/0] OUT Downloaded dotnet-core
+2017-04-09T09:43:13.65-0400 [STG/0] OUT Downloaded go_buildpack
+2017-04-09T09:43:13.65-0400 [STG/0] OUT Creating container
+2017-04-09T09:43:26.44-0400 [CELL/0] OUT Successfully destroyed container
+2017-04-09T09:43:27.06-0400 [STG/0] OUT Successfully created container
+2017-04-09T09:43:27.06-0400 [STG/0] OUT Downloading app package...
+2017-04-09T09:43:27.32-0400 [STG/0] OUT Downloading build artifacts cache...
+2017-04-09T09:43:27.76-0400 [STG/0] OUT Downloaded build artifacts cache (484.3K)
+2017-04-09T09:43:27.76-0400 [STG/0] OUT Staging...
+2017-04-09T09:43:30.10-0400 [STG/0] OUT        Based on Cloud Foundry Node.js Buildpack v1.5.24
+2017-04-09T09:43:30.10-0400 [STG/0] OUT -----> Creating runtime environment
+2017-04-09T09:43:30.14-0400 [STG/0] OUT        
+2017-04-09T09:43:30.14-0400 [STG/0] OUT        NPM_CONFIG_LOGLEVEL=error
+2017-04-09T09:43:30.14-0400 [STG/0] OUT        NPM_CONFIG_PRODUCTION=true
+2017-04-09T09:43:30.14-0400 [STG/0] OUT        NODE_ENV=production
+2017-04-09T09:43:30.14-0400 [STG/0] OUT        NODE_MODULES_CACHE=true
+2017-04-09T09:43:30.17-0400 [STG/0] OUT -----> Installing binaries
+2017-04-09T09:43:30.17-0400 [STG/0] OUT        engines.node (package.json):  unspecified
+2017-04-09T09:43:30.17-0400 [STG/0] OUT        engines.npm (package.json):   unspecified (use default)
+2017-04-09T09:43:30.17-0400 [STG/0] OUT        
+2017-04-09T09:43:30.17-0400 [STG/0] OUT        Resolving node version (latest stable) via 'node-version-resolver'
+2017-04-09T09:43:30.41-0400 [STG/0] OUT        Installing IBM SDK for Node.js (4.8.0) from cache
+2017-04-09T09:43:32.32-0400 [STG/0] OUT        Using default npm version: 2.15.11
+2017-04-09T09:43:32.32-0400 [STG/0] OUT -----> Restoring cache
+2017-04-09T09:43:32.70-0400 [STG/0] OUT        Loading 2 from cacheDirectories (default):
+2017-04-09T09:43:32.70-0400 [STG/0] OUT        - node_modules
+2017-04-09T09:43:32.70-0400 [STG/0] OUT        - bower_components (not cached - skipping)
+2017-04-09T09:43:32.71-0400 [STG/0] OUT -----> Checking and configuring service extensions before installing dependencies
+2017-04-09T09:43:32.83-0400 [STG/0] OUT -----> Building dependencies
+2017-04-09T09:43:32.83-0400 [STG/0] OUT        Installing node modules (package.json)
+2017-04-09T09:43:34.02-0400 [STG/0] OUT -----> Checking and configuring service extensions after installing dependencies
+2017-04-09T09:43:34.14-0400 [STG/0] OUT -----> Installing App Management
+2017-04-09T09:43:37.53-0400 [STG/0] OUT -----> Caching build
+2017-04-09T09:43:37.55-0400 [STG/0] OUT        Clearing previous node cache
+2017-04-09T09:43:37.55-0400 [STG/0] OUT        Saving 2 cacheDirectories (default):
+2017-04-09T09:43:37.70-0400 [STG/0] OUT        - bower_components (nothing to cache)
+2017-04-09T09:43:38.02-0400 [STG/0] OUT -----> Build succeeded!
+2017-04-09T09:43:38.69-0400 [STG/0] OUT        └── express@4.13.4 extraneous
+2017-04-09T09:43:38.69-0400 [STG/0] OUT        
+2017-04-09T09:43:44.95-0400 [STG/0] OUT Exit status 0
+2017-04-09T09:43:44.95-0400 [STG/0] OUT Staging complete
+2017-04-09T09:43:44.95-0400 [STG/0] OUT Uploading droplet, build artifacts cache...
+2017-04-09T09:43:44.95-0400 [STG/0] OUT Uploading build artifacts cache...
+2017-04-09T09:43:44.95-0400 [STG/0] OUT Uploading droplet...
+2017-04-09T09:43:45.27-0400 [STG/0] OUT Uploaded build artifacts cache (482.2K)
+2017-04-09T09:43:50.11-0400 [CELL/0] OUT Creating container
+2017-04-09T09:43:59.44-0400 [STG/0] OUT Successfully destroyed container
+2017-04-09T09:44:15.62-0400 [CELL/0] OUT Successfully created container
+2017-04-09T09:44:18.15-0400 [CELL/0] OUT Starting health monitoring of container
+2017-04-09T09:44:20.03-0400 [APP/0] OUT > freelancer@3.3.7 start /home/vcap/app
+2017-04-09T09:44:20.03-0400 [APP/0] OUT > node app.js
+2017-04-09T09:44:20.73-0400 [APP/0] OUT server starting on https://lifeokjs.mybluemix.net
+2017-04-09T09:44:23.10-0400 [CELL/0] OUT Container became healthy
+2017-04-09T09:44:35.39-0400 [RTR/3] OUT lifeokjs.mybluemix.net - [09/04/2017:13:44:35.371 +0000] "GET / HTTP/1.1" 404 0 13 "https://console.ng.bluemix.net/dashboard/apps/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.154:28493 x_forwarded_for:"65.113.61.98" x_forwarded_proto:"https" vcap_request_id:a05174d0-4281-4bfb-4a53-78a11977f523 response_time:0.025728407 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"3904228567"
+2017-04-09T09:44:35.39-0400 [RTR/3] OUT 
+2017-04-09T09:47:28.81-0400 [API/9] OUT Updated app with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a ({"state"=>"STOPPED"})
+2017-04-09T09:47:29.13-0400 [API/4] OUT Updated app with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a ({"state"=>"STARTED"})
+2017-04-09T09:47:29.78-0400 [CELL/0] OUT Creating container
+2017-04-09T09:47:39.86-0400 [CELL/0] OUT Destroying container
+2017-04-09T09:47:56.04-0400 [CELL/0] OUT Successfully destroyed container
+2017-04-09T09:47:58.33-0400 [CELL/0] OUT Successfully created container
+2017-04-09T09:48:00.74-0400 [CELL/0] OUT Starting health monitoring of container
+2017-04-09T09:48:02.36-0400 [APP/0] OUT > freelancer@3.3.7 start /home/vcap/app
+2017-04-09T09:48:03.03-0400 [APP/0] OUT server starting on https://lifeokjs.mybluemix.net
+2017-04-09T09:48:05.40-0400 [CELL/0] OUT Container became healthy
+2017-04-09T09:48:26.16-0400 [RTR/1] OUT lifeokjs.mybluemix.net - [09/04/2017:13:48:26.139 +0000] "GET / HTTP/1.1" 404 0 13 "https://console.ng.bluemix.net/dashboard/apps/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 169.54.202.30:58891 x_forwarded_for:"65.113.61.98" x_forwarded_proto:"https" vcap_request_id:7bb65db4-8dce-4edd-642a-e98c05363a98 response_time:0.027226856 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"1562504289"
+2017-04-09T09:48:26.16-0400 [RTR/1] OUT 
+2017-04-09T09:48:31.73-0400 [CELL/0] OUT Exit status 0
+2017-04-09T09:48:32.28-0400 [API/2] OUT Updated app with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a ({"state"=>"STARTED"})
+2017-04-09T09:48:32.44-0400 [CELL/0] OUT Creating container
+2017-04-09T09:48:42.73-0400 [CELL/0] OUT Destroying container
+2017-04-09T09:48:58.58-0400 [CELL/0] OUT Successfully created container
+2017-04-09T09:49:02.33-0400 [APP/0] OUT > freelancer@3.3.7 start /home/vcap/app
+2017-04-09T09:49:02.33-0400 [APP/0] OUT > node app.js
+2017-04-09T09:49:02.67-0400 [APP/0] OUT server starting on https://lifeokjs.mybluemix.net
+2017-04-09T09:49:03.23-0400 [CELL/0] OUT Container became healthy
+2017-04-09T09:49:12.09-0400 [CELL/0] OUT Successfully destroyed container
+2017-04-09T09:51:54.65-0400 [RTR/0] OUT lifeokjs.mybluemix.net - [09/04/2017:13:51:54.623 +0000] "GET / HTTP/1.1" 404 0 13 "https://console.ng.bluemix.net/dashboard/apps/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 169.54.202.27:43372 x_forwarded_for:"65.113.61.98" x_forwarded_proto:"https" vcap_request_id:68ececd5-3e38-437d-691a-9f99d06d8ddd response_time:0.029323296 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"747021199"
+2017-04-09T09:51:54.65-0400 [RTR/0] OUT 
+2017-04-09T09:57:16.34-0400 [RTR/1] OUT lifeokjs.mybluemix.net - [09/04/2017:13:57:16.338 +0000] "GET / HTTP/1.1" 404 0 13 "-" "-" 169.54.202.28:43484 x_forwarded_for:"169.45.2.51" x_forwarded_proto:"http" vcap_request_id:7e58c6ff-4884-445b-706c-72eff5c7ac64 response_time:0.010193308 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"2884220733"
+2017-04-09T09:57:16.34-0400 [RTR/1] OUT 
+2017-04-09T09:57:16.90-0400 [RTR/0] OUT lifeokjs.mybluemix.net - [09/04/2017:13:57:16.897 +0000] "GET / HTTP/1.1" 404 0 13 "-" "-" 108.168.250.153:44117 x_forwarded_for:"168.1.81.212" x_forwarded_proto:"http" vcap_request_id:25c89fb0-7ae8-4cbd-7942-b216d6ebc700 response_time:0.008069052 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"3909071367"
+2017-04-09T09:57:16.90-0400 [RTR/0] OUT 
+2017-04-09T09:57:16.92-0400 [RTR/3] OUT lifeokjs.mybluemix.net - [09/04/2017:13:57:16.922 +0000] "GET / HTTP/1.1" 404 0 13 "-" "-" 108.168.250.152:32160 x_forwarded_for:"169.50.77.22" x_forwarded_proto:"http" vcap_request_id:d7518bcd-7419-40ec-6e3f-44a6a24df4c6 response_time:0.006920174 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"907654871"
+2017-04-09T09:57:16.92-0400 [RTR/3] OUT 
+2017-04-09T09:59:16.26-0400 [API/0] OUT Updated app with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a ({"name"=>"lifeokjs", "instances"=>1, "memory"=>256, "disk_quota"=>1024, "environment_json"=>"PRIVATE DATA HIDDEN"})
+2017-04-09T09:59:28.69-0400 [CELL/0] OUT Exit status 0
+2017-04-09T09:59:31.73-0400 [API/2] OUT Updated app with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a ({"state"=>"STARTED"})
+2017-04-09T09:59:31.96-0400 [STG/0] OUT Downloading swift_buildpack_v2_0_4-20170125-2344...
+2017-04-09T09:59:31.96-0400 [STG/0] OUT Downloading sdk-for-nodejs...
+2017-04-09T09:59:31.96-0400 [STG/0] OUT Downloading noop-buildpack...
+2017-04-09T09:59:31.96-0400 [STG/0] OUT Downloading xpages_buildpack...
+2017-04-09T09:59:31.98-0400 [STG/0] OUT Downloading dotnet-core...
+2017-04-09T09:59:32.02-0400 [STG/0] OUT Downloaded dotnet-core
+2017-04-09T09:59:32.02-0400 [STG/0] OUT Downloading java_buildpack...
+2017-04-09T09:59:32.04-0400 [STG/0] OUT Downloaded xpages_buildpack
+2017-04-09T09:59:32.04-0400 [STG/0] OUT Downloaded noop-buildpack
+2017-04-09T09:59:32.04-0400 [STG/0] OUT Downloading ruby_buildpack...
+2017-04-09T09:59:32.04-0400 [STG/0] OUT Downloaded sdk-for-nodejs
+2017-04-09T09:59:32.04-0400 [STG/0] OUT Downloading nodejs_buildpack...
+2017-04-09T09:59:32.06-0400 [STG/0] OUT Downloading go_buildpack...
+2017-04-09T09:59:32.10-0400 [STG/0] OUT Downloaded java_buildpack
+2017-04-09T09:59:32.10-0400 [STG/0] OUT Downloading python_buildpack...
+2017-04-09T09:59:32.12-0400 [STG/0] OUT Downloaded ruby_buildpack
+2017-04-09T09:59:32.12-0400 [STG/0] OUT Downloading liberty-for-java...
+2017-04-09T09:59:32.14-0400 [STG/0] OUT Downloaded nodejs_buildpack
+2017-04-09T09:59:32.14-0400 [STG/0] OUT Downloading liberty-for-java_v3_5-20161114-1152...
+2017-04-09T09:59:32.14-0400 [STG/0] OUT Downloaded swift_buildpack
+2017-04-09T09:59:32.14-0400 [STG/0] OUT Downloading sdk-for-nodejs_v3_10-20170119-1146...
+2017-04-09T09:59:32.17-0400 [STG/0] OUT Downloading php_buildpack...
+2017-04-09T09:59:32.18-0400 [STG/0] OUT Downloaded liberty-for-java
+2017-04-09T09:59:32.18-0400 [STG/0] OUT Downloading dotnet-core_v1_0_6-20161205-0912...
+2017-04-09T09:59:32.18-0400 [STG/0] OUT Downloaded sdk-for-nodejs_v3_10-20170119-1146
+2017-04-09T09:59:32.18-0400 [STG/0] OUT Downloading staticfile_buildpack...
+2017-04-09T09:59:32.18-0400 [STG/0] OUT Downloaded liberty-for-java_v3_5-20161114-1152
+2017-04-09T09:59:32.18-0400 [STG/0] OUT Downloading liberty-for-java_v3_7-20170118-2046...
+2017-04-09T09:59:32.19-0400 [STG/0] OUT Downloading binary_buildpack...
+2017-04-09T09:59:32.21-0400 [STG/0] OUT Downloading liberty-for-java_v3_4_1-20161030-2241...
+2017-04-09T09:59:32.22-0400 [STG/0] OUT Downloaded staticfile_buildpack
+2017-04-09T09:59:32.22-0400 [STG/0] OUT Downloaded liberty-for-java_v3_7-20170118-2046
+2017-04-09T09:59:32.26-0400 [STG/0] OUT Downloaded binary_buildpack
+2017-04-09T09:59:32.27-0400 [STG/0] OUT Downloaded liberty-for-java_v3_4_1-20161030-2241
+2017-04-09T09:59:32.27-0400 [STG/0] OUT Creating container
+2017-04-09T09:59:50.90-0400 [STG/0] OUT Successfully created container
+2017-04-09T09:59:50.90-0400 [STG/0] OUT Downloading app package...
+2017-04-09T09:59:51.85-0400 [STG/0] OUT Downloaded build artifacts cache (482.2K)
+2017-04-09T09:59:55.41-0400 [STG/0] OUT -----> IBM SDK for Node.js Buildpack v3.11-20170303-1144
+2017-04-09T09:59:55.41-0400 [STG/0] OUT        Based on Cloud Foundry Node.js Buildpack v1.5.24
+2017-04-09T09:59:55.42-0400 [STG/0] OUT -----> Creating runtime environment
+2017-04-09T09:59:55.46-0400 [STG/0] OUT        
+2017-04-09T09:59:55.51-0400 [STG/0] OUT        NPM_CONFIG_LOGLEVEL=error
+2017-04-09T09:59:55.51-0400 [STG/0] OUT        NPM_CONFIG_PRODUCTION=true
+2017-04-09T09:59:55.51-0400 [STG/0] OUT        NODE_ENV=production
+2017-04-09T09:59:55.51-0400 [STG/0] OUT        NODE_MODULES_CACHE=true
+2017-04-09T09:59:55.51-0400 [STG/0] OUT -----> Installing binaries
+2017-04-09T09:59:55.56-0400 [STG/0] OUT        engines.node (package.json):  unspecified
+2017-04-09T09:59:55.56-0400 [STG/0] OUT        engines.npm (package.json):   unspecified (use default)
+2017-04-09T09:59:55.56-0400 [STG/0] OUT        
+2017-04-09T09:59:55.56-0400 [STG/0] OUT        Resolving node version (latest stable) via 'node-version-resolver'
+2017-04-09T09:59:56.63-0400 [CELL/0] OUT Successfully destroyed container
+2017-04-09T09:59:59.38-0400 [STG/0] OUT -----> Restoring cache
+2017-04-09T10:00:00.03-0400 [STG/0] OUT        - node_modules
+2017-04-09T10:00:00.03-0400 [STG/0] OUT        - bower_components (not cached - skipping)
+2017-04-09T10:00:00.03-0400 [STG/0] OUT -----> Checking and configuring service extensions before installing dependencies
+2017-04-09T10:00:00.36-0400 [STG/0] OUT -----> Building dependencies
+2017-04-09T10:00:00.36-0400 [STG/0] OUT        Installing node modules (package.json)
+2017-04-09T10:00:03.80-0400 [STG/0] OUT -----> Installing App Management
+2017-04-09T10:00:56.17-0400 [STG/0] OUT        Clearing previous node cache
+2017-04-09T10:00:56.17-0400 [STG/0] OUT        - node_modules
+2017-04-09T10:00:56.53-0400 [STG/0] OUT        - bower_components (nothing to cache)
+2017-04-09T10:00:57.04-0400 [STG/0] OUT -----> Build succeeded!
+2017-04-09T10:00:58.18-0400 [STG/0] OUT        ├── cfenv@1.0.4 extraneous
+2017-04-09T10:00:58.18-0400 [STG/0] OUT        └── express@4.13.4 extraneous
+2017-04-09T10:00:58.18-0400 [STG/0] OUT        
+2017-04-09T10:01:08.31-0400 [STG/0] OUT Exit status 0
+2017-04-09T10:01:08.31-0400 [STG/0] OUT Staging complete
+2017-04-09T10:01:08.31-0400 [STG/0] OUT Uploading droplet, build artifacts cache...
+2017-04-09T10:01:08.31-0400 [STG/0] OUT Uploading build artifacts cache...
+2017-04-09T10:01:08.31-0400 [STG/0] OUT Uploading droplet...
+2017-04-09T10:01:09.25-0400 [STG/0] OUT Uploaded build artifacts cache (484K)
+2017-04-09T10:01:11.50-0400 [STG/0] OUT Uploaded droplet (18.9M)
+2017-04-09T10:01:11.51-0400 [STG/0] OUT Uploading complete
+2017-04-09T10:01:11.85-0400 [STG/0] OUT Destroying container
+2017-04-09T10:01:12.90-0400 [CELL/0] OUT Creating container
+2017-04-09T10:01:28.77-0400 [CELL/0] OUT Successfully created container
+2017-04-09T10:01:30.95-0400 [CELL/0] OUT Starting health monitoring of container
+2017-04-09T10:01:32.26-0400 [APP/0] OUT > node app.js
+2017-04-09T10:01:32.67-0400 [APP/0] OUT server starting on https://lifeokjs.mybluemix.net
+2017-04-09T10:01:33.14-0400 [CELL/0] OUT Container became healthy
+2017-04-09T10:01:35.31-0400 [STG/0] OUT Successfully destroyed container
+2017-04-09T10:01:52.37-0400 [RTR/1] OUT lifeokjs.mybluemix.net - [09/04/2017:14:01:52.354 +0000] "GET / HTTP/1.1" 404 0 13 "https://console.ng.bluemix.net/dashboard/apps/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.152:10316 x_forwarded_for:"65.113.61.98" x_forwarded_proto:"https" vcap_request_id:7b9c7017-dbef-41fc-7f4c-76f72b9261fa response_time:0.015406478 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"240081361"
+2017-04-09T10:01:52.37-0400 [RTR/1] OUT 
+2017-04-09T10:06:21.62-0400 [RTR/0] OUT lifeokjs.mybluemix.net - [09/04/2017:14:06:21.621 +0000] "GET / HTTP/1.1" 404 0 13 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 192.155.237.116:33641 x_forwarded_for:"65.113.61.98" x_forwarded_proto:"http" vcap_request_id:861c1c8a-2bc0-4b88-6917-80dd46bcd664 response_time:0.006722707 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"1920161191"
+2017-04-09T10:06:21.62-0400 [RTR/0] OUT 
+2017-04-09T10:06:21.86-0400 [RTR/1] OUT lifeokjs.mybluemix.net - [09/04/2017:14:06:21.864 +0000] "GET /favicon.ico HTTP/1.1" 404 0 24 "http://lifeokjs.mybluemix.net/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 192.155.237.117:24674 x_forwarded_for:"65.113.61.98" x_forwarded_proto:"http" vcap_request_id:59b00b51-24f5-45a5-4d27-6f36101a23c1 response_time:0.005595813 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"281380701"
+2017-04-09T10:06:21.86-0400 [RTR/1] OUT 
+2017-04-09T10:09:28.53-0400 [API/8] OUT Updated app with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a ({"name"=>"lifeokjs", "instances"=>1, "memory"=>256, "disk_quota"=>1024, "environment_json"=>"PRIVATE DATA HIDDEN"})
+2017-04-09T10:09:45.99-0400 [API/0] OUT Updated app with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a ({"state"=>"STOPPED"})
+2017-04-09T10:09:46.02-0400 [CELL/0] OUT Exit status 0
+2017-04-09T10:09:49.34-0400 [API/1] OUT Updated app with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a ({"state"=>"STARTED"})
+2017-04-09T10:09:49.97-0400 [STG/0] OUT Downloading swift_buildpack_v2_0_4-20170125-2344...
+2017-04-09T10:09:49.97-0400 [STG/0] OUT Downloading python_buildpack...
+2017-04-09T10:09:49.97-0400 [STG/0] OUT Downloading noop-buildpack...
+2017-04-09T10:09:49.97-0400 [STG/0] OUT Downloading liberty-for-java...
+2017-04-09T10:09:49.98-0400 [STG/0] OUT Downloading sdk-for-nodejs...
+2017-04-09T10:09:49.99-0400 [STG/0] OUT Downloaded noop-buildpack
+2017-04-09T10:09:49.99-0400 [STG/0] OUT Downloading dotnet-core...
+2017-04-09T10:09:49.99-0400 [STG/0] OUT Downloaded python_buildpack
+2017-04-09T10:09:49.99-0400 [STG/0] OUT Downloading swift_buildpack...
+2017-04-09T10:09:50.00-0400 [STG/0] OUT Downloaded liberty-for-java
+2017-04-09T10:09:50.00-0400 [STG/0] OUT Downloading ruby_buildpack...
+2017-04-09T10:09:50.00-0400 [STG/0] OUT Downloaded swift_buildpack_v2_0_4-20170125-2344
+2017-04-09T10:09:50.00-0400 [STG/0] OUT Downloading java_buildpack...
+2017-04-09T10:09:50.00-0400 [STG/0] OUT Downloaded sdk-for-nodejs
+2017-04-09T10:09:50.00-0400 [STG/0] OUT Downloading liberty-for-java_v3_4_1-20161030-2241...
+2017-04-09T10:09:50.02-0400 [STG/0] OUT Downloaded swift_buildpack
+2017-04-09T10:09:50.02-0400 [STG/0] OUT Downloading xpages_buildpack...
+2017-04-09T10:09:50.02-0400 [STG/0] OUT Downloaded ruby_buildpack
+2017-04-09T10:09:50.02-0400 [STG/0] OUT Downloading php_buildpack...
+2017-04-09T10:09:50.02-0400 [STG/0] OUT Downloading staticfile_buildpack...
+2017-04-09T10:09:50.02-0400 [STG/0] OUT Downloaded liberty-for-java_v3_4_1-20161030-2241
+2017-04-09T10:09:50.02-0400 [STG/0] OUT Downloading binary_buildpack...
+2017-04-09T10:09:50.03-0400 [STG/0] OUT Downloaded java_buildpack
+2017-04-09T10:09:50.03-0400 [STG/0] OUT Downloading nodejs_buildpack...
+2017-04-09T10:09:50.04-0400 [STG/0] OUT Downloaded xpages_buildpack
+2017-04-09T10:09:50.04-0400 [STG/0] OUT Downloading dotnet-core_v1_0_6-20161205-0912...
+2017-04-09T10:09:50.04-0400 [STG/0] OUT Downloaded php_buildpack
+2017-04-09T10:09:50.05-0400 [STG/0] OUT Downloaded binary_buildpack
+2017-04-09T10:09:50.05-0400 [STG/0] OUT Downloading go_buildpack...
+2017-04-09T10:09:50.05-0400 [STG/0] OUT Downloaded staticfile_buildpack
+2017-04-09T10:09:50.05-0400 [STG/0] OUT Downloading liberty-for-java_v3_7-20170118-2046...
+2017-04-09T10:09:50.05-0400 [STG/0] OUT Downloaded nodejs_buildpack
+2017-04-09T10:09:50.05-0400 [STG/0] OUT Downloading sdk-for-nodejs_v3_10-20170119-1146...
+2017-04-09T10:09:50.07-0400 [STG/0] OUT Downloaded dotnet-core_v1_0_6-20161205-0912
+2017-04-09T10:09:50.07-0400 [STG/0] OUT Downloaded go_buildpack
+2017-04-09T10:09:50.08-0400 [STG/0] OUT Downloaded liberty-for-java_v3_7-20170118-2046
+2017-04-09T10:09:50.08-0400 [STG/0] OUT Downloaded sdk-for-nodejs_v3_10-20170119-1146
+2017-04-09T10:09:50.08-0400 [STG/0] OUT Creating container
+2017-04-09T10:09:57.00-0400 [CELL/0] OUT Destroying container
+2017-04-09T10:10:06.10-0400 [CELL/0] OUT Successfully destroyed container
+2017-04-09T10:10:08.69-0400 [STG/0] OUT Successfully created container
+2017-04-09T10:10:08.69-0400 [STG/0] OUT Downloading app package...
+2017-04-09T10:10:09.11-0400 [STG/0] OUT Downloaded app package (1.6M)
+2017-04-09T10:10:09.11-0400 [STG/0] OUT Downloading build artifacts cache...
+2017-04-09T10:10:09.61-0400 [STG/0] OUT Downloaded build artifacts cache (484K)
+2017-04-09T10:10:09.61-0400 [STG/0] OUT Staging...
+2017-04-09T10:10:10.99-0400 [STG/0] OUT -----> IBM SDK for Node.js Buildpack v3.11-20170303-1144
+2017-04-09T10:10:10.99-0400 [STG/0] OUT        Based on Cloud Foundry Node.js Buildpack v1.5.24
+2017-04-09T10:10:11.01-0400 [STG/0] OUT -----> Creating runtime environment
+2017-04-09T10:10:11.01-0400 [STG/0] OUT        
+2017-04-09T10:10:11.01-0400 [STG/0] OUT        NPM_CONFIG_LOGLEVEL=error
+2017-04-09T10:10:11.01-0400 [STG/0] OUT        NPM_CONFIG_PRODUCTION=true
+2017-04-09T10:10:11.01-0400 [STG/0] OUT        NODE_ENV=production
+2017-04-09T10:10:11.01-0400 [STG/0] OUT        NODE_MODULES_CACHE=true
+2017-04-09T10:10:11.04-0400 [STG/0] OUT        engines.node (package.json):  unspecified
+2017-04-09T10:10:11.04-0400 [STG/0] OUT        engines.npm (package.json):   unspecified (use default)
+2017-04-09T10:10:11.05-0400 [STG/0] OUT        
+2017-04-09T10:10:11.05-0400 [STG/0] OUT        Resolving node version (latest stable) via 'node-version-resolver'
+2017-04-09T10:10:11.28-0400 [STG/0] OUT        Installing IBM SDK for Node.js (4.8.0) from cache
+2017-04-09T10:10:13.03-0400 [STG/0] OUT        Using default npm version: 2.15.11
+2017-04-09T10:10:13.04-0400 [STG/0] OUT -----> Restoring cache
+2017-04-09T10:10:13.35-0400 [STG/0] OUT        Loading 2 from cacheDirectories (default):
+2017-04-09T10:10:13.35-0400 [STG/0] OUT        - node_modules
+2017-04-09T10:10:13.35-0400 [STG/0] OUT        - bower_components (not cached - skipping)
+2017-04-09T10:10:13.47-0400 [STG/0] OUT -----> Building dependencies
+2017-04-09T10:10:13.48-0400 [STG/0] OUT        Installing node modules (package.json)
+2017-04-09T10:10:14.61-0400 [STG/0] OUT -----> Checking and configuring service extensions after installing dependencies
+2017-04-09T10:10:14.77-0400 [STG/0] OUT -----> Installing App Management
+2017-04-09T10:10:19.19-0400 [STG/0] OUT -----> Caching build
+2017-04-09T10:10:19.19-0400 [STG/0] OUT        Clearing previous node cache
+2017-04-09T10:10:19.20-0400 [STG/0] OUT        Saving 2 cacheDirectories (default):
+2017-04-09T10:10:19.20-0400 [STG/0] OUT        - node_modules
+2017-04-09T10:10:19.41-0400 [STG/0] OUT        - bower_components (nothing to cache)
+2017-04-09T10:10:19.67-0400 [STG/0] OUT -----> Build succeeded!
+2017-04-09T10:10:20.23-0400 [STG/0] OUT        ├── cfenv@1.0.4 extraneous
+2017-04-09T10:10:20.23-0400 [STG/0] OUT        └── express@4.13.4 extraneous
+2017-04-09T10:10:20.23-0400 [STG/0] OUT        
+2017-04-09T10:10:27.29-0400 [STG/0] OUT Staging complete
+2017-04-09T10:10:27.29-0400 [STG/0] OUT Uploading droplet, build artifacts cache...
+2017-04-09T10:10:27.29-0400 [STG/0] OUT Uploading build artifacts cache...
+2017-04-09T10:10:27.29-0400 [STG/0] OUT Uploading droplet...
+2017-04-09T10:10:27.45-0400 [STG/0] OUT Uploaded build artifacts cache (488.3K)
+2017-04-09T10:10:32.85-0400 [STG/0] OUT Uploaded droplet (18.9M)
+2017-04-09T10:10:32.86-0400 [STG/0] OUT Uploading complete
+2017-04-09T10:10:32.92-0400 [STG/0] OUT Destroying container
+2017-04-09T10:10:34.00-0400 [CELL/0] OUT Creating container
+2017-04-09T10:10:50.34-0400 [CELL/0] OUT Successfully created container
+2017-04-09T10:10:52.98-0400 [CELL/0] OUT Starting health monitoring of container
+2017-04-09T10:10:54.92-0400 [APP/0] OUT server starting on https://lifeokjs.mybluemix.net
+2017-04-09T10:10:55.24-0400 [CELL/0] OUT Container became healthy
+2017-04-09T10:10:55.28-0400 [STG/0] OUT Successfully destroyed container
+2017-04-09T10:11:09.32-0400 [RTR/0] OUT lifeokjs.mybluemix.net - [09/04/2017:14:11:09.276 +0000] "GET / HTTP/1.1" 500 0 22 "https://console.ng.bluemix.net/dashboard/apps/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.151:11287 x_forwarded_for:"65.113.61.98" x_forwarded_proto:"https" vcap_request_id:42194097-ba35-44ae-5c63-e184b1de29a2 response_time:0.052515831 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"2962544559"
+2017-04-09T10:11:09.32-0400 [RTR/0] OUT 
+[31m2017-04-09T10:11:09.33-0400 [APP/0] ERR Error: No default engine was specified and no extension was provided.[0m
+[31m2017-04-09T10:11:09.33-0400 [APP/0] ERR     at new View (/home/vcap/app/node_modules/express/lib/view.js:62:11)[0m
+[31m2017-04-09T10:11:09.33-0400 [APP/0] ERR     at EventEmitter.render (/home/vcap/app/node_modules/express/lib/application.js:569:12)[0m
+[31m2017-04-09T10:11:09.33-0400 [APP/0] ERR     at /home/vcap/app/app.js:19:7[0m
+[31m2017-04-09T10:11:09.33-0400 [APP/0] ERR     at Layer.handle [as handle_request] (/home/vcap/app/node_modules/express/lib/router/layer.js:95:5)[0m
+[31m2017-04-09T10:11:09.33-0400 [APP/0] ERR     at next (/home/vcap/app/node_modules/express/lib/router/route.js:131:13)[0m
+[31m2017-04-09T10:11:09.33-0400 [APP/0] ERR     at Layer.handle [as handle_request] (/home/vcap/app/node_modules/express/lib/router/layer.js:95:5)[0m
+[31m2017-04-09T10:11:09.33-0400 [APP/0] ERR     at /home/vcap/app/node_modules/express/lib/router/index.js:277:22[0m
+[31m2017-04-09T10:11:09.33-0400 [APP/0] ERR     at Function.process_params (/home/vcap/app/node_modules/express/lib/router/index.js:330:12)[0m
+2017-04-09T10:12:16.10-0400 [RTR/2] OUT lifeokjs.mybluemix.net - [09/04/2017:14:12:16.085 +0000] "GET / HTTP/1.1" 500 0 22 "-" "-" 108.168.250.153:33380 x_forwarded_for:"169.45.2.51" x_forwarded_proto:"http" vcap_request_id:0580f6f0-4563-4e55-6705-9c6ae8edf7c2 response_time:0.021890184 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"2019898271"
+2017-04-09T10:12:16.10-0400 [RTR/2] OUT 
+[31m2017-04-09T10:12:16.12-0400 [APP/0] ERR Error: No default engine was specified and no extension was provided.[0m
+[31m2017-04-09T10:12:16.12-0400 [APP/0] ERR     at new View (/home/vcap/app/node_modules/express/lib/view.js:62:11)[0m
+[31m2017-04-09T10:12:16.12-0400 [APP/0] ERR     at EventEmitter.render (/home/vcap/app/node_modules/express/lib/application.js:569:12)[0m
+[31m2017-04-09T10:12:16.12-0400 [APP/0] ERR     at Layer.handle [as handle_request] (/home/vcap/app/node_modules/express/lib/router/layer.js:95:5)[0m
+[31m2017-04-09T10:12:16.12-0400 [APP/0] ERR     at next (/home/vcap/app/node_modules/express/lib/router/route.js:131:13)[0m
+[31m2017-04-09T10:12:16.12-0400 [APP/0] ERR     at Route.dispatch (/home/vcap/app/node_modules/express/lib/router/route.js:112:3)[0m
+[31m2017-04-09T10:12:16.12-0400 [APP/0] ERR     at Layer.handle [as handle_request] (/home/vcap/app/node_modules/express/lib/router/layer.js:95:5)[0m
+[31m2017-04-09T10:12:16.12-0400 [APP/0] ERR     at /home/vcap/app/node_modules/express/lib/router/index.js:277:22[0m
+[31m2017-04-09T10:12:16.12-0400 [APP/0] ERR     at Function.process_params (/home/vcap/app/node_modules/express/lib/router/index.js:330:12)[0m
+2017-04-09T10:12:16.47-0400 [RTR/3] OUT lifeokjs.mybluemix.net - [09/04/2017:14:12:16.469 +0000] "GET / HTTP/1.1" 500 0 22 "-" "-" 108.168.250.156:49095 x_forwarded_for:"168.1.81.212" x_forwarded_proto:"http" vcap_request_id:065d4e6d-d09e-4cc8-78d0-cd6386b566fb response_time:0.006804936 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"2325296719"
+2017-04-09T10:12:16.47-0400 [RTR/3] OUT 
+[31m2017-04-09T10:12:16.48-0400 [APP/0] ERR Error: No default engine was specified and no extension was provided.[0m
+[31m2017-04-09T10:12:16.48-0400 [APP/0] ERR     at new View (/home/vcap/app/node_modules/express/lib/view.js:62:11)[0m
+[31m2017-04-09T10:12:16.48-0400 [APP/0] ERR     at /home/vcap/app/app.js:19:7[0m
+[31m2017-04-09T10:12:16.48-0400 [APP/0] ERR     at Layer.handle [as handle_request] (/home/vcap/app/node_modules/express/lib/router/layer.js:95:5)[0m
+[31m2017-04-09T10:12:16.48-0400 [APP/0] ERR     at Route.dispatch (/home/vcap/app/node_modules/express/lib/router/route.js:112:3)[0m
+[31m2017-04-09T10:12:16.48-0400 [APP/0] ERR     at Layer.handle [as handle_request] (/home/vcap/app/node_modules/express/lib/router/layer.js:95:5)[0m
+[31m2017-04-09T10:12:16.48-0400 [APP/0] ERR     at Function.process_params (/home/vcap/app/node_modules/express/lib/router/index.js:330:12)[0m
+2017-04-09T10:12:16.59-0400 [RTR/0] OUT lifeokjs.mybluemix.net - [09/04/2017:14:12:16.589 +0000] "GET / HTTP/1.1" 500 0 22 "-" "-" 192.155.237.118:36614 x_forwarded_for:"169.50.77.22" x_forwarded_proto:"http" vcap_request_id:9b2ea0f4-6b72-4c70-5770-db0db2d5953c response_time:0.0042199 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"873458175"
+2017-04-09T10:12:16.59-0400 [RTR/0] OUT 
+[31m2017-04-09T10:12:16.61-0400 [APP/0] ERR Error: No default engine was specified and no extension was provided.[0m
+[31m2017-04-09T10:12:16.61-0400 [APP/0] ERR     at new View (/home/vcap/app/node_modules/express/lib/view.js:62:11)[0m
+[31m2017-04-09T10:12:16.61-0400 [APP/0] ERR     at EventEmitter.render (/home/vcap/app/node_modules/express/lib/application.js:569:12)[0m
+[31m2017-04-09T10:12:16.61-0400 [APP/0] ERR     at ServerResponse.render (/home/vcap/app/node_modules/express/lib/response.js:961:7)[0m
+[31m2017-04-09T10:12:16.61-0400 [APP/0] ERR     at next (/home/vcap/app/node_modules/express/lib/router/route.js:131:13)[0m
+[31m2017-04-09T10:12:16.61-0400 [APP/0] ERR     at Route.dispatch (/home/vcap/app/node_modules/express/lib/router/route.js:112:3)[0m
+[31m2017-04-09T10:12:16.61-0400 [APP/0] ERR     at Layer.handle [as handle_request] (/home/vcap/app/node_modules/express/lib/router/layer.js:95:5)[0m
+[31m2017-04-09T10:12:16.61-0400 [APP/0] ERR     at /home/vcap/app/node_modules/express/lib/router/index.js:277:22[0m
+[31m2017-04-09T10:12:16.61-0400 [APP/0] ERR     at Function.process_params (/home/vcap/app/node_modules/express/lib/router/index.js:330:12)[0m
+2017-04-09T10:17:51.55-0400 [API/0] OUT Updated app with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a ({"name"=>"lifeokjs", "instances"=>1, "memory"=>256, "disk_quota"=>1024, "environment_json"=>"PRIVATE DATA HIDDEN"})
+2017-04-09T10:18:03.47-0400 [API/2] OUT Updated app with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a ({"state"=>"STOPPED"})
+2017-04-09T10:18:03.52-0400 [CELL/0] OUT Exit status 0
+2017-04-09T10:18:06.33-0400 [API/3] OUT Updated app with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a ({"state"=>"STARTED"})
+2017-04-09T10:18:07.11-0400 [STG/0] OUT Downloading python_buildpack...
+2017-04-09T10:18:07.11-0400 [STG/0] OUT Downloading liberty-for-java_v3_5-20161114-1152...
+2017-04-09T10:18:07.11-0400 [STG/0] OUT Downloading sdk-for-nodejs_v3_10-20170119-1146...
+2017-04-09T10:18:07.11-0400 [STG/0] OUT Downloading xpages_buildpack...
+2017-04-09T10:18:07.13-0400 [STG/0] OUT Downloading php_buildpack...
+2017-04-09T10:18:07.13-0400 [STG/0] OUT Downloaded swift_buildpack_v2_0_4-20170125-2344
+2017-04-09T10:18:07.13-0400 [STG/0] OUT Downloading staticfile_buildpack...
+2017-04-09T10:18:07.13-0400 [STG/0] OUT Downloaded sdk-for-nodejs_v3_10-20170119-1146
+2017-04-09T10:18:07.13-0400 [STG/0] OUT Downloading binary_buildpack...
+2017-04-09T10:18:07.13-0400 [STG/0] OUT Downloading liberty-for-java_v3_4_1-20161030-2241...
+2017-04-09T10:18:07.14-0400 [STG/0] OUT Downloaded xpages_buildpack
+2017-04-09T10:18:07.14-0400 [STG/0] OUT Downloading ruby_buildpack...
+2017-04-09T10:18:07.14-0400 [STG/0] OUT Downloaded php_buildpack
+2017-04-09T10:18:07.14-0400 [STG/0] OUT Downloading liberty-for-java...
+2017-04-09T10:18:07.15-0400 [STG/0] OUT Downloaded staticfile_buildpack
+2017-04-09T10:18:07.15-0400 [STG/0] OUT Downloading sdk-for-nodejs...
+2017-04-09T10:18:07.15-0400 [STG/0] OUT Downloaded liberty-for-java_v3_4_1-20161030-2241
+2017-04-09T10:18:07.15-0400 [STG/0] OUT Downloading dotnet-core...
+2017-04-09T10:18:07.16-0400 [STG/0] OUT Downloaded ruby_buildpack
+2017-04-09T10:18:07.16-0400 [STG/0] OUT Downloading noop-buildpack...
+2017-04-09T10:18:07.16-0400 [STG/0] OUT Downloaded liberty-for-java
+2017-04-09T10:18:07.17-0400 [STG/0] OUT Downloaded swift_buildpack
+2017-04-09T10:18:07.17-0400 [STG/0] OUT Downloaded noop-buildpack
+2017-04-09T10:18:07.17-0400 [STG/0] OUT Downloading go_buildpack...
+2017-04-09T10:18:07.17-0400 [STG/0] OUT Downloaded java_buildpack
+2017-04-09T10:18:07.17-0400 [STG/0] OUT Downloading dotnet-core_v1_0_6-20161205-0912...
+2017-04-09T10:18:07.18-0400 [STG/0] OUT Downloaded dotnet-core
+2017-04-09T10:18:07.18-0400 [STG/0] OUT Downloading liberty-for-java_v3_7-20170118-2046...
+2017-04-09T10:18:07.18-0400 [STG/0] OUT Downloaded sdk-for-nodejs
+2017-04-09T10:18:07.19-0400 [STG/0] OUT Downloaded nodejs_buildpack
+2017-04-09T10:18:07.19-0400 [STG/0] OUT Downloaded go_buildpack
+2017-04-09T10:18:07.19-0400 [STG/0] OUT Downloaded liberty-for-java_v3_7-20170118-2046
+2017-04-09T10:18:07.19-0400 [STG/0] OUT Downloaded dotnet-core_v1_0_6-20161205-0912
+2017-04-09T10:18:07.19-0400 [STG/0] OUT Creating container
+2017-04-09T10:18:14.48-0400 [CELL/0] OUT Destroying container
+2017-04-09T10:18:24.24-0400 [STG/0] OUT Downloading app package...
+2017-04-09T10:18:24.59-0400 [STG/0] OUT Downloaded app package (1.6M)
+2017-04-09T10:18:24.59-0400 [STG/0] OUT Downloading build artifacts cache...
+2017-04-09T10:18:25.01-0400 [STG/0] OUT Downloaded build artifacts cache (488.3K)
+2017-04-09T10:18:25.01-0400 [STG/0] OUT Staging...
+2017-04-09T10:18:26.06-0400 [STG/0] OUT -----> IBM SDK for Node.js Buildpack v3.11-20170303-1144
+2017-04-09T10:18:26.07-0400 [STG/0] OUT        Based on Cloud Foundry Node.js Buildpack v1.5.24
+2017-04-09T10:18:26.09-0400 [STG/0] OUT -----> Creating runtime environment
+2017-04-09T10:18:26.09-0400 [STG/0] OUT        
+2017-04-09T10:18:26.09-0400 [STG/0] OUT        NPM_CONFIG_LOGLEVEL=error
+2017-04-09T10:18:26.09-0400 [STG/0] OUT        NPM_CONFIG_PRODUCTION=true
+2017-04-09T10:18:26.09-0400 [STG/0] OUT -----> Installing binaries
+2017-04-09T10:18:26.10-0400 [STG/0] OUT        engines.node (package.json):  unspecified
+2017-04-09T10:18:26.10-0400 [STG/0] OUT        engines.npm (package.json):   unspecified (use default)
+2017-04-09T10:18:26.10-0400 [STG/0] OUT        
+2017-04-09T10:18:26.10-0400 [STG/0] OUT        Resolving node version (latest stable) via 'node-version-resolver'
+2017-04-09T10:18:26.31-0400 [STG/0] OUT        Installing IBM SDK for Node.js (4.8.0) from cache
+2017-04-09T10:18:27.91-0400 [STG/0] OUT        Using default npm version: 2.15.11
+2017-04-09T10:18:27.91-0400 [STG/0] OUT -----> Restoring cache
+2017-04-09T10:18:28.22-0400 [STG/0] OUT        Loading 2 from cacheDirectories (default):
+2017-04-09T10:18:28.24-0400 [STG/0] OUT        - node_modules
+2017-04-09T10:18:28.24-0400 [STG/0] OUT        - bower_components (not cached - skipping)
+2017-04-09T10:18:28.36-0400 [STG/0] OUT -----> Building dependencies
+2017-04-09T10:18:28.36-0400 [STG/0] OUT        Installing node modules (package.json)
+2017-04-09T10:18:29.58-0400 [STG/0] OUT -----> Installing App Management
+2017-04-09T10:18:31.75-0400 [CELL/0] OUT Successfully destroyed container
+2017-04-09T10:18:32.75-0400 [STG/0] OUT -----> Caching build
+2017-04-09T10:18:32.77-0400 [STG/0] OUT        Clearing previous node cache
+2017-04-09T10:18:32.77-0400 [STG/0] OUT        Saving 2 cacheDirectories (default):
+2017-04-09T10:18:32.77-0400 [STG/0] OUT        - node_modules
+2017-04-09T10:18:32.85-0400 [STG/0] OUT        - bower_components (nothing to cache)
+2017-04-09T10:18:33.14-0400 [STG/0] OUT -----> Build succeeded!
+2017-04-09T10:18:33.80-0400 [STG/0] OUT        ├── cfenv@1.0.4 extraneous
+2017-04-09T10:18:33.80-0400 [STG/0] OUT        └── express@4.13.4 extraneous
+2017-04-09T10:18:33.80-0400 [STG/0] OUT        
+2017-04-09T10:18:39.58-0400 [STG/0] OUT Staging complete
+2017-04-09T10:18:39.58-0400 [STG/0] OUT Uploading build artifacts cache...
+2017-04-09T10:18:39.76-0400 [STG/0] OUT Uploaded build artifacts cache (484K)
+2017-04-09T10:18:44.24-0400 [STG/0] OUT Uploaded droplet (18.9M)
+2017-04-09T10:18:44.24-0400 [STG/0] OUT Uploading complete
+2017-04-09T10:18:44.35-0400 [STG/0] OUT Destroying container
+2017-04-09T10:18:45.57-0400 [CELL/0] OUT Creating container
+2017-04-09T10:18:54.61-0400 [STG/0] OUT Successfully destroyed container
+2017-04-09T10:19:56.31-0400 [CELL/0] OUT Successfully created container
+2017-04-09T10:20:02.54-0400 [CELL/0] OUT Starting health monitoring of container
+2017-04-09T10:20:15.27-0400 [APP/0] OUT > freelancer@3.3.7 start /home/vcap/app
+2017-04-09T10:20:15.27-0400 [APP/0] OUT > node app.js
+2017-04-09T10:20:19.23-0400 [APP/0] OUT server starting on https://lifeokjs.mybluemix.net
+2017-04-09T10:20:20.65-0400 [CELL/0] OUT Container became healthy
+2017-04-09T10:20:34.63-0400 [RTR/1] OUT lifeokjs.mybluemix.net - [09/04/2017:14:20:34.558 +0000] "GET / HTTP/1.1" 500 0 22 "https://console.ng.bluemix.net/dashboard/apps/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 169.54.202.28:24736 x_forwarded_for:"65.113.61.98" x_forwarded_proto:"https" vcap_request_id:c46c65b3-8332-49e0-5623-0f0be7b535c5 response_time:0.079583215 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"766455103"
+2017-04-09T10:20:34.63-0400 [RTR/1] OUT 
+[31m2017-04-09T10:20:34.68-0400 [APP/0] ERR Error: Cannot find module 'html'[0m
+[31m2017-04-09T10:20:34.68-0400 [APP/0] ERR     at Function.Module._resolveFilename (module.js:325:15)[0m
+[31m2017-04-09T10:20:34.68-0400 [APP/0] ERR     at Function.Module._load (module.js:276:25)[0m
+[31m2017-04-09T10:20:34.68-0400 [APP/0] ERR     at Module.require (module.js:353:17)[0m
+[31m2017-04-09T10:20:34.68-0400 [APP/0] ERR     at require (internal/module.js:12:17)[0m
+[31m2017-04-09T10:20:34.68-0400 [APP/0] ERR     at new View (/home/vcap/app/node_modules/express/lib/view.js:78:30)[0m
+[31m2017-04-09T10:20:34.68-0400 [APP/0] ERR     at EventEmitter.render (/home/vcap/app/node_modules/express/lib/application.js:569:12)[0m
+[31m2017-04-09T10:20:34.68-0400 [APP/0] ERR     at ServerResponse.render (/home/vcap/app/node_modules/express/lib/response.js:961:7)[0m
+[31m2017-04-09T10:20:34.68-0400 [APP/0] ERR     at /home/vcap/app/app.js:19:7[0m
+[31m2017-04-09T10:20:34.68-0400 [APP/0] ERR     at Layer.handle [as handle_request] (/home/vcap/app/node_modules/express/lib/router/layer.js:95:5)[0m
+2017-04-09T10:27:16.23-0400 [RTR/1] OUT lifeokjs.mybluemix.net - [09/04/2017:14:27:16.199 +0000] "GET / HTTP/1.1" 500 0 22 "-" "-" 108.168.250.154:29979 x_forwarded_for:"169.45.2.51" x_forwarded_proto:"http" vcap_request_id:de24e59f-0697-4291-67ae-8d44a455a3e8 response_time:0.039362639 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"2035885791"
+2017-04-09T10:27:16.23-0400 [RTR/1] OUT 
+2017-04-09T10:27:16.25-0400 [RTR/0] OUT lifeokjs.mybluemix.net - [09/04/2017:14:27:16.234 +0000] "GET / HTTP/1.1" 500 0 22 "-" "-" 169.54.202.25:15271 x_forwarded_for:"169.50.77.22" x_forwarded_proto:"http" vcap_request_id:3c87b112-9386-40b0-60a3-07115b3cda92 response_time:0.021556723 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"970398159"
+2017-04-09T10:27:16.25-0400 [RTR/0] OUT 
+[31m2017-04-09T10:27:16.26-0400 [APP/0] ERR Error: Cannot find module 'html'[0m
+[31m2017-04-09T10:27:16.26-0400 [APP/0] ERR     at Function.Module._resolveFilename (module.js:325:15)[0m
+[31m2017-04-09T10:27:16.26-0400 [APP/0] ERR     at Function.Module._load (module.js:276:25)[0m
+[31m2017-04-09T10:27:16.26-0400 [APP/0] ERR     at Module.require (module.js:353:17)[0m
+[31m2017-04-09T10:27:16.26-0400 [APP/0] ERR     at require (internal/module.js:12:17)[0m
+[31m2017-04-09T10:27:16.26-0400 [APP/0] ERR     at new View (/home/vcap/app/node_modules/express/lib/view.js:78:30)[0m
+[31m2017-04-09T10:27:16.26-0400 [APP/0] ERR     at EventEmitter.render (/home/vcap/app/node_modules/express/lib/application.js:569:12)[0m
+[31m2017-04-09T10:27:16.26-0400 [APP/0] ERR     at ServerResponse.render (/home/vcap/app/node_modules/express/lib/response.js:961:7)[0m
+[31m2017-04-09T10:27:16.26-0400 [APP/0] ERR     at /home/vcap/app/app.js:19:7[0m
+[31m2017-04-09T10:27:16.26-0400 [APP/0] ERR     at Layer.handle [as handle_request] (/home/vcap/app/node_modules/express/lib/router/layer.js:95:5)[0m
+[31m2017-04-09T10:27:16.26-0400 [APP/0] ERR     at next (/home/vcap/app/node_modules/express/lib/router/route.js:131:13)[0m
+[31m2017-04-09T10:27:16.26-0400 [APP/0] ERR Error: Cannot find module 'html'[0m
+[31m2017-04-09T10:27:16.26-0400 [APP/0] ERR     at new View (/home/vcap/app/node_modules/express/lib/view.js:78:30)[0m
+[31m2017-04-09T10:27:16.26-0400 [APP/0] ERR     at EventEmitter.render (/home/vcap/app/node_modules/express/lib/application.js:569:12)[0m
+[31m2017-04-09T10:27:16.26-0400 [APP/0] ERR     at ServerResponse.render (/home/vcap/app/node_modules/express/lib/response.js:961:7)[0m
+[31m2017-04-09T10:27:16.26-0400 [APP/0] ERR     at /home/vcap/app/app.js:19:7[0m
+[31m2017-04-09T10:27:16.26-0400 [APP/0] ERR     at Layer.handle [as handle_request] (/home/vcap/app/node_modules/express/lib/router/layer.js:95:5)[0m
+[31m2017-04-09T10:27:16.26-0400 [APP/0] ERR     at next (/home/vcap/app/node_modules/express/lib/router/route.js:131:13)[0m
+2017-04-09T10:27:17.28-0400 [RTR/2] OUT lifeokjs.mybluemix.net - [09/04/2017:14:27:17.268 +0000] "GET / HTTP/1.1" 500 0 22 "-" "-" 108.168.250.153:38739 x_forwarded_for:"168.1.81.212" x_forwarded_proto:"http" vcap_request_id:b8c8f689-5709-4fe8-7520-b0f4ea806048 response_time:0.020131723 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"2035889295"
+2017-04-09T10:27:17.28-0400 [RTR/2] OUT 
+[31m2017-04-09T10:27:17.29-0400 [APP/0] ERR Error: Cannot find module 'html'[0m
+[31m2017-04-09T10:27:17.29-0400 [APP/0] ERR     at Function.Module._resolveFilename (module.js:325:15)[0m
+[31m2017-04-09T10:27:17.29-0400 [APP/0] ERR     at Function.Module._load (module.js:276:25)[0m
+[31m2017-04-09T10:27:17.29-0400 [APP/0] ERR     at Module.require (module.js:353:17)[0m
+[31m2017-04-09T10:27:17.29-0400 [APP/0] ERR     at require (internal/module.js:12:17)[0m
+[31m2017-04-09T10:27:17.29-0400 [APP/0] ERR     at new View (/home/vcap/app/node_modules/express/lib/view.js:78:30)[0m
+[31m2017-04-09T10:27:17.29-0400 [APP/0] ERR     at EventEmitter.render (/home/vcap/app/node_modules/express/lib/application.js:569:12)[0m
+[31m2017-04-09T10:27:17.29-0400 [APP/0] ERR     at ServerResponse.render (/home/vcap/app/node_modules/express/lib/response.js:961:7)[0m
+[31m2017-04-09T10:27:17.29-0400 [APP/0] ERR     at Layer.handle [as handle_request] (/home/vcap/app/node_modules/express/lib/router/layer.js:95:5)[0m
+[31m2017-04-09T10:27:17.29-0400 [APP/0] ERR     at next (/home/vcap/app/node_modules/express/lib/router/route.js:131:13)[0m
+2017-04-09T10:31:23.17-0400 [API/6] OUT Updated app with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a ({"name"=>"lifeokjs", "instances"=>1, "memory"=>256, "disk_quota"=>1024, "environment_json"=>"PRIVATE DATA HIDDEN"})
+2017-04-09T10:31:40.08-0400 [API/0] OUT Updated app with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a ({"state"=>"STOPPED"})
+2017-04-09T10:31:40.18-0400 [CELL/0] OUT Exit status 0
+2017-04-09T10:31:43.28-0400 [API/2] OUT Updated app with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a ({"state"=>"STARTED"})
+2017-04-09T10:31:43.56-0400 [STG/0] OUT Downloading go_buildpack...
+2017-04-09T10:31:43.56-0400 [STG/0] OUT Downloading python_buildpack...
+2017-04-09T10:31:43.58-0400 [STG/0] OUT Downloaded python_buildpack
+2017-04-09T10:31:43.58-0400 [STG/0] OUT Downloading php_buildpack...
+2017-04-09T10:31:43.58-0400 [STG/0] OUT Downloaded binary_buildpack
+2017-04-09T10:31:43.58-0400 [STG/0] OUT Downloading staticfile_buildpack...
+2017-04-09T10:31:43.58-0400 [STG/0] OUT Downloaded go_buildpack
+2017-04-09T10:31:43.58-0400 [STG/0] OUT Downloading swift_buildpack...
+2017-04-09T10:31:43.58-0400 [STG/0] OUT Downloaded xpages_buildpack
+2017-04-09T10:31:43.59-0400 [STG/0] OUT Downloaded swift_buildpack_v2_0_4-20170125-2344
+2017-04-09T10:31:43.59-0400 [STG/0] OUT Downloading liberty-for-java...
+2017-04-09T10:31:43.60-0400 [STG/0] OUT Downloading sdk-for-nodejs...
+2017-04-09T10:31:43.60-0400 [STG/0] OUT Downloaded php_buildpack
+2017-04-09T10:31:43.60-0400 [STG/0] OUT Downloading dotnet-core...
+2017-04-09T10:31:43.61-0400 [STG/0] OUT Downloaded staticfile_buildpack
+2017-04-09T10:31:43.61-0400 [STG/0] OUT Downloaded swift_buildpack
+2017-04-09T10:31:43.61-0400 [STG/0] OUT Downloading liberty-for-java_v3_4_1-20161030-2241...
+2017-04-09T10:31:43.61-0400 [STG/0] OUT Downloaded liberty-for-java
+2017-04-09T10:31:43.61-0400 [STG/0] OUT Downloading liberty-for-java_v3_5-20161114-1152...
+2017-04-09T10:31:43.62-0400 [STG/0] OUT Downloaded sdk-for-nodejs
+2017-04-09T10:31:43.62-0400 [STG/0] OUT Downloading sdk-for-nodejs_v3_10-20170119-1146...
+2017-04-09T10:31:43.62-0400 [STG/0] OUT Downloaded dotnet-core
+2017-04-09T10:31:43.62-0400 [STG/0] OUT Downloading liberty-for-java_v3_7-20170118-2046...
+2017-04-09T10:31:43.63-0400 [STG/0] OUT Downloaded liberty-for-java_v3_4_1-20161030-2241
+2017-04-09T10:31:43.63-0400 [STG/0] OUT Downloading java_buildpack...
+2017-04-09T10:31:43.63-0400 [STG/0] OUT Downloaded dotnet-core_v1_0_6-20161205-0912
+2017-04-09T10:31:43.64-0400 [STG/0] OUT Downloaded liberty-for-java_v3_5-20161114-1152
+2017-04-09T10:31:43.64-0400 [STG/0] OUT Downloading ruby_buildpack...
+2017-04-09T10:31:43.65-0400 [STG/0] OUT Downloaded java_buildpack
+2017-04-09T10:31:43.66-0400 [STG/0] OUT Downloaded noop-buildpack
+2017-04-09T10:31:43.66-0400 [STG/0] OUT Downloaded liberty-for-java_v3_7-20170118-2046
+2017-04-09T10:31:43.66-0400 [STG/0] OUT Downloaded ruby_buildpack
+2017-04-09T10:31:43.66-0400 [STG/0] OUT Downloaded sdk-for-nodejs_v3_10-20170119-1146
+2017-04-09T10:31:43.68-0400 [STG/0] OUT Downloaded nodejs_buildpack
+2017-04-09T10:31:43.68-0400 [STG/0] OUT Creating container
+2017-04-09T10:31:51.09-0400 [CELL/0] OUT Destroying container
+2017-04-09T10:32:01.81-0400 [STG/0] OUT Successfully created container
+2017-04-09T10:32:01.81-0400 [STG/0] OUT Downloading app package...
+2017-04-09T10:32:02.07-0400 [STG/0] OUT Downloading build artifacts cache...
+2017-04-09T10:32:02.29-0400 [STG/0] OUT Downloaded build artifacts cache (484K)
+2017-04-09T10:32:02.29-0400 [STG/0] OUT Staging...
+2017-04-09T10:32:03.56-0400 [STG/0] OUT        Based on Cloud Foundry Node.js Buildpack v1.5.24
+2017-04-09T10:32:03.56-0400 [STG/0] OUT -----> Creating runtime environment
+2017-04-09T10:32:03.56-0400 [STG/0] OUT        
+2017-04-09T10:32:03.56-0400 [STG/0] OUT        NPM_CONFIG_LOGLEVEL=error
+2017-04-09T10:32:03.56-0400 [STG/0] OUT        NPM_CONFIG_PRODUCTION=true
+2017-04-09T10:32:03.56-0400 [STG/0] OUT        NODE_ENV=production
+2017-04-09T10:32:03.56-0400 [STG/0] OUT        NODE_MODULES_CACHE=true
+2017-04-09T10:32:03.61-0400 [STG/0] OUT        engines.node (package.json):  unspecified
+2017-04-09T10:32:03.61-0400 [STG/0] OUT        engines.npm (package.json):   unspecified (use default)
+2017-04-09T10:32:03.61-0400 [STG/0] OUT        
+2017-04-09T10:32:03.61-0400 [STG/0] OUT        Resolving node version (latest stable) via 'node-version-resolver'
+2017-04-09T10:32:03.88-0400 [STG/0] OUT        Installing IBM SDK for Node.js (4.8.0) from cache
+2017-04-09T10:32:05.92-0400 [STG/0] OUT        Using default npm version: 2.15.11
+2017-04-09T10:32:05.94-0400 [STG/0] OUT -----> Restoring cache
+2017-04-09T10:32:06.29-0400 [STG/0] OUT        Loading 2 from cacheDirectories (default):
+2017-04-09T10:32:06.29-0400 [STG/0] OUT        - node_modules
+2017-04-09T10:32:06.29-0400 [STG/0] OUT        - bower_components (not cached - skipping)
+2017-04-09T10:32:06.29-0400 [STG/0] OUT -----> Checking and configuring service extensions before installing dependencies
+2017-04-09T10:32:06.42-0400 [STG/0] OUT -----> Building dependencies
+2017-04-09T10:32:06.42-0400 [STG/0] OUT        Installing node modules (package.json)
+2017-04-09T10:32:07.83-0400 [STG/0] OUT -----> Checking and configuring service extensions after installing dependencies
+2017-04-09T10:32:07.95-0400 [STG/0] OUT -----> Installing App Management
+2017-04-09T10:32:10.80-0400 [STG/0] OUT -----> Caching build
+2017-04-09T10:32:10.80-0400 [STG/0] OUT        Clearing previous node cache
+2017-04-09T10:32:10.80-0400 [STG/0] OUT        Saving 2 cacheDirectories (default):
+2017-04-09T10:32:10.80-0400 [STG/0] OUT        - node_modules
+2017-04-09T10:32:10.94-0400 [STG/0] OUT        - bower_components (nothing to cache)
+2017-04-09T10:32:11.28-0400 [STG/0] OUT -----> Build succeeded!
+2017-04-09T10:32:12.25-0400 [STG/0] OUT        ├── cfenv@1.0.4 extraneous
+2017-04-09T10:32:12.25-0400 [STG/0] OUT        └── express@4.13.4 extraneous
+2017-04-09T10:32:12.25-0400 [STG/0] OUT        
+2017-04-09T10:32:19.37-0400 [STG/0] OUT Exit status 0
+2017-04-09T10:32:19.37-0400 [STG/0] OUT Uploading droplet, build artifacts cache...
+2017-04-09T10:32:19.37-0400 [STG/0] OUT Uploading build artifacts cache...
+2017-04-09T10:32:19.37-0400 [STG/0] OUT Uploading droplet...
+2017-04-09T10:32:21.24-0400 [STG/0] OUT Uploaded droplet (18.9M)
+2017-04-09T10:32:21.24-0400 [STG/0] OUT Uploading complete
+2017-04-09T10:32:21.43-0400 [STG/0] OUT Destroying container
+2017-04-09T10:32:22.17-0400 [CELL/0] OUT Creating container
+2017-04-09T10:32:29.76-0400 [CELL/0] OUT Successfully destroyed container
+2017-04-09T10:32:33.21-0400 [STG/0] OUT Successfully destroyed container
+2017-04-09T10:32:41.79-0400 [CELL/0] OUT Successfully created container
+2017-04-09T10:32:44.27-0400 [CELL/0] OUT Starting health monitoring of container
+2017-04-09T10:32:45.92-0400 [APP/0] OUT > freelancer@3.3.7 start /home/vcap/app
+2017-04-09T10:32:46.37-0400 [APP/0] OUT server starting on https://lifeokjs.mybluemix.net
+2017-04-09T10:32:46.53-0400 [CELL/0] OUT Container became healthy
+2017-04-09T10:33:05.91-0400 [RTR/1] OUT lifeokjs.mybluemix.net - [09/04/2017:14:33:05.851 +0000] "GET / HTTP/1.1" 500 0 22 "https://console.ng.bluemix.net/dashboard/apps/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 192.155.237.117:39000 x_forwarded_for:"65.113.61.98" x_forwarded_proto:"https" vcap_request_id:108698ef-aad9-4802-7ff2-cac1838b071e response_time:0.068012372 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"3492526271"
+2017-04-09T10:33:05.91-0400 [RTR/1] OUT 
+[31m2017-04-09T10:33:05.93-0400 [APP/0] ERR ReferenceError: Public is not defined[0m
+[31m2017-04-09T10:33:05.93-0400 [APP/0] ERR     at /home/vcap/app/app.js:19:16[0m
+[31m2017-04-09T10:33:05.93-0400 [APP/0] ERR     at Layer.handle [as handle_request] (/home/vcap/app/node_modules/express/lib/router/layer.js:95:5)[0m
+[31m2017-04-09T10:33:05.93-0400 [APP/0] ERR     at next (/home/vcap/app/node_modules/express/lib/router/route.js:131:13)[0m
+[31m2017-04-09T10:33:05.93-0400 [APP/0] ERR     at Route.dispatch (/home/vcap/app/node_modules/express/lib/router/route.js:112:3)[0m
+[31m2017-04-09T10:33:05.93-0400 [APP/0] ERR     at Layer.handle [as handle_request] (/home/vcap/app/node_modules/express/lib/router/layer.js:95:5)[0m
+[31m2017-04-09T10:33:05.93-0400 [APP/0] ERR     at /home/vcap/app/node_modules/express/lib/router/index.js:277:22[0m
+[31m2017-04-09T10:33:05.93-0400 [APP/0] ERR     at Function.process_params (/home/vcap/app/node_modules/express/lib/router/index.js:330:12)[0m
+[31m2017-04-09T10:33:05.93-0400 [APP/0] ERR     at next (/home/vcap/app/node_modules/express/lib/router/index.js:271:10)[0m
+[31m2017-04-09T10:33:05.93-0400 [APP/0] ERR     at Layer.handle [as handle_request] (/home/vcap/app/node_modules/express/lib/router/layer.js:95:5)[0m
+[31m2017-04-09T10:33:07.59-0400 [APP/0] ERR ReferenceError: Public is not defined[0m
+[31m2017-04-09T10:33:07.59-0400 [APP/0] ERR     at /home/vcap/app/app.js:19:16[0m
+[31m2017-04-09T10:33:07.59-0400 [APP/0] ERR     at Layer.handle [as handle_request] (/home/vcap/app/node_modules/express/lib/router/layer.js:95:5)[0m
+[31m2017-04-09T10:33:07.59-0400 [APP/0] ERR     at next (/home/vcap/app/node_modules/express/lib/router/route.js:131:13)[0m
+[31m2017-04-09T10:33:07.59-0400 [APP/0] ERR     at Layer.handle [as handle_request] (/home/vcap/app/node_modules/express/lib/router/layer.js:95:5)[0m
+[31m2017-04-09T10:33:07.59-0400 [APP/0] ERR     at /home/vcap/app/node_modules/express/lib/router/index.js:277:22[0m
+[31m2017-04-09T10:33:07.59-0400 [APP/0] ERR     at Function.process_params (/home/vcap/app/node_modules/express/lib/router/index.js:330:12)[0m
+[31m2017-04-09T10:33:07.59-0400 [APP/0] ERR     at next (/home/vcap/app/node_modules/express/lib/router/index.js:271:10)[0m
+[31m2017-04-09T10:33:07.59-0400 [APP/0] ERR     at expressInit (/home/vcap/app/node_modules/express/lib/middleware/init.js:33:5)[0m
+[31m2017-04-09T10:33:07.59-0400 [APP/0] ERR     at Layer.handle [as handle_request] (/home/vcap/app/node_modules/express/lib/router/layer.js:95:5)[0m
+2017-04-09T10:33:07.60-0400 [RTR/0] OUT lifeokjs.mybluemix.net - [09/04/2017:14:33:07.491 +0000] "GET / HTTP/1.1" 500 0 22 "https://console.ng.bluemix.net/dashboard/apps/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 192.155.237.116:47775 x_forwarded_for:"65.113.61.98" x_forwarded_proto:"https" vcap_request_id:c94ebe44-a831-45eb-5e49-ad70edcdec0d response_time:0.117768977 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"1948838163"
+2017-04-09T10:33:07.60-0400 [RTR/0] OUT 
+2017-04-09T10:34:03.66-0400 [API/2] OUT Updated app with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a ({"name"=>"lifeokjs", "instances"=>1, "memory"=>256, "disk_quota"=>1024, "environment_json"=>"PRIVATE DATA HIDDEN"})
+2017-04-09T10:34:15.19-0400 [API/0] OUT Updated app with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a ({"state"=>"STOPPED"})
+2017-04-09T10:34:15.30-0400 [CELL/0] OUT Exit status 0
+2017-04-09T10:34:18.37-0400 [API/5] OUT Updated app with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a ({"state"=>"STARTED"})
+2017-04-09T10:34:19.21-0400 [STG/0] OUT Downloading liberty-for-java...
+2017-04-09T10:34:19.21-0400 [STG/0] OUT Downloading binary_buildpack...
+2017-04-09T10:34:19.21-0400 [STG/0] OUT Downloading python_buildpack...
+2017-04-09T10:34:19.23-0400 [STG/0] OUT Downloaded swift_buildpack_v2_0_4-20170125-2344
+2017-04-09T10:34:19.23-0400 [STG/0] OUT Downloading xpages_buildpack...
+2017-04-09T10:34:19.23-0400 [STG/0] OUT Downloaded go_buildpack
+2017-04-09T10:34:19.23-0400 [STG/0] OUT Downloading php_buildpack...
+2017-04-09T10:34:19.23-0400 [STG/0] OUT Downloading staticfile_buildpack...
+2017-04-09T10:34:19.24-0400 [STG/0] OUT Downloaded binary_buildpack
+2017-04-09T10:34:19.24-0400 [STG/0] OUT Downloading sdk-for-nodejs...
+2017-04-09T10:34:19.24-0400 [STG/0] OUT Downloaded liberty-for-java
+2017-04-09T10:34:19.24-0400 [STG/0] OUT Downloading dotnet-core...
+2017-04-09T10:34:19.26-0400 [STG/0] OUT Downloaded xpages_buildpack
+2017-04-09T10:34:19.26-0400 [STG/0] OUT Downloading java_buildpack...
+2017-04-09T10:34:19.26-0400 [STG/0] OUT Downloaded staticfile_buildpack
+2017-04-09T10:34:19.26-0400 [STG/0] OUT Downloading noop-buildpack...
+2017-04-09T10:34:19.26-0400 [STG/0] OUT Downloaded php_buildpack
+2017-04-09T10:34:19.26-0400 [STG/0] OUT Downloading dotnet-core_v1_0_6-20161205-0912...
+2017-04-09T10:34:19.26-0400 [STG/0] OUT Downloading liberty-for-java_v3_4_1-20161030-2241...
+2017-04-09T10:34:19.26-0400 [STG/0] OUT Downloaded dotnet-core
+2017-04-09T10:34:19.26-0400 [STG/0] OUT Downloading liberty-for-java_v3_5-20161114-1152...
+2017-04-09T10:34:19.29-0400 [STG/0] OUT Downloaded java_buildpack
+2017-04-09T10:34:19.29-0400 [STG/0] OUT Downloading nodejs_buildpack...
+2017-04-09T10:34:19.29-0400 [STG/0] OUT Downloaded liberty-for-java_v3_5-20161114-1152
+2017-04-09T10:34:19.29-0400 [STG/0] OUT Downloaded dotnet-core_v1_0_6-20161205-0912
+2017-04-09T10:34:19.29-0400 [STG/0] OUT Downloading sdk-for-nodejs_v3_10-20170119-1146...
+2017-04-09T10:34:19.29-0400 [STG/0] OUT Downloaded noop-buildpack
+2017-04-09T10:34:19.29-0400 [STG/0] OUT Downloading swift_buildpack...
+2017-04-09T10:34:19.31-0400 [STG/0] OUT Downloaded sdk-for-nodejs_v3_10-20170119-1146
+2017-04-09T10:34:19.31-0400 [STG/0] OUT Downloaded nodejs_buildpack
+2017-04-09T10:34:19.31-0400 [STG/0] OUT Downloaded liberty-for-java_v3_7-20170118-2046
+2017-04-09T10:34:19.31-0400 [STG/0] OUT Downloaded ruby_buildpack
+2017-04-09T10:34:19.31-0400 [STG/0] OUT Downloaded swift_buildpack
+2017-04-09T10:34:19.31-0400 [STG/0] OUT Creating container
+2017-04-09T10:34:26.24-0400 [CELL/0] OUT Destroying container
+2017-04-09T10:34:33.34-0400 [STG/0] OUT Successfully created container
+2017-04-09T10:34:33.34-0400 [STG/0] OUT Downloading app package...
+2017-04-09T10:34:33.70-0400 [STG/0] OUT Downloaded app package (1.6M)
+2017-04-09T10:34:33.70-0400 [STG/0] OUT Downloading build artifacts cache...
+2017-04-09T10:34:34.68-0400 [STG/0] OUT Downloaded build artifacts cache (487.3K)
+2017-04-09T10:34:34.68-0400 [STG/0] OUT Staging...
+2017-04-09T10:34:36.00-0400 [STG/0] OUT -----> IBM SDK for Node.js Buildpack v3.11-20170303-1144
+2017-04-09T10:34:36.00-0400 [STG/0] OUT        Based on Cloud Foundry Node.js Buildpack v1.5.24
+2017-04-09T10:34:36.03-0400 [STG/0] OUT -----> Creating runtime environment
+2017-04-09T10:34:36.03-0400 [STG/0] OUT        
+2017-04-09T10:34:36.03-0400 [STG/0] OUT        NPM_CONFIG_LOGLEVEL=error
+2017-04-09T10:34:36.03-0400 [STG/0] OUT        NPM_CONFIG_PRODUCTION=true
+2017-04-09T10:34:36.03-0400 [STG/0] OUT        NODE_ENV=production
+2017-04-09T10:34:36.03-0400 [STG/0] OUT -----> Installing binaries
+2017-04-09T10:34:36.05-0400 [STG/0] OUT        engines.npm (package.json):   unspecified (use default)
+2017-04-09T10:34:36.05-0400 [STG/0] OUT        
+2017-04-09T10:34:36.05-0400 [STG/0] OUT        Resolving node version (latest stable) via 'node-version-resolver'
+2017-04-09T10:34:36.28-0400 [STG/0] OUT        Installing IBM SDK for Node.js (4.8.0) from cache
+2017-04-09T10:34:38.78-0400 [STG/0] OUT        Using default npm version: 2.15.11
+2017-04-09T10:34:38.78-0400 [STG/0] OUT -----> Restoring cache
+2017-04-09T10:34:39.18-0400 [STG/0] OUT        Loading 2 from cacheDirectories (default):
+2017-04-09T10:34:39.18-0400 [STG/0] OUT        - node_modules
+2017-04-09T10:34:39.19-0400 [STG/0] OUT        - bower_components (not cached - skipping)
+2017-04-09T10:34:39.19-0400 [STG/0] OUT -----> Checking and configuring service extensions before installing dependencies
+2017-04-09T10:34:39.37-0400 [STG/0] OUT -----> Building dependencies
+2017-04-09T10:34:39.37-0400 [STG/0] OUT        Installing node modules (package.json)
+2017-04-09T10:34:41.38-0400 [STG/0] OUT -----> Checking and configuring service extensions after installing dependencies
+2017-04-09T10:34:41.54-0400 [STG/0] OUT -----> Installing App Management
+2017-04-09T10:34:45.24-0400 [STG/0] OUT -----> Caching build
+2017-04-09T10:34:45.28-0400 [STG/0] OUT        Clearing previous node cache
+2017-04-09T10:34:45.28-0400 [STG/0] OUT        Saving 2 cacheDirectories (default):
+2017-04-09T10:34:45.28-0400 [STG/0] OUT        - node_modules
+2017-04-09T10:34:45.46-0400 [STG/0] OUT        - bower_components (nothing to cache)
+2017-04-09T10:34:45.84-0400 [STG/0] OUT -----> Build succeeded!
+2017-04-09T10:34:46.70-0400 [STG/0] OUT        ├── cfenv@1.0.4 extraneous
+2017-04-09T10:34:46.70-0400 [STG/0] OUT        └── express@4.13.4 extraneous
+2017-04-09T10:34:46.70-0400 [STG/0] OUT        
+2017-04-09T10:34:54.88-0400 [STG/0] OUT Exit status 0
+2017-04-09T10:34:54.88-0400 [STG/0] OUT Staging complete
+2017-04-09T10:34:54.88-0400 [STG/0] OUT Uploading droplet, build artifacts cache...
+2017-04-09T10:34:54.88-0400 [STG/0] OUT Uploading build artifacts cache...
+2017-04-09T10:34:54.88-0400 [STG/0] OUT Uploading droplet...
+2017-04-09T10:34:55.10-0400 [STG/0] OUT Uploaded build artifacts cache (481.7K)
+2017-04-09T10:34:55.44-0400 [CELL/0] OUT Successfully destroyed container
+2017-04-09T10:34:56.97-0400 [STG/0] OUT Uploaded droplet (18.9M)
+2017-04-09T10:34:56.98-0400 [STG/0] OUT Uploading complete
+2017-04-09T10:34:57.16-0400 [STG/0] OUT Destroying container
+2017-04-09T10:34:57.95-0400 [CELL/0] OUT Creating container
+2017-04-09T10:35:19.33-0400 [STG/0] OUT Successfully destroyed container
+2017-04-09T10:35:23.60-0400 [CELL/0] OUT Starting health monitoring of container
+2017-04-09T10:35:25.00-0400 [APP/0] OUT > node app.js
+2017-04-09T10:35:25.49-0400 [APP/0] OUT server starting on https://lifeokjs.mybluemix.net
+2017-04-09T10:35:25.87-0400 [CELL/0] OUT Container became healthy
+2017-04-09T10:35:46.06-0400 [RTR/0] OUT lifeokjs.mybluemix.net - [09/04/2017:14:35:46.030 +0000] "GET / HTTP/1.1" 500 0 22 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.155:42151 x_forwarded_for:"65.113.61.98" x_forwarded_proto:"http" vcap_request_id:daab58a2-22c9-44e1-7502-5db155011702 response_time:0.028937586 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"2539578547"
+2017-04-09T10:35:46.06-0400 [RTR/0] OUT 
+[31m2017-04-09T10:35:46.06-0400 [APP/0] ERR ReferenceError: public is not defined[0m
+[31m2017-04-09T10:35:46.06-0400 [APP/0] ERR     at /home/vcap/app/app.js:19:16[0m
+[31m2017-04-09T10:35:46.06-0400 [APP/0] ERR     at Layer.handle [as handle_request] (/home/vcap/app/node_modules/express/lib/router/layer.js:95:5)[0m
+[31m2017-04-09T10:35:46.06-0400 [APP/0] ERR     at Route.dispatch (/home/vcap/app/node_modules/express/lib/router/route.js:112:3)[0m
+[31m2017-04-09T10:35:46.06-0400 [APP/0] ERR     at Layer.handle [as handle_request] (/home/vcap/app/node_modules/express/lib/router/layer.js:95:5)[0m
+[31m2017-04-09T10:35:46.06-0400 [APP/0] ERR     at /home/vcap/app/node_modules/express/lib/router/index.js:277:22[0m
+[31m2017-04-09T10:35:46.06-0400 [APP/0] ERR     at Function.process_params (/home/vcap/app/node_modules/express/lib/router/index.js:330:12)[0m
+[31m2017-04-09T10:35:46.06-0400 [APP/0] ERR     at expressInit (/home/vcap/app/node_modules/express/lib/middleware/init.js:33:5)[0m
+[31m2017-04-09T10:35:46.07-0400 [APP/0] ERR     at Layer.handle [as handle_request] (/home/vcap/app/node_modules/express/lib/router/layer.js:95:5)[0m
+2017-04-09T10:35:46.36-0400 [RTR/0] OUT lifeokjs.mybluemix.net - [09/04/2017:14:35:46.353 +0000] "GET /favicon.ico HTTP/1.1" 404 0 24 "http://lifeokjs.mybluemix.net/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.155:43109 x_forwarded_for:"65.113.61.98" x_forwarded_proto:"http" vcap_request_id:e0c82e5e-3bf1-41e8-6f22-5ea237a02a80 response_time:0.013510231 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"2539578595"
+2017-04-09T10:35:46.36-0400 [RTR/0] OUT 
+2017-04-09T10:35:50.84-0400 [RTR/0] OUT lifeokjs.mybluemix.net - [09/04/2017:14:35:50.837 +0000] "GET / HTTP/1.1" 500 0 22 "https://console.ng.bluemix.net/dashboard/apps/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 192.155.237.116:50449 x_forwarded_for:"65.113.61.98" x_forwarded_proto:"https" vcap_request_id:6a86da11-f264-457c-46f1-219c9570399d response_time:0.010299944 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"3495249727"
+2017-04-09T10:35:50.84-0400 [RTR/0] OUT 
+[31m2017-04-09T10:35:50.89-0400 [APP/0] ERR ReferenceError: public is not defined[0m
+[31m2017-04-09T10:35:50.89-0400 [APP/0] ERR     at /home/vcap/app/app.js:19:16[0m
+[31m2017-04-09T10:35:50.89-0400 [APP/0] ERR     at Layer.handle [as handle_request] (/home/vcap/app/node_modules/express/lib/router/layer.js:95:5)[0m
+[31m2017-04-09T10:35:50.89-0400 [APP/0] ERR     at next (/home/vcap/app/node_modules/express/lib/router/route.js:131:13)[0m
+[31m2017-04-09T10:35:50.89-0400 [APP/0] ERR     at Route.dispatch (/home/vcap/app/node_modules/express/lib/router/route.js:112:3)[0m
+[31m2017-04-09T10:35:50.89-0400 [APP/0] ERR     at Layer.handle [as handle_request] (/home/vcap/app/node_modules/express/lib/router/layer.js:95:5)[0m
+[31m2017-04-09T10:35:50.89-0400 [APP/0] ERR     at /home/vcap/app/node_modules/express/lib/router/index.js:277:22[0m
+[31m2017-04-09T10:35:50.89-0400 [APP/0] ERR     at Function.process_params (/home/vcap/app/node_modules/express/lib/router/index.js:330:12)[0m
+[31m2017-04-09T10:35:50.89-0400 [APP/0] ERR     at next (/home/vcap/app/node_modules/express/lib/router/index.js:271:10)[0m
+[31m2017-04-09T10:35:50.89-0400 [APP/0] ERR     at expressInit (/home/vcap/app/node_modules/express/lib/middleware/init.js:33:5)[0m
+2017-04-09T10:35:51.54-0400 [RTR/1] OUT lifeokjs.mybluemix.net - [09/04/2017:14:35:51.538 +0000] "GET / HTTP/1.1" 500 0 22 "https://console.ng.bluemix.net/dashboard/apps/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 192.155.237.117:43273 x_forwarded_for:"65.113.61.98" x_forwarded_proto:"https" vcap_request_id:7949ab30-c5c5-45e8-435b-f7b4bbc9671a response_time:0.008184177 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"3051978945"
+2017-04-09T10:35:51.54-0400 [RTR/1] OUT 
+[31m2017-04-09T10:35:51.55-0400 [APP/0] ERR ReferenceError: public is not defined[0m
+[31m2017-04-09T10:35:51.55-0400 [APP/0] ERR     at /home/vcap/app/app.js:19:16[0m
+[31m2017-04-09T10:35:51.55-0400 [APP/0] ERR     at Layer.handle [as handle_request] (/home/vcap/app/node_modules/express/lib/router/layer.js:95:5)[0m
+[31m2017-04-09T10:35:51.55-0400 [APP/0] ERR     at next (/home/vcap/app/node_modules/express/lib/router/route.js:131:13)[0m
+[31m2017-04-09T10:35:51.55-0400 [APP/0] ERR     at Layer.handle [as handle_request] (/home/vcap/app/node_modules/express/lib/router/layer.js:95:5)[0m
+[31m2017-04-09T10:35:51.55-0400 [APP/0] ERR     at /home/vcap/app/node_modules/express/lib/router/index.js:277:22[0m
+[31m2017-04-09T10:35:51.55-0400 [APP/0] ERR     at Function.process_params (/home/vcap/app/node_modules/express/lib/router/index.js:330:12)[0m
+[31m2017-04-09T10:35:51.55-0400 [APP/0] ERR     at next (/home/vcap/app/node_modules/express/lib/router/index.js:271:10)[0m
+[31m2017-04-09T10:35:51.55-0400 [APP/0] ERR     at Layer.handle [as handle_request] (/home/vcap/app/node_modules/express/lib/router/layer.js:95:5)[0m
+[31m2017-04-09T10:37:41.05-0400 [APP/0] ERR ReferenceError: public is not defined[0m
+[31m2017-04-09T10:37:41.05-0400 [APP/0] ERR     at Layer.handle [as handle_request] (/home/vcap/app/node_modules/express/lib/router/layer.js:95:5)[0m
+[31m2017-04-09T10:37:41.05-0400 [APP/0] ERR     at next (/home/vcap/app/node_modules/express/lib/router/route.js:131:13)[0m
+[31m2017-04-09T10:37:41.05-0400 [APP/0] ERR     at Layer.handle [as handle_request] (/home/vcap/app/node_modules/express/lib/router/layer.js:95:5)[0m
+[31m2017-04-09T10:37:41.05-0400 [APP/0] ERR     at /home/vcap/app/node_modules/express/lib/router/index.js:277:22[0m
+[31m2017-04-09T10:37:41.05-0400 [APP/0] ERR     at Function.process_params (/home/vcap/app/node_modules/express/lib/router/index.js:330:12)[0m
+[31m2017-04-09T10:37:41.05-0400 [APP/0] ERR     at next (/home/vcap/app/node_modules/express/lib/router/index.js:271:10)[0m
+[31m2017-04-09T10:37:41.05-0400 [APP/0] ERR     at expressInit (/home/vcap/app/node_modules/express/lib/middleware/init.js:33:5)[0m
+[31m2017-04-09T10:37:41.05-0400 [APP/0] ERR     at Layer.handle [as handle_request] (/home/vcap/app/node_modules/express/lib/router/layer.js:95:5)[0m
+2017-04-09T10:37:41.07-0400 [RTR/0] OUT lifeokjs.mybluemix.net - [09/04/2017:14:37:41.043 +0000] "GET / HTTP/1.1" 500 0 22 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 108.168.250.155:43096 x_forwarded_for:"65.113.61.98" x_forwarded_proto:"http" vcap_request_id:64bd08b5-8a2e-4a1a-78b1-1b1fe0a4a743 response_time:0.02709353 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"2355999807"
+2017-04-09T10:37:41.07-0400 [RTR/0] OUT 
+2017-04-09T10:41:25.24-0400 [CELL/0] OUT Exit status 0
+2017-04-09T10:41:29.31-0400 [API/7] OUT Updated app with guid f2d2192d-678d-4a5b-8b26-e52bd8304d6a ({"state"=>"STARTED"})
+2017-04-09T10:41:29.93-0400 [STG/0] OUT Downloading liberty-for-java_v3_5-20161114-1152...
+2017-04-09T10:41:29.93-0400 [STG/0] OUT Downloading swift_buildpack...
+2017-04-09T10:41:29.94-0400 [STG/0] OUT Downloading staticfile_buildpack...
+2017-04-09T10:41:29.96-0400 [STG/0] OUT Downloaded liberty-for-java_v3_5-20161114-1152
+2017-04-09T10:41:29.96-0400 [STG/0] OUT Downloading binary_buildpack...
+2017-04-09T10:41:29.96-0400 [STG/0] OUT Downloaded swift_buildpack_v2_0_4-20170125-2344
+2017-04-09T10:41:29.96-0400 [STG/0] OUT Downloading liberty-for-java_v3_4_1-20161030-2241...
+2017-04-09T10:41:29.96-0400 [STG/0] OUT Downloaded staticfile_buildpack
+2017-04-09T10:41:29.96-0400 [STG/0] OUT Downloading sdk-for-nodejs...
+2017-04-09T10:41:29.97-0400 [STG/0] OUT Downloaded php_buildpack
+2017-04-09T10:41:29.97-0400 [STG/0] OUT Downloading liberty-for-java...
+2017-04-09T10:41:29.98-0400 [STG/0] OUT Downloaded binary_buildpack
+2017-04-09T10:41:29.98-0400 [STG/0] OUT Downloading liberty-for-java_v3_7-20170118-2046...
+2017-04-09T10:41:29.99-0400 [STG/0] OUT Downloaded liberty-for-java_v3_4_1-20161030-2241
+2017-04-09T10:41:29.99-0400 [STG/0] OUT Downloading dotnet-core_v1_0_6-20161205-0912...
+2017-04-09T10:41:29.99-0400 [STG/0] OUT Downloaded sdk-for-nodejs
+2017-04-09T10:41:29.99-0400 [STG/0] OUT Downloading sdk-for-nodejs_v3_10-20170119-1146...
+2017-04-09T10:41:30.00-0400 [STG/0] OUT Downloaded liberty-for-java
+2017-04-09T10:41:30.00-0400 [STG/0] OUT Downloading dotnet-core...
+2017-04-09T10:41:30.00-0400 [STG/0] OUT Downloaded liberty-for-java_v3_7-20170118-2046
+2017-04-09T10:41:30.00-0400 [STG/0] OUT Downloading nodejs_buildpack...
+2017-04-09T10:41:30.01-0400 [STG/0] OUT Downloaded dotnet-core_v1_0_6-20161205-0912
+2017-04-09T10:41:30.01-0400 [STG/0] OUT Downloading noop-buildpack...
+2017-04-09T10:41:30.01-0400 [STG/0] OUT Downloaded sdk-for-nodejs_v3_10-20170119-1146
+2017-04-09T10:41:30.01-0400 [STG/0] OUT Downloading java_buildpack...
+2017-04-09T10:41:30.02-0400 [STG/0] OUT Downloaded dotnet-core
+2017-04-09T10:41:30.02-0400 [STG/0] OUT Downloading ruby_buildpack...
+2017-04-09T10:41:30.03-0400 [STG/0] OUT Downloaded nodejs_buildpack
+2017-04-09T10:41:30.03-0400 [STG/0] OUT Downloading python_buildpack...
+2017-04-09T10:41:30.04-0400 [STG/0] OUT Downloaded java_buildpack
+2017-04-09T10:41:30.04-0400 [STG/0] OUT Downloading go_buildpack...
+2017-04-09T10:41:30.04-0400 [STG/0] OUT Downloaded noop-buildpack
+2017-04-09T10:41:30.04-0400 [STG/0] OUT Downloading xpages_buildpack...
+2017-04-09T10:41:30.05-0400 [STG/0] OUT Downloaded python_buildpack
+2017-04-09T10:41:30.06-0400 [STG/0] OUT Downloaded go_buildpack
+2017-04-09T10:41:34.10-0400 [STG/0] OUT Downloaded swift_buildpack (381.3M)
+2017-04-09T10:41:34.10-0400 [STG/0] OUT Creating container
+2017-04-09T10:41:36.21-0400 [CELL/0] OUT Destroying container
+2017-04-09T10:41:49.58-0400 [CELL/0] OUT Successfully destroyed container
+2017-04-09T10:41:50.58-0400 [STG/0] OUT Successfully created container
+2017-04-09T10:41:50.58-0400 [STG/0] OUT Downloading app package...
+2017-04-09T10:41:50.99-0400 [STG/0] OUT Downloaded app package (1.6M)
+2017-04-09T10:41:50.99-0400 [STG/0] OUT Downloading build artifacts cache...
+2017-04-09T10:41:51.55-0400 [STG/0] OUT Downloaded build artifacts cache (481.7K)
+2017-04-09T10:41:51.55-0400 [STG/0] OUT Staging...
+2017-04-09T10:41:52.84-0400 [STG/0] OUT -----> IBM SDK for Node.js Buildpack v3.11-20170303-1144
+2017-04-09T10:41:52.84-0400 [STG/0] OUT        Based on Cloud Foundry Node.js Buildpack v1.5.24
+2017-04-09T10:41:52.85-0400 [STG/0] OUT -----> Creating runtime environment
+2017-04-09T10:41:52.86-0400 [STG/0] OUT        
+2017-04-09T10:41:52.86-0400 [STG/0] OUT        NPM_CONFIG_LOGLEVEL=error
+2017-04-09T10:41:52.86-0400 [STG/0] OUT        NPM_CONFIG_PRODUCTION=true
+2017-04-09T10:41:52.87-0400 [STG/0] OUT        NODE_ENV=production
+2017-04-09T10:41:52.87-0400 [STG/0] OUT        NODE_MODULES_CACHE=true
+2017-04-09T10:41:52.87-0400 [STG/0] OUT        engines.node (package.json):  unspecified
+2017-04-09T10:41:52.87-0400 [STG/0] OUT        
+2017-04-09T10:41:52.87-0400 [STG/0] OUT        Resolving node version (latest stable) via 'node-version-resolver'
+2017-04-09T10:41:53.11-0400 [STG/0] OUT        Installing IBM SDK for Node.js (4.8.0) from cache
+2017-04-09T10:41:54.99-0400 [STG/0] OUT        Using default npm version: 2.15.11
+2017-04-09T10:41:55.30-0400 [STG/0] OUT        - node_modules
+2017-04-09T10:41:55.30-0400 [STG/0] OUT -----> Checking and configuring service extensions before installing dependencies
+2017-04-09T10:41:55.44-0400 [STG/0] OUT -----> Building dependencies
+2017-04-09T10:41:55.44-0400 [STG/0] OUT        Installing node modules (package.json)
+2017-04-09T10:41:56.56-0400 [STG/0] OUT -----> Checking and configuring service extensions after installing dependencies
+2017-04-09T10:41:56.67-0400 [STG/0] OUT -----> Installing App Management
+2017-04-09T10:42:01.98-0400 [STG/0] OUT        Clearing previous node cache
+2017-04-09T10:42:01.99-0400 [STG/0] OUT        Saving 2 cacheDirectories (default):
+2017-04-09T10:42:02.29-0400 [STG/0] OUT        - bower_components (nothing to cache)
+2017-04-09T10:42:02.57-0400 [STG/0] OUT -----> Build succeeded!
+2017-04-09T10:42:03.28-0400 [STG/0] OUT        ├── cfenv@1.0.4 extraneous
+2017-04-09T10:42:03.28-0400 [STG/0] OUT        └── express@4.13.4 extraneous
+2017-04-09T10:42:03.28-0400 [STG/0] OUT        
+2017-04-09T10:42:10.28-0400 [STG/0] OUT Staging complete
+2017-04-09T10:42:10.28-0400 [STG/0] OUT Uploading droplet, build artifacts cache...
+2017-04-09T10:42:10.28-0400 [STG/0] OUT Uploading build artifacts cache...
+2017-04-09T10:42:10.28-0400 [STG/0] OUT Uploading droplet...
+2017-04-09T10:42:10.47-0400 [STG/0] OUT Uploaded build artifacts cache (485.1K)
+2017-04-09T10:42:14.44-0400 [STG/0] OUT Uploaded droplet (18.9M)
+2017-04-09T10:42:14.45-0400 [STG/0] OUT Uploading complete
+2017-04-09T10:42:14.60-0400 [STG/0] OUT Destroying container
+2017-04-09T10:42:15.70-0400 [CELL/0] OUT Creating container
+2017-04-09T10:42:24.81-0400 [STG/0] OUT Successfully destroyed container
+2017-04-09T10:42:28.15-0400 [CELL/0] OUT Successfully created container
+2017-04-09T10:42:29.84-0400 [CELL/0] OUT Starting health monitoring of container
+2017-04-09T10:42:30.82-0400 [APP/0] OUT > freelancer@3.3.7 start /home/vcap/app
+2017-04-09T10:42:30.82-0400 [APP/0] OUT > node app.js
+2017-04-09T10:42:31.15-0400 [APP/0] OUT server starting on https://lifeokjs.mybluemix.net
+2017-04-09T10:42:31.95-0400 [CELL/0] OUT Container became healthy
+2017-04-09T10:42:45.17-0400 [RTR/0] OUT lifeokjs.mybluemix.net - [09/04/2017:14:42:45.151 +0000] "GET / HTTP/1.1" 404 0 10 "https://console.ng.bluemix.net/dashboard/apps/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 192.155.237.114:54478 x_forwarded_for:"65.113.61.98" x_forwarded_proto:"https" vcap_request_id:234892be-fac9-4ee4-48ae-418fe1f87f02 response_time:0.025760598 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"3142952589"
+2017-04-09T10:42:45.17-0400 [RTR/0] OUT 
+[31m2017-04-09T10:42:45.19-0400 [APP/0] ERR Error: ENOENT: no such file or directory, stat '/home/vcap/app/index.html'[0m
+[31m2017-04-09T10:42:45.19-0400 [APP/0] ERR     at Error (native)[0m
+2017-04-09T10:43:02.66-0400 [RTR/1] OUT lifeokjs.mybluemix.net - [09/04/2017:14:43:02.651 +0000] "GET / HTTP/1.1" 404 0 10 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36" 192.155.237.119:19369 x_forwarded_for:"65.113.61.98" x_forwarded_proto:"http" vcap_request_id:e9008b76-8c5a-4315-77b8-ea4b638629e0 response_time:0.009408351 app_id:f2d2192d-678d-4a5b-8b26-e52bd8304d6a x_global_transaction_id:"1178527543"
+2017-04-09T10:43:02.66-0400 [RTR/1] OUT 
+[31m2017-04-09T10:43:02.66-0400 [APP/0] ERR     at Error (native)[0m
