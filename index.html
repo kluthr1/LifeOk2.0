@@ -295,10 +295,78 @@ label:hover:before {
   color: #aaaaaa;
   font-weight: bold;
 }
+.textarea-container {
+  position: relative;
+  /* you should change this*/
+  width: 50%;
+}
 
+textarea, .textarea-size {
+  min-height: 25px;
+  /* need to manually set font and font size */
+  font-family: sans-serif;
+  font-size: 14px;
+  box-sizing: border-box;
+  padding: 4px;
+  border: 1px solid;
+
+  overflow: hidden;
+  width: 100%;
+}
+
+textarea {
+  height: 75%;
+  position: absolute;
+  resize:none;
+    width: 235px;
+
+  /*
+  "pre" or "preline" or "normal" fixes Chrome issue where
+    whitespace at end of lines does not trigger a line break.
+  However, it causes the text to exhibit the behavior seen with
+    "pre" that is described below.
+   */
+  white-space: normal;
+}
+
+.textarea-size {
+  visibility: hidden;
+
+  /*
+  Pre-wrap: preserve spacing and newlines, but wrap text.
+  Pre: preserve spacing and newlines but don't wrap text.
+
+  "pre" does not wrap well on Firefox, even with word-wrap:break-word.
+  "pre" on Chrome works with word-wrap, but exhibits different behavior:
+  Instead of entire words being moved to the next line for wrapping,
+  the browser will cut words in the middle for wrapping.
+  "pre-line" has Firefox issues
+  */
+  white-space: pre-wrap;
+  /* Required for wrapping lines in Webkit,
+    but not necessary in Firefox if you have white-space wrapping
+    (pre-wrap, normal, pre-line) already set */
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
     </style>
    
     <script type="text/javascript">
+        var textContainer, textareaSize, input;
+        var autoSize = function () {
+  // also can use textContent or innerText
+                textareaSize.innerHTML = input.value + '\n';
+        };
+
+        document.addEventListener('DOMContentLoaded', function() {
+  textContainer = document.querySelector('.textarea-container');
+  textareaSize = textContainer.querySelector('.textarea-size');
+  input = textContainer.querySelector('textarea');
+
+  autoSize();
+  input.addEventListener('input', autoSize);
+});
+        
         window.alert = function(){};
         var defaultCSS = document.getElementById('bootstrap-css');
         function changeCSS(css){
@@ -350,35 +418,30 @@ label:hover:before {
         <div class="container" id="maincontent" tabindex="-1">
             <div class="row">
                 <div class="col-lg-12">
-            <div class="logo" color = "#ffffff"><font color = "white">Forgot Password</font></div>
+            <div class="logo" color = "#ffffff"><font color = "white">Welcome! My Name is Lil' Boat, Feel Free To Express Yourself</font></div>
 	
 	<!-- Main Form -->
-	<div class="login-form-1">
-		<form id="forgot-password-form" class="text-left" novalidate="novalidate">
-			<div class="etc-login-form">
-				<p>When you fill in your registered email address, you will be sent instructions on how to reset your password.</p>
-			</div>
+	<div class="login-form-1" style="width: 300px;">
+		<form id="register-form" class="text-left" novalidate="novalidate">
 			<div class="login-form-main-message"></div>
 			<div class="main-login-form">
 				<div class="login-group">
-					<div class="form-group">
-						<label for="fp_email" class="sr-only">Email address</label>
-						<input type="text" class="form-control" id="fp_email" name="fp_email" placeholder="email address">
-					</div>
+					<div class="textarea-container">
+                        <textarea></textarea>
+                                <div class="textarea-size"></div>
+                                </div>
 				</div>
-				<button type="submit" class="login-button"><i class="fa fa-chevron-right"></i><img src="sources/Iconsmind-Outline-Arrow-Right.ico" alt="Go" style="width:15px;height:15px;"></button>
+				<button type="submit" class="login-button" onclick="redirect()";><i class="fa fa-chevron-right"></i></button>
 			</div>
 			<div class="etc-login-form">
-				<p>already have an account? <a href="index.html">login here</a></p>
-				<p>new user? <a href="reg.html">create new account</a></p>
+                <p><font color = "white"></font> <a href="log.html"><font color = "black"></font></a></p>
 			</div>
 		</form>
 	</div>
 	<!-- end:Main Form -->
 </div>
-	<!-- end:Main Form -->
-</div>
                     </div>
+                </div>
             
 
     </header>
