@@ -1,34 +1,38 @@
 <!DOCTYPE html>
-<!-- saved from url=(0054)http://bootsnipp-env.elasticbeanstalk.com/iframe/p1ZVE -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
-    <meta name="robots" content="noindex">
+<html lang="en">
 
-    <title>Custom Login, Registration &amp; Forgot Password - Bootsnipp.com</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="./Custom Login, Registration &amp; Forgot Password - Bootsnipp.com_files/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+
+    <title>LifeOk - Login</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+       
     <style type="text/css">
-    /*------------------------------------------------------------------
-[Master Stylesheet]
-
-Project    	: Aether
-Version		: 1.0
-Last change	: 2015/03/27
--------------------------------------------------------------------*/
-/*------------------------------------------------------------------
-[Table of contents]
-
-1. General Structure
-2. Anchor Link
-3. Text Outside the Box
-4. Main Form
-5. Login Button
-6. Form Invalid
-7. Form - Main Message
-8. Custom Checkbox & Radio
-9. Misc
--------------------------------------------------------------------*/
-/*=== 1. General Structure ===*/
 html,
 
 /*=== 2. Anchor Link ===*/
@@ -222,7 +226,7 @@ label.form-invalid:after {
 /* checked mark aspect changes */
 [type="checkbox"]:not(:checked) + label:after,
 [type="radio"]:not(:checked) + label:after {
-  opacity: 0;
+  opacity: a0;
   transform: scale(0);
 }
 [type="checkbox"]:checked + label:after,
@@ -291,10 +295,78 @@ label:hover:before {
   color: #aaaaaa;
   font-weight: bold;
 }
+.textarea-container {
+  position: relative;
+  /* you should change this*/
+  width: 50%;
+}
 
+textarea, .textarea-size {
+  min-height: 25px;
+  /* need to manually set font and font size */
+  font-family: sans-serif;
+  font-size: 14px;
+  box-sizing: border-box;
+  padding: 4px;
+  border: 1px solid;
+
+  overflow: hidden;
+  width: 100%;
+}
+
+textarea {
+  height: 75%;
+  position: absolute;
+  resize:none;
+    width: 235px;
+
+  /*
+  "pre" or "preline" or "normal" fixes Chrome issue where
+    whitespace at end of lines does not trigger a line break.
+  However, it causes the text to exhibit the behavior seen with
+    "pre" that is described below.
+   */
+  white-space: normal;
+}
+
+.textarea-size {
+  visibility: hidden;
+
+  /*
+  Pre-wrap: preserve spacing and newlines, but wrap text.
+  Pre: preserve spacing and newlines but don't wrap text.
+
+  "pre" does not wrap well on Firefox, even with word-wrap:break-word.
+  "pre" on Chrome works with word-wrap, but exhibits different behavior:
+  Instead of entire words being moved to the next line for wrapping,
+  the browser will cut words in the middle for wrapping.
+  "pre-line" has Firefox issues
+  */
+  white-space: pre-wrap;
+  /* Required for wrapping lines in Webkit,
+    but not necessary in Firefox if you have white-space wrapping
+    (pre-wrap, normal, pre-line) already set */
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
     </style>
-
+   
     <script type="text/javascript">
+        var textContainer, textareaSize, input;
+        var autoSize = function () {
+  // also can use textContent or innerText
+                textareaSize.innerHTML = input.value + '\n';
+        };
+
+        document.addEventListener('DOMContentLoaded', function() {
+  textContainer = document.querySelector('.textarea-container');
+  textareaSize = textContainer.querySelector('.textarea-size');
+  input = textContainer.querySelector('textarea');
+
+  autoSize();
+  input.addEventListener('input', autoSize);
+});
+        
         window.alert = function(){};
         var defaultCSS = document.getElementById('bootstrap-css');
         function changeCSS(css){
@@ -306,203 +378,104 @@ label:hover:before {
           window.parent.postMessage( iframe_height, 'http://bootsnipp.com');
         });
     </script>
+    
 </head>
-<body>
-	<!-- All the files that are required -->
 
+<body id="page-top" class="index">
+<div id="skipnav"><a href="#maincontent">Skip to main content</a></div>
 
-<!-- Where all the magic happens -->
-<!-- LOGIN FORM -->
-<div  align= "center"  class="text-center" style="padding:50px 0">
-	<div class="logo">login</div>
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#page-top">Life-Ok</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container" id="maincontent" tabindex="-1">
+            <div class="row">
+                <div class="col-lg-12">
+            <div class="logo" color = "#ffffff"><font color = "white">Welcome! My Name is Lil' Boat, Feel Free To Express Yourself</font></div>
+	
 	<!-- Main Form -->
-	<div class="login-form-1">
-		<form id="login-form" class="text-left" novalidate="novalidate">
+	<div class="login-form-1" style="width: 300px;">
+		<form id="register-form" class="text-left" novalidate="novalidate">
 			<div class="login-form-main-message"></div>
 			<div class="main-login-form">
 				<div class="login-group">
-					<div class="form-group">
-						<label for="lg_username" class="sr-only">Username</label>
-						<input type="text" class="form-control" id="lg_username" name="lg_username" placeholder="username">
-					</div>
-					<div class="form-group">
-						<label for="lg_password" class="sr-only">Password</label>
-						<input type="password" class="form-control" id="lg_password" name="lg_password" placeholder="password">
-					</div>
+					<div class="textarea-container">
+                        <textarea></textarea>
+                                <div class="textarea-size"></div>
+                                </div>
 				</div>
-				<button type="submit" class="login-button"><i class="fa fa-chevron-right"></i><img src="sources/Iconsmind-Outline-Arrow-Right.ico" alt="Go" style="width:15px;height:15px;"></button>
+				<button type="submit" class="login-button" onclick="redirect()";><i class="fa fa-chevron-right"></i></button>
 			</div>
 			<div class="etc-login-form">
-				<p>forgot your password? <a href="http://bootsnipp-env.elasticbeanstalk.com/iframe/p1ZVE#">click here</a></p>
-				<p>new user? <a href="reg.html">create new account</a></p>
+                <p><font color = "white"></font> <a href="log.html"><font color = "black"></font></a></p>
 			</div>
 		</form>
 	</div>
 	<!-- end:Main Form -->
 </div>
+                    </div>
+                </div>
+            
 
-<!-- REGISTRATION FORM -->
+    </header>
 
-<!-- FORGOT PASSWORD FORM -->
+    <!-- Portfolio Grid Section -->
 
-	<script type="text/javascript">
-	(function($) {
-    "use strict";
-	
-	// Options for Message
-	//----------------------------------------------
-  var options = {
-	  'btn-loading': '<i class="fa fa-spinner fa-pulse"></i>',
-	  'btn-success': '<i class="fa fa-check"></i>',
-	  'btn-error': '<i class="fa fa-remove"></i>',
-	  'msg-success': 'All Good! Redirecting...',
-	  'msg-error': 'Wrong login credentials!',
-	  'useAJAX': true,
-  };
+    <!-- About Section -->
 
-	// Login Form
-	//----------------------------------------------
-	// Validation
-  $("#login-form").validate({
-  	rules: {
-      lg_username: "required",
-  	  lg_password: "required",
-    },
-  	errorClass: "form-invalid"
-  });
-  
-	// Form Submission
-  $("#login-form").submit(function() {
-  	remove_loading($(this));
-		
-		if(options['useAJAX'] == true)
-		{
-			// Dummy AJAX request (Replace this with your AJAX code)
-		  // If you don't want to use AJAX, remove this
-  	  dummy_submit_form($(this));
-		
-		  // Cancel the normal submission.
-		  // If you don't want to use AJAX, remove this
-  	  return false;
-		}
-  });
-	
-	// Register Form
-	//----------------------------------------------
-	// Validation
-  $("#register-form").validate({
-  	rules: {
-      reg_username: "required",
-  	  reg_password: {
-  			required: true,
-  			minlength: 5
-  		},
-   		reg_password_confirm: {
-  			required: true,
-  			minlength: 5,
-  			equalTo: "#register-form [name=reg_password]"
-  		},
-  		reg_email: {
-  	    required: true,
-  			email: true
-  		},
-  		reg_agree: "required",
-    },
-	  errorClass: "form-invalid",
-	  errorPlacement: function( label, element ) {
-	    if( element.attr( "type" ) === "checkbox" || element.attr( "type" ) === "radio" ) {
-    		element.parent().append( label ); // this would append the label after all your checkboxes/labels (so the error-label will be the last element in <div class="controls"> )
-	    }
-			else {
-  	  	label.insertAfter( element ); // standard behaviour
-  	  }
-    }
-  });
+    <!-- Contact Section -->
+    
 
-  // Form Submission
-  $("#register-form").submit(function() {
-  	remove_loading($(this));
-		
-		if(options['useAJAX'] == true)
-		{
-			// Dummy AJAX request (Replace this with your AJAX code)
-		  // If you don't want to use AJAX, remove this
-  	  dummy_submit_form($(this));
-		
-		  // Cancel the normal submission.
-		  // If you don't want to use AJAX, remove this
-  	  return false;
-		}
-  });
-
-	// Forgot Password Form
-	//----------------------------------------------
-	// Validation
-  $("#forgot-password-form").validate({
-  	rules: {
-      fp_email: "required",
-    },
-  	errorClass: "form-invalid"
-  });
-  
-	// Form Submission
-  $("#forgot-password-form").submit(function() {
-  	remove_loading($(this));
-		
-		if(options['useAJAX'] == true)
-		{
-			// Dummy AJAX request (Replace this with your AJAX code)
-		  // If you don't want to use AJAX, remove this
-  	  dummy_submit_form($(this));
-		
-		  // Cancel the normal submission.
-		  // If you don't want to use AJAX, remove this
-  	  return false;
-		}
-  });
-
-	// Loading
-	//----------------------------------------------
-  function remove_loading($form)
-  {
-  	$form.find('[type=submit]').removeClass('error success');
-  	$form.find('.login-form-main-message').removeClass('show error success').html('');
-  }
-
-  function form_loading($form)
-  {
-    $form.find('[type=submit]').addClass('clicked').html(options['btn-loading']);
-  }
-  
-  function form_success($form)
-  {
-	  $form.find('[type=submit]').addClass('success').html(options['btn-success']);
-	  $form.find('.login-form-main-message').addClass('show success').html(options['msg-success']);
-  }
-
-  function form_failed($form)
-  {
-  	$form.find('[type=submit]').addClass('error').html(options['btn-error']);
-  	$form.find('.login-form-main-message').addClass('show error').html(options['msg-error']);
-  }
-
-	// Dummy Submit Form (Remove this)
-	//----------------------------------------------
-	// This is just a dummy form submission. You should use your AJAX function or remove this function if you are not using AJAX.
-  function dummy_submit_form($form)
-  {
-  	if($form.valid())
-  	{
-  		form_loading($form);
-  		
-  		setTimeout(function() {
-  			form_success($form);
-  		}, 2000);
-  	}
-  }
-	
-})(jQuery);
-	</script>
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
 
 
-</body></html>
+    <!-- Portfolio Modals -->
+   
+     
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/freelancer.min.js"></script>
+
+</body>
+
+</html>
