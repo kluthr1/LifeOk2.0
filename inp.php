@@ -1,4 +1,8 @@
-<!DOCTYPE html>
+<php>
+    include('index.html');
+
+</php>
+<!--
 <html lang="en">
 
 <head>
@@ -482,4 +486,4 @@ textarea {
 
 </body>
 
-</html>
+</html>-->
