@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="root" >
      <meta name="viewport" content="width=device-width, initial-scale=1">
  
 
@@ -338,14 +338,29 @@ label:hover:before {
 
     </style>
    
-    <script>
+    <script type="text/javascript">
         
-        function check(){
-            if((localStorage.getItem('name') != null || localStorage.getItem('name') != "") && (localStorage.getItem('email') != null|| localStorage.getItem('email') != "")){
-                window.open("index.html");
-
-            }
+        function check() {
+        	if(getCookie("the_email")!=""&&getCookie("the_email")!=null ){
+				window.location = "index.php";
+        	
+        	}
         }
+        function getCookie(cname) {
+		    var name = cname + "=";
+    		 var decodedCookie = decodeURIComponent(document.cookie);
+   	 	 var ca = decodedCookie.split(';');
+    		for(var i = 0; i <ca.length; i++) {
+        		var c = ca[i];
+        		while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+        		}
+        		if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+        		}
+    }
+    return "";
+}
     </script>
 
     
@@ -353,7 +368,7 @@ label:hover:before {
 
 </head>
 
-<body id="page-top" class="index" onLoad= "check">
+<body id="page-top" class="index" >
 <div id="skipnav"><a href="#maincontent">Skip to main content</a></div>
 
     <!-- Navigation -->
@@ -375,7 +390,7 @@ label:hover:before {
                     </li>
                     
                     <li class="page-scroll">
-                        <a href="about.html">About</a>
+                        <a href="about.php">About</a>
                     </li>
                     
                 </ul>
@@ -390,26 +405,26 @@ label:hover:before {
         <div class="container" id="maincontent" tabindex="-1">
             <div class="row">
                 <div class="col-lg-12">
-            <div class="logo" color = "#ffffff"><font color = "white">Register</font></div>
+            <div class="logo" color = "#ffffff"><font color = "white">Edit Settings</font></div>
 	<div align= "center" class="text-center" style="padding:50px 0">
 	<div class="logo"></div>
 	<!-- Main Form -->
 	<div class="login-form-1">
-		<form id="register-form" class="text-left" novalidate="novalidate">
+		<form id="register-form" class="text-left" action ="index.php">
 			<div class="login-form-main-message"></div>
 			<div class="main-login-form">
 				<div class="login-group">
 					<div class="form-group">
 						<label for="reg_username" class="sr-only">Name</label>
-						<input type="text" class="form-control" id="reg_name" name="reg_name" placeholder="Name">
+						<input type="text" class="form-control" placeholder="Name" id="namea" name="namea">
 					</div>	
 					<div class="form-group">
 						<label for="reg_email" class="sr-only">Email</label>
-						<input type="text" class="form-control" id="reg_email" name="reg_email" placeholder="Email">
+						 <input type="email" class="form-control" placeholder="Email Address" id="email" name= "email">
 					</div>
                     <div class="form-group">
 						<label for="the_email" class="sr-only">Therapist Email</label>
-						<input type="text" class="form-control" id="the_email" name="the_email" placeholder="Therapist Email">
+						<input type="email" class="form-control" id="the_email" name="the_email" placeholder="Therapist Email">
 					</div>
 						
 					<div>
@@ -417,7 +432,7 @@ label:hover:before {
                             By Using This Website, You are agreeing to all Terms and Conditions</p>
 					</div>
 				</div>
-				<button  class="login-button" type="submit"><i class="fa fa-chevron-right"></i></button>
+				<button  class="login-button" onClick = "reg()" type="submit"><i class="fa fa-chevron-right"></i></button>
 			</div>
 			
         </form>
@@ -487,21 +502,27 @@ label:hover:before {
 
 	<script>
 	var form = document.getElementById("register-form");
-    form.onsubmit = function(e){
-    localStorage.setItem('name', form.reg_name.value);
-    localStorage.setItem('email',form.the_email.value);
-        console.log(localStorage.getItem('name'));
-               window.open("index.html");
-    }
-	
-	// Register Form
-	//----------------------------------------------
-	// Validation
- function onClick()
-  { check();
+   function reg() {
+   	cc("namea",form.namea.value, 30);
+   	cc("email",form.email.value, 30);
+   	cc("the_email", form.the_email.value, 30);
+   }
+    
 
-  }
-	
+
+	 function cc(name, value, days){
+   			 var expires;
+    		  	if (days) {
+        			var date = new Date();
+        			date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+        			expires = "; expires=" + date.toGMTString();
+    			}
+    			else {
+      	  expires = "";
+    			}
+    		document.cookie = name + "=" + value + expires + "; path=/";
+			}
+		
 	</script>
 
     

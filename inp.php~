@@ -5,6 +5,6 @@ if( empty($_POST['message']))
 	echo "Error";
 	return false;
    }
-   echo $_POST['message']. "FIght ME Kiddo ".$_COOKIE['the_email'];
+   echo $_POST['message']. "FIght ME Biatch".$_COOKIE['email'];
 return true;			
 ?>

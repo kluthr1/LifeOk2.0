@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -7,13 +8,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="root" >
      <meta name="viewport" content="width=device-width, initial-scale=1">
  
 
-    <title>LifeOk</title>
+    <title>LifeOk - Register</title>
     <link rel="shortcut icon" href="sources/favicon.png" type="image/x-icon">   
-
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -36,6 +36,44 @@
     <style type="text/css">
 html,
 
+
+<!-- saved from url=(0054)http://bootsnipp-env.elasticbeanstalk.com/iframe/p1ZVE -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="robots" content="noindex">
+
+    <title>Custom Login, Registration &amp; Forgot Password - Bootsnipp.com</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./Custom Login, Registration &amp; Forgot Password - Bootsnipp.com_files/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <style type="text/css">
+    /*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project    	: Aether
+Version		: 1.0
+Last change	: 2015/03/27
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. General Structure
+2. Anchor Link
+3. Text Outside the Box
+4. Main Form
+5. Login Button
+6. Form Invalid
+7. Form - Main Message
+8. Custom Checkbox & Radio
+9. Misc
+-------------------------------------------------------------------*/
+/*=== 1. General Structure ===*/
+html,
+body {
+  background: #efefef;
+  padding: 10px;
+  font-family: 'Varela Round';
+}
+>>>>>>> 4e819e0dc3ffb3c92787fd93cd5b9acea30fad8a
 /*=== 2. Anchor Link ===*/
 a {
   color: #aaaaaa;
@@ -227,7 +265,8 @@ label.form-invalid:after {
 /* checked mark aspect changes */
 [type="checkbox"]:not(:checked) + label:after,
 [type="radio"]:not(:checked) + label:after {
-  opacity: a0;
+
+  opacity: 0;
   transform: scale(0);
 }
 [type="checkbox"]:checked + label:after,
@@ -296,93 +335,40 @@ label:hover:before {
   color: #aaaaaa;
   font-weight: bold;
 }
-.textarea-container {
-  position: relative;
-  /* you should change this*/
-  width: 50%;
-}
 
-textarea, .textarea-size {
-  min-height: 25px;
-  /* need to manually set font and font size */
-  font-family: sans-serif;
-  font-size: 14px;
-  box-sizing: border-box;
-  padding: 4px;
-  border: 1px solid;
-
-  overflow: hidden;
-  width: 100%;
-}
-
-textarea {
-  height: 75%;
-  position: absolute;
-  resize:none;
-    width: 235px;
-
-  /*
-  "pre" or "preline" or "normal" fixes Chrome issue where
-    whitespace at end of lines does not trigger a line break.
-  However, it causes the text to exhibit the behavior seen with
-    "pre" that is described below.
-   */
-  white-space: normal;
-}
-
-.textarea-size {
-  visibility: hidden;
-
-  /*
-  Pre-wrap: preserve spacing and newlines, but wrap text.
-  Pre: preserve spacing and newlines but don't wrap text.
-
-  "pre" does not wrap well on Firefox, even with word-wrap:break-word.
-  "pre" on Chrome works with word-wrap, but exhibits different behavior:
-  Instead of entire words being moved to the next line for wrapping,
-  the browser will cut words in the middle for wrapping.
-  "pre-line" has Firefox issues
-  */
-  white-space: pre-wrap;
-  /* Required for wrapping lines in Webkit,
-    but not necessary in Firefox if you have white-space wrapping
-    (pre-wrap, normal, pre-line) already set */
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-}
     </style>
    
     <script type="text/javascript">
-        var textContainer, textareaSize, input;
-        var autoSize = function () {
-  // also can use textContent or innerText
-                textareaSize.innerHTML = input.value + '\n';
-        };
-
-        document.addEventListener('DOMContentLoaded', function() {
-  textContainer = document.querySelector('.textarea-container');
-  textareaSize = textContainer.querySelector('.textarea-size');
-  input = textContainer.querySelector('textarea');
-
-  autoSize();
-  input.addEventListener('input', autoSize);
-});
         
-        window.alert = function(){};
-        var defaultCSS = document.getElementById('bootstrap-css');
-        function changeCSS(css){
-            if(css) $('head > link').filter(':first').replaceWith('<link rel="stylesheet" href="'+ css +'" type="text/css" />'); 
-            else $('head > link').filter(':first').replaceWith(defaultCSS); 
+        function check() {
+        	if(getCookie("the_email")!=""&&getCookie("the_email")!=null ){
+				window.location = "index.php";
+        	
+        	}
         }
-        $( document ).ready(function() {
-          var iframe_height = parseInt($('html').height()); 
-          window.parent.postMessage( iframe_height, 'http://bootsnipp.com');
-        });
+        function getCookie(cname) {
+		    var name = cname + "=";
+    		 var decodedCookie = decodeURIComponent(document.cookie);
+   	 	 var ca = decodedCookie.split(';');
+    		for(var i = 0; i <ca.length; i++) {
+        		var c = ca[i];
+        		while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+        		}
+        		if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+        		}
+    }
+    return "";
+}
     </script>
+
     
+    
+
 </head>
 
-<body id="page-top" class="index">
+<body id="page-top" class="index" onLoad= "check()">
 <div id="skipnav"><a href="#maincontent">Skip to main content</a></div>
 
     <!-- Navigation -->
@@ -393,7 +379,7 @@ textarea {
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#page-top">Life-Ok</a>
+                <a class="navbar-brand" href="about.php">Life-Ok</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -404,7 +390,7 @@ textarea {
                     </li>
                     
                     <li class="page-scroll">
-                        <a href="about.html">About</a>
+                        <a href="about.php">About</a>
                     </li>
                     
                 </ul>
@@ -419,38 +405,57 @@ textarea {
         <div class="container" id="maincontent" tabindex="-1">
             <div class="row">
                 <div class="col-lg-12">
-            <div class="logo" color = "#ffffff"><font color = "white">Welcome! My Name is Lil' Boat, Feel Free To Express Yourself</font></div>
-	
+            <div class="logo" color = "#ffffff"><font color = "white">Register</font></div>
+	<div align= "center" class="text-center" style="padding:50px 0">
+	<div class="logo"></div>
 	<!-- Main Form -->
-	<div class="login-form-1" style="width: 300px;">
-		<form id="register-form" name = "register-form" class="text-left" action = "URL PHP" novalidate="novalidate">
+	<div class="login-form-1">
+		<form id="register-form" class="text-left" action ="index.php">
 			<div class="login-form-main-message"></div>
 			<div class="main-login-form">
 				<div class="login-group">
-                    
-					<div class="textarea-container">
-                        <textarea></textarea>
-                                <div class="textarea-size" id = "message"></div>
-                                </div>
+					<div class="form-group">
+						<label for="reg_username" class="sr-only">Name</label>
+						<input type="text" class="form-control" placeholder="Name" id="namea" name="namea">
+					</div>	
+					<div class="form-group">
+						<label for="reg_email" class="sr-only">Email</label>
+						 <input type="email" class="form-control" placeholder="Email Address" id="email" name= "email">
+					</div>
+                    <div class="form-group">
+						<label for="the_email" class="sr-only">Therapist Email</label>
+						<input type="email" class="form-control" id="the_email" name="the_email" placeholder="Therapist Email">
+					</div>
+						
+					<div>
+                        <p>
+                            By Using This Website, You are agreeing to all Terms and Conditions</p>
+					</div>
 				</div>
-                   <input type="hidden" id="name" value="" />
-                   <input type="hidden" id="email" value="" />
-
-                    
-				<button type="submit" class="login-button" onclick="redirect()";><i class="fa fa-chevron-right"></i></button>
+				<button  class="login-button" onClick = "reg()" type="submit"><i class="fa fa-chevron-right"></i></button>
 			</div>
-			<div class="etc-login-form">
-                <p><font color = "white"></font> <a href="log.html"><font color = "black"></font></a></p>
-			</div>
-		</form>
-	</div>
-	<!-- end:Main Form -->
-</div>
-                    </div>
+			
+        </form>
+    </div>
+    </div>
                 </div>
-            
-
+            </div>
+        </div>
     </header>
+    
+
+	<!-- All the files that are required -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- Where all the magic happens -->
+<!-- LOGIN FORM -->
+
+	
+	<!-- end:Main Form -->
+
+
+<!-- REGISTRATION FORM -->
 
     <!-- Portfolio Grid Section -->
 
@@ -464,13 +469,7 @@ textarea {
 
     <!-- Portfolio Modals -->
    
-     <script>
-         function redirect(){
-            document.getElementById('name').value = localStorage.getItem('name');
-             document.getElementById('email').value = localStorage.getItem('email');
-            document.getElementById('register-form').submit();
-         }
-    </script>
+     
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -488,6 +487,43 @@ textarea {
     <!-- Theme JavaScript -->
     <script src="js/freelancer.min.js"></script>
 
-</body>
 
-</html>
+
+
+
+<!-- FORGOT PASSWORD FORM -->
+    <script type="text/javascript">
+    function redirect()
+    {
+    var url = "index.html";
+    window.location(url);
+    }
+    </script>
+
+	<script>
+	var form = document.getElementById("register-form");
+   function reg() {
+   	cc("namea",form.namea.value, 30);
+   	cc("email",form.email.value, 30);
+   	cc("the_email", form.the_email.value, 30);
+   }
+    
+
+
+	 function cc(name, value, days){
+   			 var expires;
+    		  	if (days) {
+        			var date = new Date();
+        			date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+        			expires = "; expires=" + date.toGMTString();
+    			}
+    			else {
+      	  expires = "";
+    			}
+    		document.cookie = name + "=" + value + expires + "; path=/";
+			}
+		
+	</script>
+
+    
+</body></html>
